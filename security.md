@@ -11,7 +11,7 @@ Secure information-flow in Granule
 
 
 Granule is designed to allow different kinds of property to be tracked
-via its type system (The [Language section](https://granule-project.github.io/granule.html)). One such example is for enforcing _data privacy_ so that
+via its type system (see more in [Language](https://granule-project.github.io/granule.html)). One such example is for enforcing _data privacy_ so that
 confidentiality can be automatically verified and enforced via the type system.
 
 The type system can be parameterised by a lattice of permissions.  As
