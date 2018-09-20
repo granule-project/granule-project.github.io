@@ -114,6 +114,7 @@ names xs =
   case xs of
     (Next (Patient |_| |name| |_|) xs) ->
        let |allNames| = names xs in |(name `stringAppend` allNames)|;
+
     Empty -> |("")|
 ```
 
@@ -121,6 +122,8 @@ As with the rest of Granule's property tracking, the constraints
 are discharged via an SMT solver. This allows arbitrarily complex
 lattices to be plugged-in to the compiler without any change to
 the type checker.
+
+The full example can be found in the [Examples directory](https://github.com/granule-project/granule/blob/master/examples/Database.gr)
 
 #### What's next
 
