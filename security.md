@@ -56,7 +56,7 @@ $ gr examples/Secure.gr
 
 Checking examples/Secure.gr...
 Type error: examples/Secure.gr: :16:1:
-Definition 'main' is Falsifiable as Private cannot flow to Public
+Definition 'main' is Falsifiable
 ```
 
 All of the tracking is automatically computed by the type system. We can of
