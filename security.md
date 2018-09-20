@@ -7,10 +7,8 @@ title: Security & Privacy
 Secure information-flow in Granule
 ------------------------------
 
-#### Privacy and confidentiality basics
-
-Granule is designed to allow different kinds of property tracking via
-its type system. One such example is for enforcing _data privacy_ so that
+Granule is designed to allow different kinds of property to be tracked
+via its type system (The [Language section](https://granule-project.github.io/granule.html)). One such example is for enforcing _data privacy_ so that
 confidentiality can be automatically verified and enforced via the type system.
 
 The type system can be parameterised by a lattice of permissions. In these
@@ -29,8 +27,8 @@ but which are polymorphic in the level. For example, the following
 simulates the idea of having a hash function:
 
 ```
-hash : forall (l : Level) . Int |l| -> Int |l|     -- at any level
-hash |x| = |(x * x * x)|                               -- ...hash by cubing
+hash : forall (l : Level) . Int |l| -> Int |l|     -- at any level...
+hash |x| = |(x * x * x)|                           -- ...hash by cubing
 ```
 
 Then, if we try to write a program that is going to run in a public
@@ -79,7 +77,7 @@ data Patient where
 Here we want to allow public access to a persons age, but to nothing else.
 
 We can then write the following function which computes the mean age
-of a database of patients (represented as a list), which is publically
+of a database of patients (represented as a list), which is publicly
 accessible:
 
 ```
@@ -131,7 +129,7 @@ We are also developing techniques to avoid control flow attacks.
 
 At this point, Granule is a _core_ language for experimenting with
 fine-grained resource reasoning via graded modal types (the things
-wrapped in `|..|`). We have a companion language, Grapple, in development
-which makes these type implicit, so that programs resemble standard
-functional programs even more closely. This will then desguar
+wrapped in `|..|`). We have a companion surface-level language in
+development which makes these type implicit, so that programs resemble
+standard functional programs even more closely. This will then desguar
 into the Granule core language in the compiler.
