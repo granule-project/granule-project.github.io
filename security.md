@@ -14,10 +14,15 @@ Granule is designed to allow different kinds of property to be tracked
 via its type system (The [Language section](https://granule-project.github.io/granule.html)). One such example is for enforcing _data privacy_ so that
 confidentiality can be automatically verified and enforced via the type system.
 
-The type system can be parameterised by a lattice of permissions. In these
-examples, we'll use a simple two-point lattice which is built-in, which
-has two values `Public` and `Private`. We can then, for example,
-declare a secret as existing only in a private zone:
+The type system can be parameterised by a lattice of permissions.  As
+with the rest of Granule's property tracking, any quantitative
+constraints generated during type checking are discharged via an SMT
+solver. This allows arbitrarily complex lattices to be plugged-in to
+the compiler without any change to the type checker.
+
+In these examples, we'll just use a simple two-point lattice which is
+built-in, which has two values `Public` and `Private`. We can then,
+for example, declare a secret as existing only in a private zone:
 
 ```
 secret :Private: Int
@@ -39,6 +44,7 @@ context, we cannot inadvertently leak the secret via the hash.
 For example, the following is rejected by the compiler:
 
 ```
+-- Does not type check
 main : Int |Public|
 main = hash |secret|
 ```
@@ -58,7 +64,6 @@ course hash the secret in the context of a private program, e.g., the following
 is accepted by the type checker:
 
 ```
--- Does not type check
 main : Int |Private|
 main = hash |secret|
 ```
@@ -117,11 +122,6 @@ names xs =
 
     Empty -> |("")|
 ```
-
-As with the rest of Granule's property tracking, the constraints
-are discharged via an SMT solver. This allows arbitrarily complex
-lattices to be plugged-in to the compiler without any change to
-the type checker.
 
 The full example can be found in the [Examples directory](https://github.com/granule-project/granule/blob/master/examples/Database.gr)
 
