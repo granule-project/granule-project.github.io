@@ -25,7 +25,7 @@ built-in, which has two values `Public` and `Private`. We can then,
 for example, declare a secret as existing only in a private zone:
 
 ```
-secret :Private: Int
+secret : Int |Private|
 secret = 42
 ```
 
@@ -46,7 +46,7 @@ For example, the following is rejected by the compiler:
 ```
 -- Does not type check
 main : Int |Public|
-main = hash |secret|
+main = hash secret
 ```
 
 We get the following error:
@@ -65,7 +65,7 @@ is accepted by the type checker:
 
 ```
 main : Int |Private|
-main = hash |secret|
+main = hash secret
 ```
 
 #### Data types and privacy
