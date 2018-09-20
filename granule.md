@@ -75,7 +75,7 @@ to only the one above, or with permutations of constant-sized sublists whilst ap
 
 **Example 2:** Security Levels
 
-Another modality available in Granule is indexed by a two-point security lattice with levels: `Lo` and `Hi`. For example:
+Another modality available in Granule is indexed by a two-point security lattice with levels: `Public` and `Private`. For example:
 
 ```
 secret : Int |Private|
