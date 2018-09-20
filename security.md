@@ -50,11 +50,12 @@ Type error: examples/Secure.gr: :16:1:
 Definition 'main' is Falsifiable as Private cannot flow to Public
 ```
 
-All of the tracking is automatic by the type system. We can of
-course hash the secret in the context of a private program, e.g. the following
+All of the tracking is automatically computed by the type system. We can of
+course hash the secret in the context of a private program, e.g., the following
 is accepted by the type checker:
 
 ```
+-- Does not type check
 main : Int |Private|
 main = hash |secret|
 ```
@@ -68,10 +69,10 @@ accessible and non-public fields:
 ```
 data Patient where
   Patient :
-     Int    |Private| -> -- Patient id
-     String |Private| -> -- Patient name
-     Int    |Public|  -> -- Patient age
-     Patient
+      Int    |Private|   -- Patient id
+   -> String |Private|   -- Patient name
+   -> Int    |Public|    -- Patient age
+   -> Patient
 ```
 
 Here we want to allow public access to a persons age, but to nothing else.
@@ -81,11 +82,11 @@ of a database of patients (represented as a list), which is publicly
 accessible:
 
 ```
-
 meanAge : List Patient -> Int |Public|
 meanAge xs = meanAge' xs |0| |0|
 
-meanAge' : List Patient -- Patient database
+-- Tail-recursive helper
+meanAge' : List Patient  -- Patient database
        -> Int |Public|   -- Count
        -> Int |Public|   -- Current age sum
        -> Int |Public|   -- Mean age viewed public
@@ -100,7 +101,7 @@ is just a regular tail-recursive program. Notably, the `meanAge` function
 takes a database (list) of patients and returns a public integer.
 
 If we tried to "sneak" some private information out through this query
-or we wrote a query that exposed some of the patient's private data, then
+or if we wrote a query that exposed some of the patient's private data, then
 the type system would reject it, e.g.
 
 ```
@@ -120,10 +121,12 @@ the type checker.
 
 #### What's next
 
-The next step is to allow partial declassification and the tracking
-when a bounded amount of leakage is allowed (e.g., we might allow
+The next step is to allow partial declassification and tracking
+of allowed bounded amounts of leakage (e.g., we might allow
 the 2 bits of a patient ID to be leaked, but not the rest). We are
 working on primitives to allow more fine-grained tracking in this way.
+Furthermore, we are working on the interaction of privacy with
+Granule's side-effect tracking features.
 
 We are also developing techniques to avoid control flow attacks.
 
