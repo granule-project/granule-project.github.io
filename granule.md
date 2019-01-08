@@ -40,8 +40,8 @@ This specifies the function `dup` which takes a value and turns it into a pair b
 first parameter is therefore used non-linearly. If we were to try to give this the type `a -> (a, a)` then
 the type checker would complain of a linearity violation. Instead, since we are using the parameter
 non-linearly, the type above describes this non-linear use via the resource bound `2` attached via
-a graded modal type. The type `a |n|` can be read as a boxed value of type `a` which, when unboxed,
-can be used `n` times. This type is equivalent to $$!_n \text{a}$$ in [Girard et al.’s](https://www.sciencedirect.com/science/article/pii/030439759290386T) notation. The pattern match `|x|` discharges the incoming modality and binds `x` as a non-linear variable.
+a graded modal type. The type `a [n]` can be read as a boxed value of type `a` which, when unboxed,
+can be used `n` times. This type is equivalent to $$!_n \text{a}$$ in [Girard et al.’s](https://www.sciencedirect.com/science/article/pii/030439759290386T) notation. The pattern match `[x]` discharges the incoming modality and binds `x` as a non-linear variable.
 
 Let's see a bit more of Granule, where the grading is made polymorphic:
 
@@ -66,11 +66,11 @@ map [f] (Cons x xs) = Cons (f x) (map [f] xs)
 
 ```
 
-The type paraemter `n` is of type `Nat=` which is the type of natural numbers which are discretely ordered.
-This means that the type `(a -> b) |n|` is the type of a function that must be used exactly `n` times.
+The type paraemter `n` is of type `Nat` which is the type of natural numbers and `(a -> b) [n]` is the type
+of a function that must be used exactly `n` times.
 Thus, this type says that we must use the parameter function exactly the number of times as the length
 of the incoming vector. This significantly cuts down the number of possible implementation of `map`
-to only the one above, or with permutations of constant-sized sublists whilst applying the map.
+to only the one above, modulo permutation of the elements. In other words: _we get more theorems for free._
 
 **Example 2:** Security Levels
 
