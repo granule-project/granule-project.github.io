@@ -31,26 +31,26 @@ The goal with Granule is to support arbitrary, user-customisable graded modaliti
 
 The following is a valid Granule program:
 
-```
-dup : forall (a : Type) . a |2| -> (a, a)
-dup |x| = (x, x)
+```idris
+dup : forall (a : Type) . a [2] -> (a, a)
+dup [x] = (x, x)
 ```
 
 This specifies the function `dup` which takes a value and turns it into a pair by duplicating it. The
 first parameter is therefore used non-linearly. If we were to try to give this the type `a -> (a, a)` then
 the type checker would complain of a linearity violation. Instead, since we are using the parameter
 non-linearly, the type above describes this non-linear use via the resource bound `2` attached via
-a graded modal type. The type `a |n|` can be read as a boxed value of type `a` which, when unboxed,
-can be used `n` times. This type is equivalent to $$!_n \text{a}$$ in [Girard et al.’s](https://www.sciencedirect.com/science/article/pii/030439759290386T) notation. The pattern match `|x|` discharges the incoming modality and binds `x` as a non-linear variable.
+a graded modal type. The type `a [n]` can be read as a boxed value of type `a` which, when unboxed,
+can be used `n` times. This type is equivalent to $$!_n \text{a}$$ in [Girard et al.’s](https://www.sciencedirect.com/science/article/pii/030439759290386T) notation. The pattern match `[x]` discharges the incoming modality and binds `x` as a non-linear variable.
 
 Let's see a bit more of Granule, where the grading is made polymorphic:
 
-```
-twice : forall (a : Type, b : Type, c : Nat) . (a |c| -> b) |2| -> (b, b) |(2 * c)| -> Int
-twice |g| |x| = (g |x|, g |x|)
+```idris
+twice : forall (a : Type, b : Type, c : Nat) . (a [c] -> b) [2] -> (b, b) [2 * c] -> Int
+twice [g] [x] = (g [x], g [x])
 
 main : ((Int, Int), (Int, Int))
-main = twice |dup| |1|
+main = twice [dup] [1]
 ```
 
 Looking at the type signature for twice, we can deduce that it is a higher-order function: its ﬁrst parameter is a unary function whose parameter is used non-linearly exactly `c` times and which returns a `b`. The second parameter of `twice` is used non-linearly exactly `2 * c` times, since `g` uses `c` copies of its first parameter and is applied twice. This example shows Granule's support of coeffect polymorphism.
@@ -59,65 +59,64 @@ So far these examples have been a little trivial. Let's see something more inter
 the linearity + graded modality idea with indexed types. Granule provides indexed types such as
 sized-indexed vectors. This enables the following definition for `map` on vectors:
 
-```
-map : forall (a : Type, b : Type, n : Nat=) . (a -> b) |n| -> Vec n a -> Vec n b
-map |f| ys =
-  case ys of
-    Nil -> Nil;
-    (Cons x xs) -> Cons (f x) (map |f| xs)
+```idris
+map : forall (a : Type, b : Type, n : Nat) . (a -> b) [n] -> Vec n a -> Vec n b
+map [_] Nil = Nil;
+map [f] (Cons x xs) = Cons (f x) (map [f] xs)
+
 ```
 
-The type paraemter `n` is of type `Nat=` which is the type of natural numbers which are discretely ordered.
-This means that the type `(a -> b) |n|` is the type of a function that must be used exactly `n` times.
+The type paraemter `n` is of type `Nat` which is the type of natural numbers and `(a -> b) [n]` is the type
+of a function that must be used exactly `n` times.
 Thus, this type says that we must use the parameter function exactly the number of times as the length
 of the incoming vector. This significantly cuts down the number of possible implementation of `map`
-to only the one above, or with permutations of constant-sized sublists whilst applying the map.
+to only the one above, modulo permutation of the elements. In other words: _we get more theorems for free._
 
 **Example 2:** Security Levels
 
 Another modality available in Granule is indexed by a two-point security lattice with levels: `Public` and `Private`. For example:
 
-```
-secret : Int |Private|
-secret = |42|                   -- specified as private
+```idris
+secret : Int [Private]
+secret = [42]                                  -- specified as private
 
-dub : forall (l : Level) . Int |l| -> Int |l|     -- at any level
-dub |x| = |(x + x)|                               -- ...double an int
+dub : forall (l : Level) . Int [l] -> Int [l]  -- at any level
+dub [x] = [x + x]                              -- ...double an int
 
-main : Int |Private|
-main = dub secret                 -- double the secret
+main : Int [Private]
+main = dub secret                              -- double the secret
 ```
 
 Here `main` is marked as a high-security value (private) via its modal type. The `dub` function appears doubles the integer parameter and its type tracks security levels and is level-polymorphic. It takes an integer at any level `l`, returning a value at the same level. Crucially, the following program is ill-typed:
 
-```
-leak : Int |Private| -> Int |Public|
-leak |x| = |x|                                    -- fails to type check
+```idris
+leak : Int [Private] -> Int [Public]
+leak [x] = [x]                                 -- fails to type check
 ```
 
 However, we can define a well-typed constant function that discards its high-security value to produce a low-security value by combining resource bounds with security levels:
 
-```
-notALeak : Int |Private| |0| -> Int |Public|
-notALeak x = |0|
+```idris
+notALeak : Int [Private] [0] -> Int [Public]
+notALeak [_] = [0]
 ```
 
 **Example 3:** Eﬀects
 
-A graded possibility modality provides tracking of side eﬀects in the style of a graded monad and eﬀect system. A type `<t> f` describes a computation returning a value of type `t` and producing side eﬀects `f`.
+A graded possibility modality provides tracking of side eﬀects in the style of a graded monad and eﬀect system. A type `t <e>` describes a computation returning a value of type `t` and producing side eﬀects `e`.
 
 In the following code, input (`read`) and output (`write`) operations to the stdio are tracked:
 
-```
+```idris
 echo : Int <[R, W]>
 echo = let x <- read in write x
 ```
 
 The following shows both reuse bound coeffects and I/O effects coming together, explaining the side-effects of twice applying some integer function which has a read eﬀect:
 
-```
-doTwice : (Int -> Int <[R]>) |2| -> Int |2| -> Int <[R, R]>
-doTwice |f| |x| = let a <- f x in let b <- f x in pure (a + b)
+```idris
+doTwice : (Int -> Int <[R]>) [2] -> Int [2] -> Int <[R, R]>
+doTwice [f] [x] = let a <- f x in let b <- f x in pure (a + b)
 ```
 
 
