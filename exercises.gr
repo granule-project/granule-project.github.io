@@ -69,4 +69,9 @@ fact [n] = n * fact [n - 1]
 
 -- # Part C: Data types, inductive families and grading
 
-D
+-- Q5 -- Define a data type 'ABList' that has two cons cells
+-- for 'a' elements and 'b' elements, with the header:
+
+-- data ABList (a : Type) (b : Type) : Nat -> Nat -> Type where
+
+-- Define the map function for ABList
