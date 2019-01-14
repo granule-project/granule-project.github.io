@@ -1,0 +1,72 @@
+import Prelude
+
+-- # Part A : Kicking the tires and using the repl
+
+-- Save this file and load it into `grin` by doing
+-- $ grin
+-- Granule> :l exercises.gr
+
+-- You can then work with this program interactively. For example:
+
+dub : Int -> Int
+dub x = 2 * x
+
+-- Granule> dup 42
+-- 84
+
+-- Here is a simple integer function that uses its argument twice
+
+square : Int [2] -> Int
+square [x] = x * x
+
+-- To apply `square`, we need to promote the argument, e.g.
+
+-- Granule> square [42]
+-- 84
+
+-- Ask for the `grin` to show you the type of the function, e.g.
+
+-- Granule> :t square
+
+-- You can reload the file tpying `:r` at the prompt.
+
+-- # Part B - Getting used to the syntax and simple linear types
+
+-- Q1: Define an `Int` function `cube` that takes the third power of its input
+
+-- ANSWER
+cube : Int [3] -> Int
+cube [x] = x * x * x
+
+-- Q2: Experiment with happens if you give different grades in the type signature
+-- for your `cube function`
+
+-- Recall Granule's syntax for polymorphism:
+-- Granule> :t id
+-- id : forall a : Type. a -> a
+
+-- Q3: Define a higher-order polymorphic function `twice` that takes a function and composes
+-- it with itself, e.g. in the lambda calculus \f -> \x -> f (f x)
+
+-- ANSWER
+twice : forall (a : Type) . (a -> a) [2] -> a -> a
+twice [f] x = f (f x)
+
+-- -- Q4: Define a higher order function that takes
+
+-- twice : forall (c : Nat) . (Int [c] -> Int) [2] -> Int [c * 2] -> Int
+-- twice [g] [x] = g [x] + g [x]
+--
+
+-- Q4: Define the recursive factorial function.
+--  Hint: don't forget function equations must be separated by semicolon)
+--  Spoiler: you will need an interval grade [0..∞]
+
+-- ANSWER
+fact : Int [0..∞] -> Int
+fact [0] = 1;
+fact [n] = n * fact [n - 1]
+
+-- # Part C: Data types, inductive families and grading
+
+D
