@@ -10,7 +10,7 @@ title: Research
 
 	- Early ideas about the language, before the name was changed to Granule.
 
-* [__Combining effects and coeffects via grading_](https://kar.kent.ac.uk/57480/1/bieffects.pdf),
+* [__Combining effects and coeffects via grading__](https://kar.kent.ac.uk/57480/1/bieffects.pdf),
   Marco Gaboardi, Shinya Katsumata, Dominic Orchard, Flavien Breuvart,
   Tarmo Uustalu, ICFP 2019
 
