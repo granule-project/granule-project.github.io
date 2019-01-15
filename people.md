@@ -14,7 +14,10 @@ Members of the Project
 #### Students
 
 - Vilem-Benjamin Liepelt, PhD student, University of Kent, [website](https://github.com/buggymcbugfix)
-- Preston Keel, Undergraduate Research Assistant, Augusta University, [website](https://github.com/pkeel)
+- Preston Keel, Undergraduate Research Assistant, Augusta University,
+[website](https://github.com/pkeel)
+- Ed Brown, Undergraduate research project, University of Kent
+- Ben Moon, Undergraduate research project, University of Kent
 
 #### Collaborators
 
