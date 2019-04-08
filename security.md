@@ -26,7 +26,7 @@ for example, declare a secret as existing only in a private zone:
 
 ```
 secret : Int [Private]
-secret = 42
+secret = [42]
 ```
 
 The signature here marks the variable `secret` as `Private` only. We
@@ -35,8 +35,8 @@ but which are polymorphic in the level. For example, the following
 simulates the idea of having a hash function:
 
 ```
-hash : forall (l : Level) . Int [l] -> Int [l]     -- at any level...
-hash [x] = [x * x * x]                           -- ...hash by cubing
+hash : forall {l : Level} . Int [l] -> Int [l]     -- at any level...
+hash [x] = [x * x * x]                             -- ...hash by cubing
 ```
 
 Then, if we try to write a program that is going to run in a public

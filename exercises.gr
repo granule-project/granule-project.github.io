@@ -43,18 +43,18 @@ cube [x] = x * x * x
 
 -- Recall Granule's syntax for polymorphism:
 -- Granule> :t id
--- id : forall a : Type. a -> a
+-- id : forall {a : Type} . a -> a
 
 -- Q3: Define a higher-order polymorphic function `twice` that takes a function and composes
 -- it with itself, e.g. in the lambda calculus \f -> \x -> f (f x)
 
 -- ANSWER
-twice : forall (a : Type) . (a -> a) [2] -> a -> a
+twice : forall {a : Type} . (a -> a) [2] -> a -> a
 twice [f] x = f (f x)
 
 -- -- Q4: Define a higher order function that takes
 
--- twice : forall (c : Nat) . (Int [c] -> Int) [2] -> Int [c * 2] -> Int
+-- twice : forall {c : Nat} . (Int [c] -> Int) [2] -> Int [c * 2] -> Int
 -- twice [g] [x] = g [x] + g [x]
 --
 
