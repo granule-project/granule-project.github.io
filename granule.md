@@ -32,7 +32,7 @@ The goal with Granule is to support arbitrary, user-customisable graded modaliti
 The following is a valid Granule program:
 
 ```idris
-dup : forall (a : Type) . a [2] -> (a, a)
+dup : forall {a : Type} . a [2] -> (a, a)
 dup [x] = (x, x)
 ```
 
@@ -46,7 +46,7 @@ can be used `n` times. This type is equivalent to $$!_n \text{a}$$ in [Girard et
 Let's see a bit more of Granule, where the grading is made polymorphic:
 
 ```idris
-twice : forall (a : Type, b : Type, c : Nat) . (a [c] -> b) [2] -> (b, b) [2 * c] -> Int
+twice : forall {a : Type, b : Type, c : Nat} . (a [c] -> b) [2] -> (b, b) [2 * c] -> Int
 twice [g] [x] = (g [x], g [x])
 
 main : ((Int, Int), (Int, Int))
@@ -60,7 +60,7 @@ the linearity + graded modality idea with indexed types. Granule provides indexe
 sized-indexed vectors. This enables the following definition for `map` on vectors:
 
 ```idris
-map : forall (a : Type, b : Type, n : Nat) . (a -> b) [n] -> Vec n a -> Vec n b
+map : forall {a : Type, b : Type, n : Nat} . (a -> b) [n] -> Vec n a -> Vec n b
 map [_] Nil = Nil;
 map [f] (Cons x xs) = Cons (f x) (map [f] xs)
 
@@ -80,7 +80,7 @@ Another modality available in Granule is indexed by a two-point security lattice
 secret : Int [Private]
 secret = [42]                                  -- specified as private
 
-dub : forall (l : Level) . Int [l] -> Int [l]  -- at any level
+dub : forall {l : Level} . Int [l] -> Int [l]  -- at any level
 dub [x] = [x + x]                              -- ...double an int
 
 main : Int [Private]
