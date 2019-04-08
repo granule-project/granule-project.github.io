@@ -36,7 +36,7 @@ simulates the idea of having a hash function:
 
 ```
 hash : forall (l : Level) . Int [l] -> Int [l]     -- at any level...
-hash [x] = [x * x * x]                           -- ...hash by cubing
+hash [x] = [x * x * x]                             -- ...hash by cubing
 ```
 
 Then, if we try to write a program that is going to run in a public
