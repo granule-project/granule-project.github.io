@@ -26,7 +26,7 @@ for example, declare a secret as existing only in a private zone:
 
 ```
 secret : Int [Private]
-secret = 42
+secret = [42]
 ```
 
 The signature here marks the variable `secret` as `Private` only. We
