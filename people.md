@@ -17,7 +17,7 @@ Members of the Project
 - Preston Keel, Undergraduate Research Assistant, Augusta University,
 [website](https://github.com/pkeel)
 - Ed Brown, Undergraduate research project, University of Kent
-- Ben Moon, Undergraduate research project, University of Kent [website](https://github.com/GuiltyDolphin)
+- Ben Moon, Undergraduate research project, University of Kent, [website](https://github.com/GuiltyDolphin)
 
 #### Collaborators
 
