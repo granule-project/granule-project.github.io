@@ -14,11 +14,7 @@ Members of the Project
 #### Students
 
 - Vilem-Benjamin Liepelt, PhD student, University of Kent, [website](https://github.com/buggymcbugfix)
-- Preston Keel, Undergraduate Research Assistant, Augusta University,
-[website](https://github.com/pkeel)
+- Aubrey Bryant, PhD student, Augusta University
 - Ed Brown, Undergraduate research project, University of Kent
 - Ben Moon, Undergraduate research project, University of Kent, [website](https://github.com/GuiltyDolphin)
 
-#### Collaborators
-
-- Nathan Bedell, PhD Student, Tulane University
