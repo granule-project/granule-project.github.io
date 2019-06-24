@@ -46,7 +46,7 @@ can be used `n` times. This type is equivalent to $$!_n \text{a}$$ in [Girard et
 Let's see a bit more of Granule, where the grading is made polymorphic:
 
 ```idris
-twice : forall {a : Type, b : Type, c : Nat} . (a [c] -> b) [2] -> (b, b) [2 * c] -> Int
+twice : forall {a : Type, b : Type, c : Nat} . (a [c] -> b) [2] -> a [2 * c] -> (b, b)
 twice [g] [x] = (g [x], g [x])
 
 main : ((Int, Int), (Int, Int))
