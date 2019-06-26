@@ -12,13 +12,15 @@ title: Research
   - [__Version with appendices__](https://kar.kent.ac.uk/74450/1/paper.pdf)
   - [__Associated code release__](https://github.com/granule-project/granule/releases/tag/icfp19)
   - to appear in the Proceedings of the ACM on Programming Languages, Volume 3(ICFP), 2019.
-  <br />
+
+<br />
 
 * [__Gram: A linear functional language with graded modal types__](http://www.cs.ox.ac.uk/conferences/fscd2017/preproceedings_unprotected/TLLA_Orchard.pdf) (extended
   abstract), Dominic Orchard and Vilem-Benjamin Liepelt, TLLA 2017.
 
   - 2-page extended abstract with early ideas about the language, before the name was changed to Granule.
-  <br />
+
+<br />
 
 * [__Combining effects and coeffects via grading__](https://kar.kent.ac.uk/57480/1/bieffects.pdf),
   Marco Gaboardi, Shinya Katsumata, Dominic Orchard, Flavien Breuvart,
