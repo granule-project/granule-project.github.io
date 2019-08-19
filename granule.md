@@ -19,7 +19,7 @@ Many modern programs are resource sensitive, that is, the amount of resources (e
 Various type-based solutions have been provided for reasoning about and controlling resources. A general class of program behaviours called coeﬀects has been proposed as a uniﬁed framework for capturing different
 kinds of resource analysis in a single type theory [[Petricek et al.](http://tomasp.net/academic/papers/structural/coeffects-icfp.pdf), [Petricek et al.](http://tomasp.net/academic/papers/coeffects/coeffects-icalp.pdf), [Brunel et al.](https://lipn.univ-paris13.fr/~mazza/papers/CoreQuantCoeff.pdf), [Gaboardi et al.](https://www.cs.kent.ac.uk/people/staff/dao7/publ/combining-effects-and-coeffects-icfp16.pdf), [Ghica et al.](https://www.cs.bham.ac.uk/~drg/papers/esop14.pdf), [Breuvart et al.](https://lipn.univ-paris13.fr/~breuvart/articles/boundedRel.pdf)]. Recently it has been shown how coeﬀect types can be integrated with eﬀect types for resource reasoning with eﬀects [[Gaboardi et al.](https://www.cs.kent.ac.uk/people/staff/dao7/publ/combining-effects-and-coeffects-icfp16.pdf)].
 
-To gain experience with such type systems for real-world programming tasks, and as a vehicle for further research, we are developing **Granule**, a functional programming language based on the linear λ-calculus augmented with graded modal types, inspired by the coeffect-effect calculus of [Gaboardi et al.](https://www.cs.kent.ac.uk/people/staff/dao7/publ/combining-effects-and-coeffects-icfp16.pdf).
+To gain experience with such type systems for real-world programming tasks, and as a vehicle for further research, we are developing **Granule**, a functional programming language based on the linear λ-calculus augmented with graded modal types, inspired by the coeffect-effect calculus of [Gaboardi et al.](https://www.cs.kent.ac.uk/people/staff/dao7/publ/combining-effects-and-coeffects-icfp16.pdf). A full description of Granule can be found in our recent ICFP 2019 paper (https://www.cs.kent.ac.uk/people/staff/dao7/publ/granule-icfp19.pdf).
 
 #### Graded Modal Type Theory
 
@@ -46,7 +46,7 @@ can be used `n` times. This type is equivalent to $$!_n \text{a}$$ in [Girard et
 Let's see a bit more of Granule, where the grading is made polymorphic:
 
 ```idris
-twice : forall {a : Type, b : Type, c : Nat} . (a [c] -> b) [2] -> (b, b) [2 * c] -> Int
+twice : forall {a : Type, b : Type, c : Nat} . (a [c] -> b) [2] -> a [2 * c] -> (b, b)
 twice [g] [x] = (g [x], g [x])
 
 main : ((Int, Int), (Int, Int))
@@ -108,16 +108,9 @@ A graded possibility modality provides tracking of side eﬀects in the style of
 In the following code, input (`read`) and output (`write`) operations to the stdio are tracked:
 
 ```idris
-echo : Int <[R, W]>
-echo = let x <- read in write x
+echo : () <{Stdin, Stdout}>
+echo = let x <- fromStdin in toStdout x
+
 ```
-
-The following shows both reuse bound coeffects and I/O effects coming together, explaining the side-effects of twice applying some integer function which has a read eﬀect:
-
-```idris
-doTwice : (Int -> Int <[R]>) [2] -> Int [2] -> Int <[R, R]>
-doTwice [f] [x] = let a <- f x in let b <- f x in pure (a + b)
-```
-
 
 Footnote: This page was adopted from this abstract [Orchard and Liepelt](http://www.cs.ox.ac.uk/conferences/fscd2017/preproceedings_unprotected/TLLA_Orchard.pdf).
