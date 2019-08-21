@@ -1,77 +1,44 @@
-import Prelude
+-- # Exercises
 
--- # Part A : Kicking the tires and using the repl
+-- ## Ex 1 Make the following functions typecheck by addition of
+-- graded modalities at the type level only where needed and the
+-- relevant unboxing pattern matches at the value level. Give the most
+-- precise type.
 
--- Save this file and load it into `grin` by doing
--- $ grin
--- Granule> :l exercises.gr
+-- const : forall {a c : Type} . a -> (c -> a)
+-- const x y = x
 
--- You can then work with this program interactively. For example:
+-- ap : forall {a b c : Type}. (c -> a -> b) -> (c -> a) -> (c -> b)
+-- ap f x ctx = f ctx (x ctx)
 
-dub : Int -> Int
-dub x = 2 * x
+-- Consider which particular graded modality to use.  Hint: try a
+-- Nat-graded modality first.  Advanced: Can you make it polymorphic
+-- in the coeffect grade?
 
--- Granule> dup 42
--- 84
+-- ## Ex 2
 
--- Here is a simple integer function that uses its argument twice
+-- Consider the following definition:
 
-square : Int [2] -> Int
-square [x] = x * x
+import Bool
 
--- To apply `square`, we need to promote the argument, e.g.
+copyBool : Bool -> (Bool, Bool)
+copyBool False = (False, False);
+copyBool True  = (True, True)
 
--- Granule> square [42]
--- 84
+-- Why does `copyBool` not violate linearity?
 
--- Ask for the `grin` to show you the type of the function, e.g.
+-- ## Ex 3
 
--- Granule> :t square
+-- Write a well-typed short-circuiting version of `and` on `Bool`
+-- i.e., where `and False x` need not inspect the value of `x`.
 
--- You can reload the file tpying `:r` at the prompt.
+-- ## Ex 4  Inductive families and grading
 
--- # Part B - Getting used to the syntax and simple linear types
-
--- Q1: Define an `Int` function `cube` that takes the third power of its input
-
--- ANSWER
-cube : Int [3] -> Int
-cube [x] = x * x * x
-
--- Q2: Experiment with happens if you give different grades in the type signature
--- for your `cube function`
-
--- Recall Granule's syntax for polymorphism:
--- Granule> :t id
--- id : forall {a : Type} . a -> a
-
--- Q3: Define a higher-order polymorphic function `twice` that takes a function and composes
--- it with itself, e.g. in the lambda calculus \f -> \x -> f (f x)
-
--- ANSWER
-twice : forall {a : Type} . (a -> a) [2] -> a -> a
-twice [f] x = f (f x)
-
--- -- Q4: Define a higher order function that takes
-
--- twice : forall {c : Nat} . (Int [c] -> Int) [2] -> Int [c * 2] -> Int
--- twice [g] [x] = g [x] + g [x]
---
-
--- Q4: Define the recursive factorial function.
---  Hint: don't forget function equations must be separated by semicolon)
---  Spoiler: you will need an interval grade [0..∞]
-
--- ANSWER
-fact : Int [0..∞] -> Int
-fact [0] = 1;
-fact [n] = n * fact [n - 1]
-
--- # Part C: Data types, inductive families and grading
-
--- Q5 -- Define a data type 'ABList' that has two cons cells
--- for 'a' elements and 'b' elements, with the header:
+-- Define an indexed data type 'ABList' that has two cons cells for
+-- 'a' elements and 'b' elements, i.e., with the header:
 
 -- data ABList (a : Type) (b : Type) : Nat -> Nat -> Type where
 
--- Define the map function for ABList
+-- Define the `map` function for ABList which takes two function
+-- parameters for the `a` and `b` elements, with precise usage on
+-- each.
