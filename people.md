@@ -11,10 +11,21 @@ Members of the Project
 - Dominic Orchard, University of Kent, [website](https://www.cs.kent.ac.uk/people/staff/dao7/)
 - Harley Eades, Augusta University, [website](http://metatheorem.org/)
 
-#### Students
+#### PhD Students
 
-- Vilem-Benjamin Liepelt, PhD student, University of Kent, [website](https://github.com/buggymcbugfix)
-- Aubrey Bryant, PhD student, Augusta University
-- Ed Brown, Undergraduate research project, University of Kent
-- Ben Moon, Undergraduate research project, University of Kent, [website](https://github.com/GuiltyDolphin)
+- Vilem-Benjamin Liepelt, University of Kent, [website](https://github.com/buggymcbugfix)
+- Aubrey Bryant, Augusta University
+- Jack Hughes, University of Kent
+- Ben Moon, University of Kent, [website](https://github.com/GuiltyDolphin)
+
+#### Undegraduate Students
+
+- Declan Barnes, University of Kent
+- James Dyer, University of Kent
+- Rowan Smith, University of Kent
+
+#### Former student projects
+- (2018/19) "Compiling Granule to LLVM", Ed Brown, University of Kent
+- (2018/19) "Type classes in a Linear Functional Language", Ben Moon, University of Kent 
+- (2017/18) "(G)ADTs in a Linear Language with Graded Modal Types", Vilem-Benjamin Liepelt, University of Kent
 
