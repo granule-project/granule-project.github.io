@@ -18,7 +18,7 @@ Members of the Project
 - Jack Hughes, University of Kent
 - Ben Moon, University of Kent, [website](https://github.com/GuiltyDolphin)
 
-#### Undegraduate Students
+#### Undergraduate Students
 
 - Declan Barnes, University of Kent
 - James Dyer, University of Kent
