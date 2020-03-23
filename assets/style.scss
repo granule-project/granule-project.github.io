@@ -3,17 +3,23 @@
 
 @import "{{ site.theme }}"
 
+.theory, .practice {
+    color: white;
+    padding: 1pt;
+    font-family: "Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif
+
+}
+
 .theory {
     background: #18a811;
-    color: white;
 }
 
 .practice {
     background: #e3a710;
-    color: white;
 }
 
 ul {
     padding-bottom:1em;
     margin-bottom:1em;
+    padding: 1pt;
 }
