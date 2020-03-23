@@ -26,8 +26,8 @@ title: Publications
 
 *  [__Gram: A linear functional language with graded modal types__](http://www.cs.ox.ac.uk/conferences/fscd2017/preproceedings_unprotected/TLLA_Orchard.pdf) (extended abstract) <span class="practice">practice</span>
 
-  - Dominic Orchard and Vilem-Benjamin Liepelt, TLLA 2017.
-  - 2-page extended abstract with early ideas about the language, before the name was changed to Granule.
+   - Dominic Orchard and Vilem-Benjamin Liepelt, TLLA 2017.
+   - 2-page extended abstract with early ideas about the language, before the name was changed to Granule.
 
 * [__Combining effects and coeffects via grading__](https://kar.kent.ac.uk/57480/1/bieffects.pdf) <span class="theory">theory</span>
 
