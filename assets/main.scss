@@ -11,9 +11,10 @@
 .theory, .practice {
     color: white;
     padding: 1pt;
-    margin: 1pt;
+    margin: 2pt;
     font-size:smaller;
     font-family: "Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
+    font-weight: 800;
 }
 
 .theory {
@@ -21,7 +22,7 @@
 }
 
 .practice {
-    background: #e3a710;
+    background: #d3f710;
 }
 
 ul {
@@ -31,6 +32,6 @@ ul {
     padding: 1pt;
 }
 
-ul ul li {
-    padding-right: 10em;
+ul ul {
+    margin-right: 10em;
 }
