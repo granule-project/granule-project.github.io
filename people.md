@@ -23,6 +23,7 @@ Members of the Project
 - Declan Barnes, University of Kent
 - James Dyer, University of Kent
 - Rowan Smith, University of Kent
+- Jake Tuten, Augusta University
 
 #### Former student projects
 - (2018/19) "Compiling Granule to LLVM", Ed Brown, University of Kent
