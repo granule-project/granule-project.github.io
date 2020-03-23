@@ -15,9 +15,7 @@ title: Publications
    - To appear at [MSFP 2020](https://msfp-workshop.github.io/msfp2020/)
 
 
-* [__Quantitative program reasoning with graded modal types__](https://www.cs.kent.ac.uk/people/staff/dao7/publ/granule-icfp19.pdf)
-  <span class="theory">theory</span><span
-  class="practice">practice</span>
+* [__Quantitative program reasoning with graded modal types__](https://www.cs.kent.ac.uk/people/staff/dao7/publ/granule-icfp19.pdf) <span class="theory">theory</span><span class="practice">practice</span>
   
   - Dominic Orchard, Vilem-Benjamin Liepelt, Harley Eades III, ICFP 2019
   - The Granule paper: describes much of our approach and the state
