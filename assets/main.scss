@@ -8,15 +8,18 @@
 @import "bootstrap-4-jekyll/bootstrap-4-jekyll";
 @import "bootstrap_customization";
 
-.theory {
+.theory, .practice {
     color: white;
     padding: 1pt;
+    font-size: small;
+    font-family: "Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
+}
+
+.theory {
     background: #18a811;
 }
 
 .practice {
-    color: white;
-    padding: 1pt;
     background: #e3a710;
 }
 
