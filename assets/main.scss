@@ -7,3 +7,21 @@
 @import "syntax-highlighting";
 @import "bootstrap-4-jekyll/bootstrap-4-jekyll";
 @import "bootstrap_customization";
+
+.theory {
+    color: white;
+    padding: 1pt;
+    background: #18a811;
+}
+
+.practice {
+    color: white;
+    padding: 1pt;
+    background: #e3a710;
+}
+
+ul {
+    padding-bottom:1em;
+    margin-bottom:1em;
+    padding: 1pt;
+}
