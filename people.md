@@ -9,7 +9,7 @@ Members of the Project
 #### Project Investigators
 
 - Dominic Orchard, University of Kent, [website](https://www.cs.kent.ac.uk/people/staff/dao7/)
-- Harley Eades, Augusta University, [website](http://metatheorem.org/)
+- Harley Eades III, Augusta University, [website](http://metatheorem.org/)
 
 #### PhD Students
 
