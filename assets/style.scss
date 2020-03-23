@@ -1,0 +1,19 @@
+---
+---
+
+@import "{{ site.theme }}"
+
+.theory {
+    background: #18a811;
+    color: white;
+}
+
+.practice {
+    background: #e3a710;
+    color: white;
+}
+
+ul {
+    padding-bottom:1em;
+    margin-bottom:1em;
+}
