@@ -5,8 +5,6 @@ title: Publications
 
 #### Publications
 
-<br />
-
 * [__Unifying graded and parameterised monads__](https://arxiv.org/abs/2001.10274) <span class="theory">theory</span>
 
    - __Dominic Orchard, Philip Wadler, Harley Eades III__
