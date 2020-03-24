@@ -27,3 +27,9 @@ the expressive power of Granule's type system.  For more information
 about our current research directions please read this series of [blog
 posts]().
 
+## News
+
+- __March 2020__ The Granule project is hiring a 2-year post-doctoral researcher to
+work at the University of Kent!
+[Details of how to apply here](https://jobs.kent.ac.uk/Vacancy.aspx?ref=STM-146-20).
+Closing date for applications is Friday 8th May 2020.
