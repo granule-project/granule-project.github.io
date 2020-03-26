@@ -39,4 +39,4 @@ Closing date for applications is Friday 8th May 2020.
 - __March 2020__ <span class='paper'>paper</span> We have a new paper on the
 relationship between graded monads and parameterised monads accepted
 to
-MSFP 2020. [Preprint available online, updated to the final version soon](https://arxiv.org/abs/2001.10274)
+MSFP 2020. [Preprint available online](https://arxiv.org/abs/2001.10274), updated to the final version soon.
