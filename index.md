@@ -32,7 +32,7 @@ posts]().
 - __March 2020__ The Granule project is hiring a 2-year post-doctoral researcher to
 work at the University of Kent!
 [Details of how to apply here](https://jobs.kent.ac.uk/Vacancy.aspx?ref=STM-146-20).
-Closing date for applications is Friday 8th May 2020.<br style="display:block;margin-bottom:20pt;line-height:20pt;" />
+Closing date for applications is Friday 8th May 2020.<br style="display:block;margin-bottom:15px;line-height:15px;font-size:15px;" />
 
 - __March 2020__ <span class='paper'>paper</span> We have a new paper on the
 relationship between graded monads and parameterised monads accepted
