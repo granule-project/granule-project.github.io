@@ -8,7 +8,7 @@
 @import "bootstrap-4-jekyll/bootstrap-4-jekyll";
 @import "bootstrap_customization";
 
-.theory, .practice {
+.theory, .practice, .paper {
     color: white;
     padding: 2pt;
     margin: 2pt;
@@ -19,6 +19,10 @@
 
 .theory {
     background: #18a811;
+}
+
+.paper {
+    background: #f01d0e;
 }
 
 .practice {

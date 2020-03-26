@@ -33,3 +33,8 @@ posts]().
 work at the University of Kent!
 [Details of how to apply here](https://jobs.kent.ac.uk/Vacancy.aspx?ref=STM-146-20).
 Closing date for applications is Friday 8th May 2020.
+
+- __March 2020__ <span id='paper'>paper</span> We have a new paper on the
+relationship between graded monads and parameterised monads accepted
+to
+MSFP 2020. [Preprint available online, updated to the final version soon](https://arxiv.org/abs/2001.10274)
