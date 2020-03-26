@@ -11,11 +11,13 @@
 .theory, .practice, .paper {
     color: white;
     padding: 2pt;
+    padding-top: 1pt;
+    padding-bottom: 1pt;
     margin: 2pt;
     font-size:small;
     font-family: "Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
     font-weight: 800;
-    border-radius: 3px;
+    border-radius: 4px;
 }
 
 .theory {
@@ -23,7 +25,7 @@
 }
 
 .paper {
-    background: #f01d0e;
+    background: #e64e30;
 }
 
 .practice {
