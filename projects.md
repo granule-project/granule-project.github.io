@@ -24,14 +24,15 @@ across multiple levels of a staged compilation pipeline.
 
 ### Grade-directed compilation and verifying optimisations
 
-Graded types provide the opportunity to capture program properties at the type level,
-akin to internalising a static analysis. This aids the programmer in reasoning about
-their programs, but can also provide benefits to the compiler: the information in
-grades can be used to direct compilation. This project would develop a compiler
-for Granule (or a similar language with graded types) that uses the type information
-to perform optimisations, e.g., leveraging linear types and bounded-reused modalities
+Graded types provide an opportunity to capture program properties at the type level, which
+can be used to expose static analysis information to the user. This aids the programmer in reasoning about
+their programs, but can also benefit the compiler: the information in
+graded types can be used to direct compilation. This project would develop a compiler
+for Granule (or a similar language with graded types) that uses the graded type information
+to inform optimisations, e.g., leveraging linear types and bounded-reused modalities
 to statically de-allocate memory and use mutation where possible, or using security
-modalities to change how binaries are compiled to obscure data and data structures.
+modalities to change how binaries are compiled to obscure data and data structures. There is already
+[an initial LLVM compiler](https://github.com/granule-project/granule-compiler-llvm) which provides a starting point.
 An additional, or alternate, project is to push grades into a semantics in order
 to verify compiler optimisations at the semantic level. Initial work suggests
 that graded structures in semantics (e.g. graded monads and graded comonads) can
