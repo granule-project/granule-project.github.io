@@ -15,6 +15,10 @@ The Granule Language
 
 Granule can be downloaded from [Github](https://github.com/granule-project/granule) and built and installed via [stack](https://docs.haskellstack.org/en/stable/README/).  Please see the [README](https://github.com/granule-project/granule/blob/master/README.md) for further instructions.
 
+#### Tutorial
+
+You can find a _mini-tutorial on Granule [here](https://github.com/granule-project/granule/blob/master/examples/intro.gr.md)_.
+
 #### Why Granule?
 
 Many modern programs are resource sensitive, that is, the amount of resources (e.g., energy, bandwidth, time, memory), and their rate of consumption, must be carefully managed. Furthermore, many programs handle sensitive resources, such as passwords, location data, photos, and banking information. Ensuring that private data is not inadvertently leaked is as important as the functional input-output behaviour of a program.
