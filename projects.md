@@ -4,13 +4,9 @@ title: PhD opportunities and projects
 ---
 
 [Dominic](http://dorchard.co.uk) is currently looking for new PhD students to join
-the Granule project, at the [School of Computing](http://www.cs.kent.ac.uk), [University of Kent](http://www.kent.ac.uk) which is based in Canterbury, UK.
+the Granule project, at the [School of Computing](http://www.cs.kent.ac.uk), [University of Kent](http://www.kent.ac.uk) which is based in Canterbury, UK. You can find details of how to apply on [here](https://www.cs.kent.ac.uk/research/studyingforaphd/index.html). The deadline for applications is usually late January.
 
 Here are some possible starting points for projects.
-
-### Program synthesis from type-based resource-sensitive specifications
-
-Type systems are one of the most widely deployed verification techniques in programming today. Type systems offer a simple "first defense" against a range of programming mistakes, directly within a language. Since types provide partial specifications of program behaviour, it is sometimes possible to use a type specification (a type signature) to derive parts of a program automatically (program synthesis) therefore speeding up programming. Type-based program synthesis is especially powerful in the context of more advance type theories, such as dependent types, where the synthesis amounts to proof search in logic. Various languages such as Agda and Idris now provide interactive modes where the human and the computer work together to write a program, with a programmer writing a specification and the compiler synthesising as much of a candidate program as possible, and so on. The aim of this project is to take program synthesis to the next level by combining dependent types with linear and graded types. Linear and graded types provide mechanisms for explaining where and how data is used, allowing a view of data as a resource with possible constraints attached. Linear and graded types further restrict the set of possible programs and thus offer a way to improve program synthesis by further constraining a program via "resource sensitive" types. This project will develop both the theory and practice, with a chance to implement the program synthesis / proof search techniques on top of the state-of-the-art language Granule.
 
 ### Multi-stage semantics and typing via graded modalities
 
@@ -25,3 +21,20 @@ multi-stage programs: not just 2 stages, but n-stages, with their interactions
 controlled and described by a graded modal type system. This approach can then
 be combined with other kinds of graded modality to explain the role of data
 across multiple levels of a staged compilation pipeline.
+
+### Grade-directed compilation and verifying optimisations
+
+Graded types provide the opportunity to capture program properties at the type level,
+akin to internalising a static analysis. This aids the programmer in reasoning about
+their programs, but can also provide benefits to the compiler: the information in
+grades can be used to direct compilation. This project would develop a compiler
+for Granule (or a similar language with graded types) that uses the type information
+to perform optimisations, e.g., leveraging linear types and bounded-reused modalities
+to statically de-allocate memory and use mutation where possible, or using security
+modalities to change how binaries are compiled to obscure data and data structures.
+An additional, or alternate, project is to push grades into a semantics in order
+to verify compiler optimisations at the semantic level. Initial work suggests
+that graded structures in semantics (e.g. graded monads and graded comonads) can
+allow common optimisations to be proved correct in a unified way at the denotational
+level, allowing a new compiler verification technique. There is a lot of work
+to be done here.
