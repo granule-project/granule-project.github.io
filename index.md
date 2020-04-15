@@ -32,7 +32,9 @@ posts]().
 - __April 2020__ <span class='paper'>paper</span> Dominic has a new paper capturing
 classical data flow analysis via graded monadic semantics accepted to [FSCD 2020](https://fscd2020.org/),
 entitled "Data-flow analyses as effects and graded monads", joint with Andrej Ivašković
-and Alan Mycroft. Pre-print online soon!
+and Alan Mycroft. Pre-print online soon!br
+style="display:block;margin-bottom:30px;line-height:30px;font-size:30px;"
+/><br />
 
 - __March 2020__ The Granule project is hiring a 2-year post-doctoral researcher to
 work at the University of Kent!
