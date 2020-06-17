@@ -5,6 +5,11 @@ title: Publications
 
 #### Publications
 
+* [__Grading Adjoint Logic__](https://arxiv.org/abs/2006.08854) <span class="theory">theory</span>
+
+  - __Harley Eades III, Dominic Orchard__
+  - 2-page extended abstract at LINEARITY/TLLA 2020.
+
 * [__Unifying graded and parameterised monads__](https://arxiv.org/abs/2001.10274) <span class="theory">theory</span>
 
    - __Dominic Orchard, Philip Wadler, Harley Eades III__
