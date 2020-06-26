@@ -5,15 +5,25 @@ title: Publications
 
 #### Publications
 
+* [__Deriving distributive laws for graded linear types__](http://granule-project.github.io/papers/deriving-graded-dist.pdf)  <span class="practice">practice</span> <span class="theory">theory</span>
+  - __Jack Hughes, Dominic Orchard__
+  - 2-page extended abstract at [LINEARITY/TLLA 2020](https://lipn.univ-paris13.fr/LinearityTLLA2020/).
+
 * [__Grading Adjoint Logic__](https://arxiv.org/abs/2006.08854) <span class="theory">theory</span>
 
   - __Harley Eades III, Dominic Orchard__
-  - 2-page extended abstract at LINEARITY/TLLA 2020.
+  - 2-page extended abstract at [LINEARITY/TLLA 2020](https://lipn.univ-paris13.fr/LinearityTLLA2020/).
+
+* [__Data-flow analyses as effects and graded monads__](https://kar.kent.ac.uk/81880/1/dataflow-effect-monads.pdf) <span class="theory">theory</span>
+
+  - __Andrej Ivašković, Alan Mycroft, Dominic Orchard__
+  - FSCD 2020 (LIPIcs, Volume 167)
+  - [Additional material (proofs and code)](https://zenodo.org/record/3784967#.XvW7lpNKjSc)
 
 * [__Unifying graded and parameterised monads__](https://arxiv.org/abs/2001.10274) <span class="theory">theory</span>
 
    - __Dominic Orchard, Philip Wadler, Harley Eades III__
-   - To appear at [MSFP 2020](https://msfp-workshop.github.io/msfp2020/)
+   - [MSFP 2020](https://msfp-workshop.github.io/msfp2020/)
    - A category theoretic study of the relationship between graded and
    parameterised monads, via the notion of a _category-graded monad_.
 
