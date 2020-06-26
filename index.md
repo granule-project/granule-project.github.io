@@ -35,7 +35,9 @@ posts]().
    - Aubrey Bryant and Harley Eades III. __The Graded Lambek Calculus__
    - Harley Eades III and Dominic Orchard. __Grading Adjoint Logic__
 
-  For full access to each abstract see the [Publications](/research.html) section.
+  For full access to each abstract see the [Publications](/research.html) section. <br
+style="display:block;margin-bottom:30px;line-height:30px;font-size:30px;"
+/><br />
 
 - __April 2020__ <span class='paper'>paper</span> Dominic has a new paper capturing
 classical data flow analysis via graded monadic semantics accepted to [FSCD 2020](https://fscd2020.org/),
