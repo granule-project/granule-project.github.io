@@ -14,7 +14,7 @@ title: Publications
   - __Harley Eades III, Dominic Orchard__
   - 2-page extended abstract at [LINEARITY/TLLA 2020](https://lipn.univ-paris13.fr/LinearityTLLA2020/).
 
-* [__Data-flow analyses as effects and graded monads__](https://kar.kent.ac.uk/81880/1/dataflow-effect-monads.pdf) <span class="theory">theory</span>
+* [__Data-flow analyses as effects and graded monads__](https://drops.dagstuhl.de/opus/volltexte/2020/12337/pdf/LIPIcs-FSCD-2020-15.pdf) <span class="theory">theory</span>
 
   - __Andrej Ivašković, Alan Mycroft, Dominic Orchard__
   - FSCD 2020 (LIPIcs, Volume 167)

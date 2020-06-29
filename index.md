@@ -42,7 +42,9 @@ style="display:block;margin-bottom:30px;line-height:30px;font-size:30px;"
 - __April 2020__ <span class='paper'>paper</span> Dominic has a new paper capturing
 classical data flow analysis via graded monadic semantics accepted to [FSCD 2020](https://fscd2020.org/),
 entitled "Data-flow analyses as effects and graded monads", joint with Andrej Ivašković
-and Alan Mycroft. Pre-print online soon! <br
+and Alan Mycroft. <a
+href="https://drops.dagstuhl.de/opus/volltexte/2020/12337/pdf/LIPIcs-FSCD-2020-15.pdf">in
+the proceedings here.</a><br
 style="display:block;margin-bottom:30px;line-height:30px;font-size:30px;"
 /><br />
 
