@@ -29,6 +29,11 @@ posts]().
 
 ## News
 
+- __September 2020__ <span class='paper'>paper</span> Jack and Dominic have new paper about program synthesis with linear and graded modal types in Granule accepted to [LOPSTR 2020](https://nms.kcl.ac.uk/maribel.fernandez/LOPSTR2020/),
+entitled "Resourceful Program Synthesis from Graded Linear Types". The version from the pre-proceedings can be found [here](http://granule-project.github.io/papers/LOPSTR_2020_paper_pre_proceedings.pdf). <br
+style="display:block;margin-bottom:30px;line-height:30px;font-size:30px;"
+/><br />
+
 - __June 2020__ The Granule project had three abstracts accepted for presentation at [LINEARITY/TLLA 2020](https://lipn.univ-paris13.fr/LinearityTLLA2020/):
 
    - Jack Hughes and Dominic Orchard. __Deriving distributive laws for graded linear types__
