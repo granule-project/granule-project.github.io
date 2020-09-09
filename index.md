@@ -30,7 +30,7 @@ posts]().
 ## News
 
 - __September 2020__ <span class='paper'>paper</span> Jack and Dominic have a new paper about program synthesis with linear and graded modal types in Granule accepted to [LOPSTR 2020](https://nms.kcl.ac.uk/maribel.fernandez/LOPSTR2020/),
-entitled "Resourceful Program Synthesis from Graded Linear Types". The version from the pre-proceedings can be found [here](http://granule-project.github.io/papers/LOPSTR_2020_paper_pre_proceedings.pdf). This paper won the <b>LOPSTR 2020 Best Paper Award</b>. <br
+entitled "__Resourceful Program Synthesis from Graded Linear Types__". The version from the pre-proceedings can be found [here](http://granule-project.github.io/papers/LOPSTR_2020_paper_pre_proceedings.pdf). This paper won the <ul>LOPSTR 2020 Best Paper Award</ul>. <br
 style="display:block;margin-bottom:30px;line-height:30px;font-size:30px;"
 /><br />
 
