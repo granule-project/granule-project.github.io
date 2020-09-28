@@ -17,6 +17,7 @@ Members of the Project
 - Aubrey Bryant, Augusta University
 - Jack Hughes, University of Kent
 - Ben Moon, University of Kent, [website](https://github.com/GuiltyDolphin)
+- Daniel Marshall, University of Kent, [website](https://starsandspira.ls/)
 
 #### Undergraduate Students
 
