@@ -53,3 +53,8 @@ title: Publications
     - ICFP 2016
     - The system in this paper pre-dates Granule, but it provides some
       core ideas which are at the core of Granule, although Granule adds a lot more language features on top.
+
+*  [__Towards Graded Modal Dependent Types__](papers/towards-graded-modal-dependent-types.pdf) (extended abstract) <span class="practice">practice</span>
+
+   - __Benjamin Moon, Harley Eades III, and Dominic Orchard__
+   - 2-page extended abstract at TyDe 2020 introducing ideas on Graded Modal Dependent Type Theory.
