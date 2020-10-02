@@ -26,4 +26,4 @@ Some videos of talks we have given about our work in various different venues.
 
 ##### TyDe 2020, Online (Benjamin Moon)
 
-<iframe width="1280" height="720" src="https://www.youtube.com/embed/JFtSa7S9Ggg" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="640" height="360" src="https://www.youtube.com/embed/JFtSa7S9Ggg" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
