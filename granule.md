@@ -73,7 +73,7 @@ map [f] (Cons x xs) = Cons (f x) (map [f] xs)
 
 ```
 
-The type paraemter `n` is of type `Nat` which is the type of natural numbers and `(a -> b) [n]` is the type
+The type parameter `n` is of type `Nat` which is the type of natural numbers and `(a -> b) [n]` is the type
 of a function that must be used exactly `n` times.
 Thus, this type says that we must use the parameter function exactly the number of times as the length
 of the incoming vector. This significantly cuts down the number of possible implementation of `map`
