@@ -25,7 +25,6 @@ Members of the Project
 
 #### Undergraduate Students
 
-- Rowan Smith, University of Kent
 - Jake Tuten, Augusta University
 
 #### Former student projects
