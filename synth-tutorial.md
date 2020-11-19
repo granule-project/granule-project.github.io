@@ -2,8 +2,8 @@ Program synthesis in Granule - A tutorial
 =========================================
 
 This tutorial introduces the features of a basic program synthesis tool of Granule for automatically generating
-programs from linear and graded modal types. Please refer to the LOPSTR 2020 paper _Resourceful program 
-synthesis from graded linear types_ (pre-proceedings version available [here](https://granule-project.github.io/papers/LOPSTR_2020_paper_pre_proceedings.pdf)) for more details if you are interested in the theory and implementation of the synthesis tool.
+programs from linear and graded modal types. Please refer to our [LOPSTR 2020 paper _Resourceful program 
+synthesis from graded linear types_](https://granule-project.github.io/papers/LOPSTR_2020_paper_pre_proceedings.pdf) (pre-proceedings version) for more details if you are interested in the theory and implementation of the synthesis tool.
 
 Installation
 ------------
