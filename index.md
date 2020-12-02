@@ -29,7 +29,7 @@ posts]().
 
 ## News
 
-- __October 2020__ span class="paper">drafts</span> We have two new draft papers online (under review):
+- __October 2020__ <span class="paper">drafts</span> We have two new draft papers online (under review):
 
   - [Graded Modal Dependent Type Theory](https://arxiv.org/pdf/2010.13163.pdf) (Benjamin Moon, Harley Eades III, Dominic Orchard)
   - [Deriving distributive laws for graded linear types](http://granule-project.github.io/papers/distributive_laws_journal.pdf) (Jack Hughes, Michael Vollmer, Dominic Orchard).<br />
