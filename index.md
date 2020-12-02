@@ -29,6 +29,11 @@ posts]().
 
 ## News
 
+- __October 2020__ We have two new draft papers online (under review):
+
+  - [Graded Modal Dependent Type Theory](https://arxiv.org/pdf/2010.13163.pdf) (Benjamin Moon, Harley Eades III, Dominic Orchard)
+  - [Deriving distributive laws for graded linear types](http://granule-project.github.io/papers/distributive_laws_journal.pdf) (Jack Hughes, Michael Vollmer, Dominic Orchard).<br />
+
 - __September 2020__ <span class='paper'>paper</span><span class='paper' style='background:purple'>award</span> Jack and Dominic have a new paper about program synthesis from linear and graded modal types, demonstrated in Granule, accepted to [LOPSTR 2020](https://nms.kcl.ac.uk/maribel.fernandez/LOPSTR2020/),
 entitled "__Resourceful Program Synthesis from Graded Linear Types__". The version from the pre-proceedings can be found [here](http://granule-project.github.io/papers/LOPSTR_2020_paper_pre_proceedings.pdf). This paper won the **LOPSTR 2020 Best Paper Award**. <br
 style="display:block;margin-bottom:30px;line-height:30px;font-size:30px;"
