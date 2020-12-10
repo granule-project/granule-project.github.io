@@ -5,9 +5,9 @@ title: Publications
 
 #### Publications
 
-* [__Resourceful program synthesis from graded linear types__](http://granule-project.github.io/papers/LOPSTR_2020_paper_pre_proceedings.pdf)  <span class="practice">practice</span> <span class="theory">theory</span>
+* [__Resourceful program synthesis from graded linear types__](http://granule-project.github.io/papers/LOPSTR_2020_paper_post_proceedings.pdf)  <span class="practice">practice</span> <span class="theory">theory</span>
   - __Jack Hughes, Dominic Orchard__
-  - Version accepted for pre-proceedings at [LOPSTR 2020](https://nms.kcl.ac.uk/maribel.fernandez/LOPSTR2020/).
+  - Version accepted for post-proceedings at [LOPSTR 2020](https://nms.kcl.ac.uk/maribel.fernandez/LOPSTR2020/).
   - Granule implementation available [here](https://github.com/granule-project/granule/releases/tag/v0.7.8.0).
 
 *  [__Towards Graded Modal Dependent Types__](papers/towards-graded-modal-dependent-types.pdf) (extended abstract) <span class="practice">theory</span>
