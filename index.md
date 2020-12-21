@@ -18,54 +18,9 @@ information about side effects, data use, privacy levels, cost, and
 permissions via various kinds of (co)effect types captures via graded
 modal types.
 
-Our project spans theoretical and practical work.
-We are actively developing a prototype implementation of
-language with graded, linear, and indexed types called
-[Granule](/granule.html) based on our research.  In addition, we are
-developing a new [dependent type theory]() that will greatly expand
-the expressive power of Granule's type system.  For more information
-about our current research directions please read this series of [blog
-posts]().
-
-## News
-
-- __October 2020__ <span class="paper">drafts</span> We have two new draft papers online (under review):
-
-  - [Graded Modal Dependent Type Theory](https://arxiv.org/pdf/2010.13163.pdf) (Benjamin Moon, Harley Eades III, Dominic Orchard)
-  - [Deriving distributive laws for graded linear types](http://granule-project.github.io/papers/distributive_laws_journal.pdf) (Jack Hughes, Michael Vollmer, Dominic Orchard).<br />
-
-- __September 2020__ <span class='paper'>paper</span><span class='paper' style='background:purple'>award</span> Jack and Dominic have a new paper about program synthesis from linear and graded modal types, demonstrated in Granule, accepted to [LOPSTR 2020](https://nms.kcl.ac.uk/maribel.fernandez/LOPSTR2020/),
-entitled "__Resourceful Program Synthesis from Graded Linear Types__". The version from the pre-proceedings can be found [here](http://granule-project.github.io/papers/LOPSTR_2020_paper_pre_proceedings.pdf). This paper won the **LOPSTR 2020 Best Paper Award**. <br
-style="display:block;margin-bottom:30px;line-height:30px;font-size:30px;"
-/><br />
-
-- __June 2020__ The Granule project had three abstracts accepted for presentation at [LINEARITY/TLLA 2020](https://lipn.univ-paris13.fr/LinearityTLLA2020/):
-
-   - Jack Hughes and Dominic Orchard. __Deriving distributive laws for graded linear types__
-   - Aubrey Bryant and Harley Eades III. __The Graded Lambek Calculus__
-   - Harley Eades III and Dominic Orchard. __Grading Adjoint Logic__
-
-  For full access to each abstract see the [Publications](/research.html) section. <br
-style="display:block;margin-bottom:30px;line-height:30px;font-size:30px;"
-/><br />
-
-- __April 2020__ <span class='paper'>paper</span> Dominic has a new paper capturing
-classical data flow analysis via graded monadic semantics accepted to [FSCD 2020](https://fscd2020.org/),
-entitled "Data-flow analyses as effects and graded monads", joint with Andrej Ivašković
-and Alan Mycroft. <a
-href="https://drops.dagstuhl.de/opus/volltexte/2020/12337/pdf/LIPIcs-FSCD-2020-15.pdf">in
-the proceedings here.</a><br
-style="display:block;margin-bottom:30px;line-height:30px;font-size:30px;"
-/><br />
-
-- __March 2020__ The Granule project is hiring a 2-year post-doctoral researcher to
-work at the University of Kent!
-[Details of how to apply here](https://jobs.kent.ac.uk/Vacancy.aspx?ref=STM-146-20).
-Closing date for applications is Friday 8th May 2020.<br
-style="display:block;margin-bottom:30px;line-height:30px;font-size:30px;"
-/><br />
-
-- __March 2020__ <span class='paper'>paper</span> We have a new paper on the
-relationship between graded monads and parameterised monads accepted
-to
-MSFP 2020. [Preprint available online](https://arxiv.org/abs/2001.10274), updated to the final version soon.
+Our project spans theoretical and practical work.  We are actively
+developing a prototype implementation of language with graded, linear,
+and indexed types called [Granule](/granule.html) based on our
+research.  In addition, we are developing a new dependent type theory
+that will greatly expand the expressive power of Granule's type
+system.

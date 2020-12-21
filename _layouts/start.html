@@ -2,13 +2,15 @@
 layout: default-start
 ---
 <article>
-
+  {% include mathjax.html %}
+  {% feed_meta %}
   <header>
     <img style="padding: 10px; float: left; margin: calc(10px + 2vw);" width="15%" src="images/gr-blue.png"> <h1>{{ page.title | escape }}</h1>
   </header>
 
   <section>
     {{ content }}
+    {%- include footer.html -%}
   </section>
 
 </article>

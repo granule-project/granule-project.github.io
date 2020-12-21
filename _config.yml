@@ -22,12 +22,23 @@ description: >- # this means to ignore newlines until "baseurl:"
 #twitter_username: jekyllrb
 #github_username:  jekyll
 
-repository: "heades/granue-project"
+repository: "granule-project/granule-project.github.io"
 
 # Build settings
 plugins:
   - jekyll-feed
   - jekyll-sitemap
+
+# collections config:
+collections:
+  news:
+    output: false
+    
+# jekyll-feed config:
+
+feed:
+  collections:
+    - news
 
 # A list of the pages to display in the navigation bar
 header_pages:

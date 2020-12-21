@@ -1,0 +1,13 @@
+<h2 id="news">News</h2>
+
+{% assign collection = site.news | sort: "date" | reverse %}
+<ul>
+{% for item in collection %}
+<li><p>
+    <strong>{{ item.date | date: "%B %Y" }}</strong>
+    {% for news-cat in item.news-categories %}
+    <span class="{{news-cat}}">{{news-cat}}</span>
+    {% endfor %}
+    {{ item.content | markdownify }}</p></li>
+{% endfor %}
+</ul>  
