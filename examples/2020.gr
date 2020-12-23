@@ -1,0 +1,31 @@
+-- Hello all :)
+
+data Either a b = Left a | Right b
+
+elimEither : forall {a : Type, b : Type, c : Type} . Either a b -> (a -> c) [0..1] -> (b -> c) [0..1] -> c
+elimEither (Left w) [u] [v] = u w;
+elimEither (Right p) [u] [v] = v p
+
+copy : forall {a : Type, s : Semiring} . a [(1 + 1) : s] -> (a, a)
+copy [y] = (y, y)
+
+----------------------------------
+
+pullPair : forall {a : Type, b : Type, s : Semiring, r : s} . (a [r], b [r]) -> (a, b) [r]
+pullPair = pull @(,)
+
+data Vec (n : Nat) (a : Type) where
+    Nil : Vec 0 a;
+    Cons : forall {n : Nat} . (x : a) -> (xs : Vec n a) -> Vec (n+1) a
+
+pushVec : forall {a : Type, n : Nat, s : Semiring, r : s} . {(1 : s) <= r} => (Vec n a) [r] -> Vec n (a [r])
+pushVec = push @Vec
+
+----------------------------------
+
+safeHead : forall {a : Type, n : Nat} . (Vec n a) [] -> (case n of 0 -> (); n -> a)
+safeHead [Nil] = ();
+safeHead [(Cons x0 xs0)] = x0
+
+safeHead' : forall {a : Type, n : Nat} . {n >= 1} => (Vec n a) [] -> a
+safeHead' [Cons x _] = x
