@@ -8,6 +8,12 @@ Talks (videos)
 
 Some videos of talks we have given about our work in various different venues.
 
+#### End of the 2020 review (Dominic Orchard)
+
+<iframe width="640" height="360" src="https://www.youtube.com/embed/7r4H1vWIOVk" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<br />
+
+
 ##### TyDe 2020 workshop (online) "Towards Graded Modal Type Theory" (Benjamin Moon)
 
 <iframe width="640" height="360" src="https://www.youtube.com/embed/JFtSa7S9Ggg" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
