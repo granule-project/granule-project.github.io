@@ -15,6 +15,9 @@ Members of the Project
 
 - Michael Vollmer, University of Kent, [website](http://recurial.com/) 
 
+#### Research assistants
+- Tori Vollmer, University of Kent
+
 #### PhD Students
 
 - Vilem-Benjamin Liepelt, University of Kent, [website](https://github.com/buggymcbugfix)
@@ -22,10 +25,6 @@ Members of the Project
 - Jack Hughes, University of Kent
 - Ben Moon, University of Kent, [website](https://github.com/GuiltyDolphin)
 - Daniel Marshall, University of Kent, [website](https://starsandspira.ls/)
-
-#### Undergraduate Students
-
-- Jake Tuten, Augusta University
 
 #### Former student projects
 - (2019/20) _Pattern Matching Modulo Theories_, Declan Barnes, University of Kent
