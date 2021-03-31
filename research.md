@@ -15,7 +15,7 @@ title: Publications
   - ESOP 2021
 
 * [__A graded dependent type system with a usage-aware semantics__](https://dl.acm.org/doi/10.1145/3434331) <span class="theory">theory</span>
-  - Pritam Choudhury, Harley Eades III, Richard Eisenberg, Stephanie Weirich
+  - __Pritam Choudhury, Harley Eades III, Richard Eisenberg, Stephanie Weirich__
   - POPL 2021
 
 * [__Resourceful program synthesis from graded linear types__](http://granule-project.github.io/papers/LOPSTR_2020_paper_post_proceedings.pdf)  <span class="practice">practice</span> <span class="theory">theory</span>
