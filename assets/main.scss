@@ -8,7 +8,7 @@
 @import "bootstrap-4-jekyll/bootstrap-4-jekyll";
 @import "bootstrap_customization";
 
-.theory, .practice, .paper , .award , .job {
+.theory, .practice, .paper , .award , .job, .implementation {
     color: white;
     padding: 2pt;
     padding-top: 1pt;
@@ -18,6 +18,10 @@
     font-family: "Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
     font-weight: 800;
     border-radius: 4px;
+}
+
+.implementation {
+    background: #fcba03;
 }
 
 .theory {
