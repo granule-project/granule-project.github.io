@@ -10,7 +10,7 @@ title: Publications
   - ESOP 2021
   - Accompanying release of [Gerty v0.1.0](https://github.com/granule-project/gerty/releases/tag/v0.1.0)
 
-* [__Graded Hoare Logic and its Categorical Semantics__](https://link.springer.com/chapter/10.1007/978-3-030-72019-3_9) <span class="theory">
+* [__Graded Hoare Logic and its Categorical Semantics__](https://link.springer.com/chapter/10.1007/978-3-030-72019-3_9) <span class="theory">theory</span>
   - __Marco Gaboardi, Shin-ya Katsumata, Dominic Orchard, Tetsuya  Sato__
   - ESOP 2021
 
