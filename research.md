@@ -5,6 +5,26 @@ title: Publications
 
 #### Publications
 
+*
+[__Graded Modal Dependent Type Theory__](https://link.springer.com/chapter/10.1007/978-3-030-72019-3_17)
+<span class="theory">theory</span><span
+class="practice">practice</span>
+  - __Ben Moon, Harley Eades III, Dominic Orchard__
+  - ESOP 2021
+  - Accompanying release of [Gerty v0.1.0](https://github.com/granule-project/gerty/releases/tag/v0.1.0)
+
+*
+[__Graded Hoare Logic and its Categorical Semantics__](https://link.springer.com/chapter/10.1007/978-3-030-72019-3_9)
+<span class="theory">
+  - __Marco Gaboardi, Shin-ya Katsumata, Dominic Orchard, Tetsuya  Sato__
+  - ESOP 2021
+
+*
+[__A graded dependent type system with a usage-aware semantics__](https://dl.acm.org/doi/10.1145/3434331)
+<span class="theory">theory</span>
+  - Pritam Choudhury, Harley Eades III, Richard Eisenberg, Stephanie Weirich
+  - POPL 2021
+
 * [__Resourceful program synthesis from graded linear types__](http://granule-project.github.io/papers/LOPSTR_2020_paper_post_proceedings.pdf)  <span class="practice">practice</span> <span class="theory">theory</span>
   - __Jack Hughes, Dominic Orchard__
   - Version accepted for post-proceedings at [LOPSTR 2020](https://nms.kcl.ac.uk/maribel.fernandez/LOPSTR2020/).
@@ -59,4 +79,3 @@ title: Publications
     - ICFP 2016
     - The system in this paper pre-dates Granule, but it provides some
       core ideas which are at the core of Granule, although Granule adds a lot more language features on top.
-
