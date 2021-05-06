@@ -7,7 +7,7 @@ news-categories:
 
 Harley has been awarded a National Science Foundation grant on:
 
-“Semantically and Practically Generalizing Graded Modal Types”
+**Semantically and Practically Generalizing Graded Modal Types**
 
 to recruit a PhD Student and continue his work on exploring the
 expressive power of the theory of graded modal types.  Checkout the
