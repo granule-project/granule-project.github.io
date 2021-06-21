@@ -5,6 +5,11 @@ title: Publications
 
 #### Publications
 
+* [__Linear Exponentials as Graded Modal Types__](http://granule-project.github.io/papers/tlla_2021_paper11.pdf) <span class="theory">theory</span>
+
+  - __Jack Hughes, Daniel Marshall, James Wood, Dominic Orchard__
+  - 8-page extended abstract at [TLLA 2021](https://lipn.univ-paris13.fr/TLLA/2021/).
+
 * [__Graded Modal Dependent Type Theory__](https://link.springer.com/chapter/10.1007/978-3-030-72019-3_17) <span class="theory">theory</span><span class="practice">practice</span>
   - __Ben Moon, Harley Eades III, Dominic Orchard__
   - ESOP 2021
