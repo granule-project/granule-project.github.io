@@ -8,7 +8,7 @@ Talks (videos)
 
 Some videos of talks we have given about our work in various different venues.
 
-#### Interview for the 47 Degrees "Immutable Conversations" podcast (Dominic Orchard)
+#### Interview for the 47 Degrees "Immutable Conversations" podcast (Dominic Orchard, June 2021)
 
 <iframe width="640" height="360" src="https://www.youtube.com/embed/6yswyRQGsRQ" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 <br />
