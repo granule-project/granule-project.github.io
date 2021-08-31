@@ -10,7 +10,7 @@ Some videos of talks we have given about our work in various different venues.
 
 #### Interview for the 47 Degrees "Immutable Conversations" podcast (Dominic Orchard)
 
-<iframe width="640" height="360" src="https://www.youtube.com/watch?v=6yswyRQGsRQ" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="640" height="360" src="https://www.youtube.com/embed/6yswyRQGsRQ" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 <br />
 
 #### End of the 2020 review (Dominic Orchard)
