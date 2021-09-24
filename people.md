@@ -10,6 +10,7 @@ Members of the Project
 
 - Dominic Orchard, University of Kent, [website](https://www.cs.kent.ac.uk/people/staff/dao7/)
 - Harley Eades III, Augusta University, [website](http://metatheorem.org/)
+- Vineet Rajani, University of Kent, [website](https://vineetrajani.github.io/)
 
 #### Post docs
 
