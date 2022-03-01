@@ -22,10 +22,13 @@ Members of the Project
 #### PhD Students
 
 - Vilem-Benjamin Liepelt, University of Kent, [website](https://github.com/buggymcbugfix)
-- Aubrey Bryant, Augusta University
+- Peter Hanukaev, Augusta University
 - Jack Hughes, University of Kent
-- Ben Moon, University of Kent, [website](https://github.com/GuiltyDolphin)
 - Daniel Marshall, University of Kent, [website](https://starsandspira.ls/)
+
+#### Project alumni
+
+- Ben Moon, University of Kent, [website](https://github.com/GuiltyDolphin)
 
 #### Former student projects
 - (2019/20) _Pattern Matching Modulo Theories_, Declan Barnes, University of Kent
