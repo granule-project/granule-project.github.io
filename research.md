@@ -27,6 +27,7 @@ title: Publications
   - __Jack Hughes, Dominic Orchard__
   - Version accepted for post-proceedings at [LOPSTR 2020](https://nms.kcl.ac.uk/maribel.fernandez/LOPSTR2020/).
   - Granule implementation available [here](https://github.com/granule-project/granule/releases/tag/v0.7.8.0).
+  - Won __Best Paper Award__.
 
 *  [__Towards Graded Modal Dependent Types__](papers/towards-graded-modal-dependent-types.pdf) (extended abstract) <span class="practice">theory</span>
 
