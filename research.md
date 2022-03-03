@@ -5,6 +5,16 @@ title: Publications
 
 #### Publications
 
+* [__How to Take the Inverse of a Type__](http://granule-project.github.io/papers/ecoop22-paper.pdf) <span class="theory">theory</span>
+
+  - __Daniel Marshall, Dominic Orchard__
+  - [ECOOP 2022](https://2022.ecoop.org) (functional pearl)
+
+* [__Linearity and Uniqueness: An Entente Cordiale__](http://granule-project.github.io/papers/esop22-paper.pdf) <span class="theory">theory</span><span class="practice">practice</span>
+
+  - __Daniel Marshall, Michael Vollmer, Dominic Orchard__
+  - [ESOP 2022](https://etaps.org/2022/esop)
+
 * [__Linear Exponentials as Graded Modal Types__](http://granule-project.github.io/papers/tlla_2021_paper11.pdf) <span class="theory">theory</span>
 
   - __Jack Hughes, Daniel Marshall, James Wood, Dominic Orchard__
