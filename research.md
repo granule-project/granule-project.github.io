@@ -15,7 +15,7 @@ title: Publications
   - __Daniel Marshall, Michael Vollmer, Dominic Orchard__
   - [ESOP 2022](https://etaps.org/2022/esop)
 
-* [__Linear Exponentials as Graded Modal Types__](http://granule-project.github.io/papers/tlla_2021_paper11.pdf) <span class="theory">theory</span>
+* [__Linear Exponentials as Graded Modal Types__](https://hal-lirmm.ccsd.cnrs.fr/TLLA2021/lirmm-03271465) <span class="theory">theory</span>
 
   - __Jack Hughes, Daniel Marshall, James Wood, Dominic Orchard__
   - 8-page extended abstract at [TLLA 2021](https://lipn.univ-paris13.fr/TLLA/2021/).
