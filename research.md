@@ -34,7 +34,7 @@ title: Publications
   - __Pritam Choudhury, Harley Eades III, Richard Eisenberg, Stephanie Weirich__
   - POPL 2021
 
-* [__Resourceful program synthesis from graded linear types__](http://granule-project.github.io/papers/LOPSTR_2020_paper_post_proceedings.pdf)  <span class="practice">practice</span> <span class="theory">theory</span>
+* [__Resourceful program synthesis from graded linear types__](http://granule-project.github.io/papers/LOPSTR_2020_paper_post_proceedings.pdf)  <span class="practice">practice</span> <span class="theory">theory</span><span class="award">award</span>
   - __Jack Hughes, Dominic Orchard__
   - Version accepted for post-proceedings at [LOPSTR 2020](https://nms.kcl.ac.uk/maribel.fernandez/LOPSTR2020/).
   - Granule implementation available [here](https://github.com/granule-project/granule/releases/tag/v0.7.8.0).
@@ -44,9 +44,9 @@ title: Publications
    - __Benjamin Moon, Harley Eades III, and Dominic Orchard__
    - 2-page extended abstract at TyDe 2020 introducing ideas on Graded Modal Dependent Type Theory.
 
-* [__Deriving distributive laws for graded linear types__](http://granule-project.github.io/papers/distributive_laws_journal.pdf)  <span class="practice">practice</span> <span class="theory">theory</span> <span class="paper">draft</span>
+* [__Deriving distributive laws for graded linear types__](https://arxiv.org/pdf/2112.14966v1.pdf)  <span class="practice">practice</span> <span class="theory">theory</span>
   - __Jack Hughes, Michael Vollmer, Dominic Orchard__
-  - Submitted to EPTCS as part of TLLA 2020
+  - Proceedings of TLLA 2020
   - (See also this earlier [2-page extended abstract](http://granule-project.github.io/papers/deriving-graded-dist.pdf) accepted at [LINEARITY/TLLA 2020](https://lipn.univ-paris13.fr/LinearityTLLA2020/)).
 
 * [__Grading Adjoint Logic__](https://arxiv.org/abs/2006.08854) <span class="theory">theory</span>
