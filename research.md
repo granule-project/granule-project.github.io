@@ -5,6 +5,10 @@ title: Publications
 
 #### Publications
 
+* [__Replicate, Reuse, Repeat: Capturing Non-Linear Communication via Session Types and Graded Modal Types__](https://arxiv.org/abs/2203.12875) <span class="practice">practice</span>
+  - __Daniel Marshall, Dominic Orchard__
+  - [PLACES 2022](https://places-workshop.github.io/)
+
 * [__How to Take the Inverse of a Type__](http://granule-project.github.io/papers/ecoop22-paper.pdf) <span class="theory">theory</span>
   - __Daniel Marshall, Dominic Orchard__
   - [ECOOP 2022](https://2022.ecoop.org) (functional pearl)
