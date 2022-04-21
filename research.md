@@ -34,7 +34,7 @@ title: Publications
   - __Pritam Choudhury, Harley Eades III, Richard Eisenberg, Stephanie Weirich__
   - POPL 2021
 
-* [__Resourceful program synthesis from graded linear types__](http://granule-project.github.io/papers/LOPSTR_2020_paper_post_proceedings.pdf)  <span class="practice">practice</span> <span class="theory">theory</span><span class="award">award</span>
+* [__Resourceful program synthesis from graded linear types__](https://link.springer.com/content/pdf/10.1007/978-3-030-68446-4_8.pdf)  <span class="practice">practice</span> <span class="theory">theory</span><span class="award">award</span>
   - __Jack Hughes, Dominic Orchard__
   - Version accepted for post-proceedings at [LOPSTR 2020](https://nms.kcl.ac.uk/maribel.fernandez/LOPSTR2020/).
   - Granule implementation available [here](https://github.com/granule-project/granule/releases/tag/v0.7.8.0).
