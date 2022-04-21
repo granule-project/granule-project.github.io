@@ -25,7 +25,7 @@ but related event running, hosted by David Corfield, that all are welcome to att
 
 - **Thursday 16th afternoon - Grading in Philosophy, Logic, Linguistics and Computer Science**
 
-    - [Daniel Lassiter](http://web.stanford.edu/~danlass/) (University of St Andrews)
+    - [Daniel Lassiter](http://web.stanford.edu/~danlass/) (University of Edinburgh)
     - [David Corfield](https://www.kent.ac.uk/philosophy/people/1689/corfield-david) (University of Kent)
     - [Dominic Orchard](https://granule-project.github.io) (University of Kent and University of Cambridge)
 
