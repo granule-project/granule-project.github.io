@@ -7,7 +7,7 @@ title: Meeting
 Meeting on Graded Types
 ------------------------
 
-<span style='font-size:larger'>17th June 2022 - University of Kent (+ online)</span>
+<span style='font-size:larger'>17th June 2022 - School of Computing, University of Kent (+ online)</span>
 
 Graded type systems can be understood broadly as
  imbuing type systems with additional information that follows the underlying structure of a program or proof.
@@ -30,7 +30,7 @@ Afternoon:
 - [David Corfield](https://www.kent.ac.uk/philosophy/people/1689/corfield-david) (University of Kent)
 - [Dominic Orchard](https://granule-project.github.io) (University of Kent and University of Cambridge)
 
-_ _Friday 17th_ - Meeting on Graded Typres
+- _Friday 17th_ - Meeting on Graded Typres
 
 Schedule TBD, but likely to last most of the day.
 
