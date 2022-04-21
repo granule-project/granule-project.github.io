@@ -23,14 +23,13 @@ The aim of this meeting is to bring together a wide variety of researchers worki
 This is a hybrid event. You can attend in person or online. On Thursday afternoon, there is a separate
 but related event running, hosted by David Corfield, that all are welcome to attend as part of this:
 
-- _Thursday 16th_ - Grading in Philosophy, Logic, Linguistics and Computer Science
+- **Thursday 16th afternoon - Grading in Philosophy, Logic, Linguistics and Computer Science**
 
-Afternoon:
-- [Daniel Lassiter](http://web.stanford.edu/~danlass/) (University of St Andrews)
-- [David Corfield](https://www.kent.ac.uk/philosophy/people/1689/corfield-david) (University of Kent)
-- [Dominic Orchard](https://granule-project.github.io) (University of Kent and University of Cambridge)
+    - [Daniel Lassiter](http://web.stanford.edu/~danlass/) (University of St Andrews)
+    - [David Corfield](https://www.kent.ac.uk/philosophy/people/1689/corfield-david) (University of Kent)
+    - [Dominic Orchard](https://granule-project.github.io) (University of Kent and University of Cambridge)
 
-- _Friday 17th_ - Meeting on Graded Typres
+- **Friday 17th - Meeting on Graded Types**
 
 Schedule TBD, but likely to last most of the day.
 
