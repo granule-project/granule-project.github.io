@@ -7,7 +7,7 @@ title: Meeting
 Meeting on Graded Types
 ------------------------
 
-<span style='font-size:larger'>16-17th June 2022 - University of Kent (+ online)</span>
+<span style='font-size:larger'>17th June 2022 - University of Kent (+ online)</span>
 
 Graded type systems can be understood broadly as
  imbuing type systems with additional information that follows the underlying structure of a program or proof.
@@ -23,13 +23,22 @@ The aim of this meeting is to bring together a wide variety of researchers worki
 This is a hybrid event. You can attend in person or online. On Thursday afternoon, there is a separate
 but related event running, hosted by David Corfield, that all are welcome to attend as part of this:
 
-#### Thursday 16th - Pre meeting on Philosophy, Logic, Linguistics and Computer Science
+- _Thursday 16th_ - Grading in Philosophy, Logic, Linguistics and Computer Science
 
 Afternoon:
 - [Daniel Lassiter](http://web.stanford.edu/~danlass/) (University of St Andrews)
 - [David Corfield](https://www.kent.ac.uk/philosophy/people/1689/corfield-david) (University of Kent)
 - [Dominic Orchard](https://granule-project.github.io) (University of Kent and University of Cambridge)
 
-#### Friday 17th - 
+_ _Friday 17th_ - Meeting on Graded Typres
 
-Schedule TBD.
+Schedule TBD, but likely to last most of the day.
+
+### Signing up and attending in person
+
+- [Sign up here](https://forms.gle/yYPp7kodQ8478nSZA)
+- Please tick 'In person' if you would like to attend in person on the form.
+- The School of Computing at the University of Kent is [about 30 minute walk from Canterbury West station](https://www.google.com/maps/dir/canterbury+west/Cornwallis+South+East+(Octagon),+University+Of+Kent,+St+Stephen's+Hill,+Canterbury+CT2+7NL/@51.2914835,1.0652968,15z/data=!3m1!4b1!4m14!4m13!1m5!1m1!1s0x47decbb6b38183cb:0x578821196fcdcd35!2m2!1d1.07533!2d51.28427!1m5!1m1!1s0x47decba874d2f7c7:0x6d4d3c9d25aaf5da!2m2!1d1.07126!2d51.2988783!3e2?hl=en), which is a bit less than an hour on the train from St. Pancras
+- There is a lot of accommodation nearby if you want to stay overnight. One recommendation is [Acacia Lodge](https://www.acacialodge.co.uk/) (which is near to the train station and again about 30 minutes walk from campus) or the [Beverly Farmhouse](https://www.kent.ac.uk/conferences-and-events/holidays/beverley-farmhouse) (which is on campus).
+
+- Any questions please contact [Dominic Orchard](mailto:d.a.orchard@kent.ac.uk).
