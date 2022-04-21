@@ -7,7 +7,7 @@ title: Meeting
 Meeting on Graded Types
 ------------------------
 
-<span style='font-size:larger'>17th June 2022 - University of Kent</span>
+<span style='font-size:larger'>16-17th June 2022 - University of Kent (+ online)</span>
 
 Graded type systems can be understood broadly as
  imbuing type systems with additional information that follows the underlying structure of a program or proof.
@@ -18,22 +18,18 @@ In practical settings, graded type systems are becoming more prevalent, e.g., Gr
 
 The aim of this meeting is to bring together a wide variety of researchers working on such concepts across programming language theory and practice to report on latest work and share ideas. The hope is that this can be a pre-cursor to future such meetings, e.g., a Dagstuhl seminar.
 
-### Where and when
+### Schedule
 
-- Thursday 16th - Friday 17th June 2022 - Exact times TBD
-- Hybrid: University of Kent (Canterbury) and Online
+This is a hybrid event. You can attend in person or online. On Thursday afternoon, there is a separate
+but related event running, hosted by David Corfield, that all are welcome to attend as part of this:
 
-There is a related event also happening the afternoon before (Thursday 16th) on 
-
-### Schedule
-
-#### Thursday 16th 
+#### Thursday 16th - Pre meeting on Philosophy, Logic, Linguistics and Computer Science
 
 Afternoon:
-- Daniel Lassiter (University of St Andrews)
-- David Corfield (University of Kent)
-- Dominic Orchard (University of Kent and University of Cambridge)
+- [Daniel Lassiter](http://web.stanford.edu/~danlass/) (University of St Andrews)
+- [David Corfield](https://www.kent.ac.uk/philosophy/people/1689/corfield-david) (University of Kent)
+- [Dominic Orchard](https://granule-project.github.io) (University of Kent and University of Cambridge)
 
-#### Friday 17th
+#### Friday 17th - 
 
 Schedule TBD.
