@@ -33,6 +33,15 @@ but related event running, hosted by David Corfield, that all are welcome to att
 
 Schedule TBD, but likely to last most of the day.
 
+Speakers:
+
+    - Harley Eades, A Mixed Linear and Graded Logic 
+    - Pritam Choudhury
+    - Dylan McDermott
+    - Edwin Brady
+    - Jean-Philippe Bernardy
+    
+
 ### Signing up and attending in person
 
 - [Sign up here](https://forms.gle/yYPp7kodQ8478nSZA)
