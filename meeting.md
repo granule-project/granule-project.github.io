@@ -23,7 +23,9 @@ The aim of this meeting is to bring together a wide variety of researchers worki
 This is a hybrid event. You can attend in person or online. On Thursday afternoon, there is a separate
 but related event running, hosted by David Corfield, that all are welcome to attend as part of this:
 
-- **Thursday 16th afternoon - Grading in Philosophy, Logic, Linguistics and Computer Science**
+- **Thursday 16th afternoon - Grading in Philosophy, Linguistics and Computer Science**
+
+   [Further details of this workshop](http://128.2.67.219/davidcorfield/show/Graded+Modalities)
 
     - [Daniel Lassiter](http://web.stanford.edu/~danlass/) (University of Edinburgh)
     - [David Corfield](https://www.kent.ac.uk/philosophy/people/1689/corfield-david) (University of Kent)
