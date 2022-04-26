@@ -31,16 +31,15 @@ but related event running, hosted by David Corfield, that all are welcome to att
 
 - **Friday 17th - Meeting on Graded Types**
 
-Schedule TBD, but likely to last most of the day.
+    - [Harley Eades](https://metatheorem.org/), A Mixed Linear and Graded Logic 
+    - Pritam Choudhury
+    - [Dylan McDermott](https://dylanm.org/)
+    - [Edwin Brady](https://www.type-driven.org.uk/edwinb/)
+    - [Jean-Philippe Bernardy](https://jyp.github.io/)
 
-Speakers:
+    - + session of shorter talks (10 minutes)
 
-   - Harley Eades, A Mixed Linear and Graded Logic 
-   - Pritam Choudhury
-   - Dylan McDermott
-   - Edwin Brady
-   - Jean-Philippe Bernardy
-    
+Schedule TBD, but likely to last most of the day. 
 
 ### Signing up and attending in person
 
