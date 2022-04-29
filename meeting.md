@@ -33,11 +33,13 @@ but related event running, hosted by David Corfield, that all are welcome to att
 
 - **Friday 17th - Meeting on Graded Types**
 
-    - [Harley Eades](https://metatheorem.org/), (Augusta University) A Mixed Linear and Graded Logic 
+    - [Harley Eades](https://metatheorem.org/), (Augusta University) _A Mixed Linear and Graded Logic_
+    - [James Wood](https://personal.cis.strath.ac.uk/james.wood.100/), (University of Strathclyde) _Beyond semirings_
+     - [Jean-Philippe Bernardy](https://jyp.github.io/) (University of Gothenburg), _Graded Types For Extensible Dynamic Natural Language Semantics_
     - Pritam Choudhury (University of Pennsylvania)
     - [Dylan McDermott](https://dylanm.org/) (University of Reykjavik)
     - [Edwin Brady](https://www.type-driven.org.uk/edwinb/) (University of St. Andrews)
-    - [Jean-Philippe Bernardy](https://jyp.github.io/) (University of Gothenburg)
+    - [Jonathan Brachthäuser](http://ps.informatik.uni-tuebingen.de/team/brachthaeuser/) (University of Tübingen)
 
     - + session of shorter talks (10 minutes)
 
