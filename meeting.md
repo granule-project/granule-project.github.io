@@ -37,6 +37,22 @@ but related event running, hosted by David Corfield, that all are welcome to att
     - **Beyond semirings** [James Wood](https://personal.cis.strath.ac.uk/james.wood.100/), (University of Strathclyde)
     - **Graded Types For Extensible Dynamic Natural Language Semantics** [Jean-Philippe Bernardy](https://jyp.github.io/) (University of Gothenburg)
     - **Effects, capabilities, and boxes: from scope-based reasoning to type-based reasoning and back**, [Jonathan Brachthäuser](http://ps.informatik.uni-tuebingen.de/team/brachthaeuser/) (University of Tübingen)
+
+    <div class="abstract">
+    Reasoning about the use of external resources is an important aspect of many
+practical applications. Effect systems enable tracking
+such information in types, but at the cost of complicating signatures of
+common functions. Capabilities coupled with escape analysis offer
+safety and natural signatures, but are often overly coarse grained and restrictive. We present SystemC,
+which builds on and generalizes ideas from type-based escape analysis and demonstrates that capabilities and effects can be
+reconciled harmoniously. By assuming that all functions are _second class_, we can
+admit natural signatures for many common programs. By introducing a notion of
+_boxed values_, we can lift the restrictions of second-class values at the cost of
+needing to track degree-of-impurity information in types. The system we
+present is expressive enough to support effect handlers in full capacity. We
+practically evaluate SystemC in an implementation and prove its soundness.
+    </div>
+
     - **TBD**, Pritam Choudhury (University of Pennsylvania)
     - **TBD**, [Dylan McDermott](https://dylanm.org/) (University of Reykjavik)
     - **TBD**, [Edwin Brady](https://www.type-driven.org.uk/edwinb/) (University of St. Andrews)
@@ -54,3 +70,24 @@ Schedule TBD, but likely to last most of the day.
 - There is a lot of accommodation nearby if you want to stay overnight. One recommendation is [Acacia Lodge](https://www.acacialodge.co.uk/) (which is near to the train station and again about 30 minutes walk from campus) or the [Beverly Farmhouse](https://www.kent.ac.uk/conferences-and-events/holidays/beverley-farmhouse) (which is on campus).
 
 - Any questions please contact [Dominic Orchard](mailto:d.a.orchard@kent.ac.uk).
+
+    <script>
+      //
+      var abstracts = document.getElementsByClassName("abstract");
+      for (let i=0; i<abstracts.length; i++){
+	  abstracts[i].style.display = "none";
+	  let showButton = document.createElement("span");
+	  showButton.innerHTML = "(abstract)";
+	  showButton.addEventListener("click", function() {
+	      if (abstracts[i].style.display == "none") {
+		  showButton.innerHTML = "(hide)";
+		  abstracts[i].style.display = "";
+	      } else {
+ 		  showButton.innerHTML = "(abstract)";
+		  abstracts[i].style.display = "none";
+              }
+	  });
+	  showButton.className = "showButton";
+	  abstracts[i].parentNode.insertBefore(showButton, abstracts[i]);
+      }
+    </script>
