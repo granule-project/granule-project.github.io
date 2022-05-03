@@ -7,6 +7,12 @@ title: Meeting
 Meeting on Graded Types
 ------------------------
 
+<style>
+ li {
+  margin-bottom: 1.5em;
+ }
+</style>
+
 <span style='font-size:larger'>17th June 2022 - School of Computing, University of Kent (+ online)</span>
 
 Graded type systems can be understood broadly as
