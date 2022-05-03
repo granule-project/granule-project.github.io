@@ -36,8 +36,7 @@ but related event running, hosted by David Corfield, that all are welcome to att
     - **A Mixed Linear and Graded Logic**, [Harley Eades](https://metatheorem.org/), (Augusta University) 
     - **Beyond semirings** [James Wood](https://personal.cis.strath.ac.uk/james.wood.100/), (University of Strathclyde)
     - **Graded Types For Extensible Dynamic Natural Language Semantics** [Jean-Philippe Bernardy](https://jyp.github.io/) (University of Gothenburg)
-    - **Effects, capabilities, and boxes: from scope-based reasoning to type-based reasoning and back**, [Jonathan Brachthäuser](http://ps.informatik.uni-tuebingen.de/team/brachthaeuser/) (University of Tübingen)
-    <div class="abstract">
+    - **Effects, capabilities, and boxes: from scope-based reasoning to type-based reasoning and back**, [Jonathan Brachthäuser](http://ps.informatik.uni-tuebingen.de/team/brachthaeuser/) (University of Tübingen)<div class="abstract">
     Reasoning about the use of external resources is an important aspect of many
 practical applications. Effect systems enable tracking
 such information in types, but at the cost of complicating signatures of
