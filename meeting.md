@@ -48,8 +48,7 @@ admit natural signatures for many common programs. By introducing a notion of
 _boxed values_, we can lift the restrictions of second-class values at the cost of
 needing to track degree-of-impurity information in types. The system we
 present is expressive enough to support effect handlers in full capacity. We
-practically evaluate SystemC in an implementation and prove its soundness.
-    </div>
+practically evaluate SystemC in an implementation and prove its soundness.</div>
 
     - **TBD**, Pritam Choudhury (University of Pennsylvania)
     - **TBD**, [Dylan McDermott](https://dylanm.org/) (University of Reykjavik)
