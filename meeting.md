@@ -59,10 +59,7 @@ but related event running, hosted by David Corfield, that all are welcome to att
 
       [Jean-Philippe Bernardy](https://jyp.github.io/) (University of Gothenburg)
 
-    - **Effects, capabilities, and boxes: from scope-based reasoning to type-based reasoning and back**,
-
-      [Jonathan Brachthäuser](http://ps.informatik.uni-tuebingen.de/team/brachthaeuser/) (University of Tübingen)
-        <div class="abstract">Reasoning about the use of external resources is an important aspect of many
+    - **Effects, capabilities, and boxes: from scope-based reasoning to type-based reasoning and back** <div class="abstract">Reasoning about the use of external resources is an important aspect of many
 practical applications. Effect systems enable tracking
 such information in types, but at the cost of complicating signatures of
 common functions. Capabilities coupled with escape analysis offer
@@ -74,6 +71,8 @@ _boxed values_, we can lift the restrictions of second-class values at the cost 
 needing to track degree-of-impurity information in types. The system we
 present is expressive enough to support effect handlers in full capacity. We
 practically evaluate SystemC in an implementation and prove its soundness.</div>
+
+      [Jonathan Brachthäuser](http://ps.informatik.uni-tuebingen.de/team/brachthaeuser/) (University of Tübingen)
 
     - Pritam Choudhury (University of Pennsylvania)
       
