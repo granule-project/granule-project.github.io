@@ -42,7 +42,7 @@ but related event running, hosted by David Corfield, that all are welcome to att
     - **TBD**, [Edwin Brady](https://www.type-driven.org.uk/edwinb/) (University of St. Andrews)
     - **TBD**, [Andrew Hirsch](https://akhirsch.science/) (Max Planck Institute)
 
-    - + session of shorter talks (10 minutes)
+    - And a session of shorter talks (10 minutes)
 
 Schedule TBD, but likely to last most of the day. 
 
