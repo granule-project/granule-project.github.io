@@ -9,7 +9,8 @@ Meeting on Graded Types
 
 <style>
  li {
-  margin-bottom: 1.5em;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
  }
 </style>
 
