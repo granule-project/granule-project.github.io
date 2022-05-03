@@ -27,9 +27,14 @@ but related event running, hosted by David Corfield, that all are welcome to att
 
    [Further details of this workshop](http://128.2.67.219/davidcorfield/show/Graded+Modalities)
 
-    - **Linguistic targets for graded modalities** [Daniel Lassiter](http://web.stanford.edu/~danlass/) (University of Edinburgh)
-    - **Graded Modal Types for Fine-grained Program Reasoning** [Dominic Orchard](https://granule-project.github.io) (University of Kent and University of Cambridge)
-    - **Graded modalities and dependent type theory** [David Corfield](https://www.kent.ac.uk/philosophy/people/1689/corfield-david) (University of Kent)
+    - **Linguistic targets for graded modalities**
+      [Daniel Lassiter](http://web.stanford.edu/~danlass/) (University of Edinburgh)
+
+    - **Graded Modal Types for Fine-grained Program Reasoning**
+      [Dominic Orchard](https://granule-project.github.io) (University of Kent and University of Cambridge)
+
+    - **Graded modalities and dependent type theory**
+      [David Corfield](https://www.kent.ac.uk/philosophy/people/1689/corfield-david) (University of Kent)
     
 - **Friday 17th - Meeting on Graded Types**
 
