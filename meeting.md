@@ -76,13 +76,13 @@ practically evaluate SystemC in an implementation and prove its soundness.</div>
 
       [Jonathan Brachthäuser](http://ps.informatik.uni-tuebingen.de/team/brachthaeuser/) (University of Tübingen)
 
-    - Pritam Choudhury (University of Pennsylvania)
+    - **Title TBD** Pritam Choudhury (University of Pennsylvania)
       
-    - [Dylan McDermott](https://dylanm.org/) (University of Reykjavik)
+    - **Title TBD** [Dylan McDermott](https://dylanm.org/) (University of Reykjavik)
       
-    - [Edwin Brady](https://www.type-driven.org.uk/edwinb/) (University of St. Andrews)
+    - **Title TBD** [Edwin Brady](https://www.type-driven.org.uk/edwinb/) (University of St. Andrews)
 
-    - [Andrew Hirsch](https://akhirsch.science/) (Max Planck Institute)
+    - **Title TBD** [Andrew Hirsch](https://akhirsch.science/) (Max Planck Institute)
 
     - And a session of shorter talks (10 minutes)
 
