@@ -41,10 +41,21 @@ but related event running, hosted by David Corfield, that all are welcome to att
     
 - **Friday 17th - Meeting on Graded Types**
 
-    - **A Mixed Linear and Graded Logic**, [Harley Eades](https://metatheorem.org/), (Augusta University) 
-    - **Beyond semirings** [James Wood](https://personal.cis.strath.ac.uk/james.wood.100/), (University of Strathclyde)
-    - **Graded Types For Extensible Dynamic Natural Language Semantics** [Jean-Philippe Bernardy](https://jyp.github.io/) (University of Gothenburg)
-    - **Effects, capabilities, and boxes: from scope-based reasoning to type-based reasoning and back**, [Jonathan Brachthäuser](http://ps.informatik.uni-tuebingen.de/team/brachthaeuser/) (University of Tübingen)
+    - **A Mixed Linear and Graded Logic**
+
+      [Harley Eades](https://metatheorem.org/), (Augusta University)
+      
+    - **Beyond semirings**
+
+      [James Wood](https://personal.cis.strath.ac.uk/james.wood.100/), (University of Strathclyde)
+ 
+    - **Graded Types For Extensible Dynamic Natural Language Semantics**
+
+      [Jean-Philippe Bernardy](https://jyp.github.io/) (University of Gothenburg)
+
+    - **Effects, capabilities, and boxes: from scope-based reasoning to type-based reasoning and back**,
+
+      [Jonathan Brachthäuser](http://ps.informatik.uni-tuebingen.de/team/brachthaeuser/) (University of Tübingen)
         <div class="abstract">Reasoning about the use of external resources is an important aspect of many
 practical applications. Effect systems enable tracking
 such information in types, but at the cost of complicating signatures of
@@ -58,10 +69,13 @@ needing to track degree-of-impurity information in types. The system we
 present is expressive enough to support effect handlers in full capacity. We
 practically evaluate SystemC in an implementation and prove its soundness.</div>
 
-    - **TBD**, Pritam Choudhury (University of Pennsylvania)
-    - **TBD**, [Dylan McDermott](https://dylanm.org/) (University of Reykjavik)
-    - **TBD**, [Edwin Brady](https://www.type-driven.org.uk/edwinb/) (University of St. Andrews)
-    - **TBD**, [Andrew Hirsch](https://akhirsch.science/) (Max Planck Institute)
+    - Pritam Choudhury (University of Pennsylvania)
+      
+    - [Dylan McDermott](https://dylanm.org/) (University of Reykjavik)
+      
+    - [Edwin Brady](https://www.type-driven.org.uk/edwinb/) (University of St. Andrews)
+
+    - [Andrew Hirsch](https://akhirsch.science/) (Max Planck Institute)
 
     - And a session of shorter talks (10 minutes)
 
