@@ -10,11 +10,14 @@ Members of the Project
 
 - Dominic Orchard, University of Kent, [website](https://www.cs.kent.ac.uk/people/staff/dao7/)
 - Harley Eades III, Augusta University, [website](http://metatheorem.org/)
+
+#### Co-Investigators
 - Vineet Rajani, University of Kent, [website](https://vineetrajani.github.io/)
+- Michael Vollmer, University of Kent, [website](http://recurial.com/) 
 
 #### Post docs
 
-- Michael Vollmer, University of Kent, [website](http://recurial.com/) 
+- Marco Paviotti, University of Kent, [website](https://mpaviotti.github.io/)
 
 #### Research assistants
 - Tori Vollmer, University of Kent
