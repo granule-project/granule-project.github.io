@@ -76,7 +76,9 @@ practically evaluate SystemC in an implementation and prove its soundness.</div>
 
       [Jonathan Brachthäuser](http://ps.informatik.uni-tuebingen.de/team/brachthaeuser/) (University of Tübingen)
 
-    - **Title TBD** Pritam Choudhury (University of Pennsylvania)
+    - **From Ungraded to Graded: A Historical Perspective on Linear Type Systems**
+    
+      Pritam Choudhury (University of Pennsylvania)
       
     - **Title TBD** [Dylan McDermott](https://dylanm.org/) (University of Reykjavik)
       
