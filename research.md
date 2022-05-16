@@ -5,17 +5,17 @@ title: Publications
 
 #### Publications
 
-* [__Replicate, Reuse, Repeat: Capturing Non-Linear Communication via Session Types and Graded Modal Types__](https://arxiv.org/abs/2203.12875) <span class="practice">practice</span>
-  - __Daniel Marshall, Dominic Orchard__
-  - [PLACES 2022](https://places-workshop.github.io/)
-
 * [__How to Take the Inverse of a Type__](http://granule-project.github.io/papers/ecoop22-paper.pdf) <span class="theory">theory</span>
   - __Daniel Marshall, Dominic Orchard__
   - [ECOOP 2022](https://2022.ecoop.org) (functional pearl)
 
-* [__Linearity and Uniqueness: An Entente Cordiale__](http://granule-project.github.io/papers/esop22-paper.pdf) <span class="theory">theory</span><span class="practice">practice</span>
+* [__Linearity and Uniqueness: An Entente Cordiale__](https://link.springer.com/chapter/10.1007/978-3-030-99336-8_13) <span class="theory">theory</span><span class="practice">practice</span>
   - __Daniel Marshall, Michael Vollmer, Dominic Orchard__
   - [ESOP 2022](https://etaps.org/2022/esop)
+
+* [__Replicate, Reuse, Repeat: Capturing Non-Linear Communication via Session Types and Graded Modal Types__](https://arxiv.org/abs/2203.12875) <span class="practice">practice</span>
+  - __Daniel Marshall, Dominic Orchard__
+  - [PLACES 2022](https://places-workshop.github.io/)
 
 * [__Linear Exponentials as Graded Modal Types__](https://hal-lirmm.ccsd.cnrs.fr/TLLA2021/lirmm-03271465) <span class="theory">theory</span>
   - __Jack Hughes, Daniel Marshall, James Wood, Dominic Orchard__
