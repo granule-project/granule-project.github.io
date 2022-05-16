@@ -8,7 +8,7 @@
 @import "bootstrap-4-jekyll/bootstrap-4-jekyll";
 @import "bootstrap_customization";
 
-.theory, .practice, .paper , .award , .job, .implementation {
+.theory, .practice, .paper , .award , .job, .implementation, .staff {
     color: white;
     padding: 2pt;
     padding-top: 1pt;
@@ -42,6 +42,10 @@
 
 .job {
     background: red;
+}
+
+.staff {
+    background: green;
 }
 
 ul {
