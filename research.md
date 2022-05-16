@@ -40,7 +40,7 @@ title: Publications
   - Granule implementation available [here](https://github.com/granule-project/granule/releases/tag/v0.7.8.0).
   - Won __Best Paper Award__.
 
-*  [__Towards Graded Modal Dependent Types__](papers/towards-graded-modal-dependent-types.pdf) (extended abstract) <span class="practice">theory</span>
+*  [__Towards Graded Modal Dependent Types__](papers/towards-graded-modal-dependent-types.pdf) (extended abstract) <span class="theory">theory</span>
    - __Benjamin Moon, Harley Eades III, and Dominic Orchard__
    - 2-page extended abstract at TyDe 2020 introducing ideas on Graded Modal Dependent Type Theory.
 
