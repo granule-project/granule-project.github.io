@@ -86,7 +86,8 @@ practically evaluate SystemC in an implementation and prove its soundness.</div>
 
     - **Title TBD** [Andrew Hirsch](https://akhirsch.science/) (Max Planck Institute)
 
-    - And a session of shorter talks (10 minutes)
+    - Short talk session
+       - **Unifying models of linear/graded dependent types** [Bob Atkey](https://bentnib.org/)
 
 Schedule TBD, but likely to last most of the day. 
 
