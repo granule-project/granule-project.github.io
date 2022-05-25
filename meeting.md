@@ -80,9 +80,8 @@ practically evaluate SystemC in an implementation and prove its soundness.</div>
     
       Pritam Choudhury (University of Pennsylvania)
       
-    - **Giving Semantics to Program-Counter Labels via Secure Effects** [Andrew Hirsch](https://akhirsch.science/) (Max Planck Institute)
-     <div class="abstract">
-     Graded monads have been particularly successful in enforcing
+    - **Giving Semantics to Program-Counter Labels via Secure Effects** 
+     <div class="abstract">Graded monads have been particularly successful in enforcing
 information-flow security and giving semantics to type-and-effect
 systems. However, works on information-flow security reason about
 effects no using a graded monad, but using special labels known as
@@ -94,8 +93,9 @@ not so ad-hoc after all. Moreover, by using this semantics we are able
 to develop a proof technique we call "noninterference half-off." This
 technique uses the monadic semantics of effects to ensure that
 program-counter--label manipulations in an information-flow type
-system correctly ensure noninterference.
-      </div>
+system correctly ensure noninterference.</div>
+
+      [Andrew Hirsch](https://akhirsch.science/) (Max Planck Institute)
 
     - **Title TBD** [Dylan McDermott](https://dylanm.org/) (University of Reykjavik)
       
