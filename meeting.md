@@ -81,7 +81,7 @@ practically evaluate SystemC in an implementation and prove its soundness.</div>
       Pritam Choudhury (University of Pennsylvania)
       
     - **Giving Semantics to Program-Counter Labels via Secure Effects** 
-     <div class="abstract">Graded monads have been particularly successful in enforcing
+      <div class="abstract">Graded monads have been particularly successful in enforcing
 information-flow security and giving semantics to type-and-effect
 systems. However, works on information-flow security reason about
 effects no using a graded monad, but using special labels known as
