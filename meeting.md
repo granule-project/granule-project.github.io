@@ -10,7 +10,7 @@ Meeting on Graded Types
 <style>
  li {
   margin-top: 0.5em;
-  margin-bottom: 0.5em;
+  margin-bottom: 0.5em; 
  }
 </style>
 
@@ -76,10 +76,6 @@ practically evaluate SystemC in an implementation and prove its soundness.</div>
 
       [Jonathan Brachthäuser](http://ps.informatik.uni-tuebingen.de/team/brachthaeuser/) (University of Tübingen)
 
-    - **From Ungraded to Graded: A Historical Perspective on Linear Type Systems**
-    
-      Pritam Choudhury (University of Pennsylvania)
-      
     - **Giving Semantics to Program-Counter Labels via Secure Effects** 
       <div class="abstract">Graded monads have been particularly successful in enforcing
 information-flow security and giving semantics to type-and-effect
@@ -96,6 +92,10 @@ program-counter--label manipulations in an information-flow type
 system correctly ensure noninterference.</div>
 
       [Andrew Hirsch](https://akhirsch.science/) (Max Planck Institute)
+
+    - **From Ungraded to Graded: A Historical Perspective on Linear Type Systems**
+    
+      Pritam Choudhury (University of Pennsylvania)
 
     - **Title TBD** [Dylan McDermott](https://dylanm.org/) (University of Reykjavik)
       
