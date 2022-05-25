@@ -80,11 +80,26 @@ practically evaluate SystemC in an implementation and prove its soundness.</div>
     
       Pritam Choudhury (University of Pennsylvania)
       
+    - **Giving Semantics to Program-Counter Labels via Secure Effects** [Andrew Hirsch](https://akhirsch.science/) (Max Planck Institute)
+     <div class="abstract">
+     Graded monads have been particularly successful in enforcing
+information-flow security and giving semantics to type-and-effect
+systems. However, works on information-flow security reason about
+effects no using a graded monad, but using special labels known as
+"program-counter labels." This work explores how program-counter
+labels interact with graded monads for effects, by showing that
+program-counter labels indeed have semantics as effects. Thus, we see
+that the ad-hoc reasoning about effects in information-flow circles is
+not so ad-hoc after all. Moreover, by using this semantics we are able
+to develop a proof technique we call "noninterference half-off." This
+technique uses the monadic semantics of effects to ensure that
+program-counter--label manipulations in an information-flow type
+system correctly ensure noninterference.
+      </div>
+
     - **Title TBD** [Dylan McDermott](https://dylanm.org/) (University of Reykjavik)
       
     - **Title TBD** [Edwin Brady](https://www.type-driven.org.uk/edwinb/) (University of St. Andrews)
-
-    - **Title TBD** [Andrew Hirsch](https://akhirsch.science/) (Max Planck Institute)
 
     - Short talk session
        - **Unifying models of linear/graded dependent types** [Bob Atkey](https://bentnib.org/)
