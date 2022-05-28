@@ -25,8 +25,8 @@ permissions via various kinds of (co)effect types captures via graded
 modal types.
 
 Our project spans theoretical and practical work.  We are actively
-developing a prototype implementation of language with graded, linear,
+developing an implementation of a language with graded, linear,
 and indexed types called [Granule](/granule.html) based on our
 research.  In addition, we are developing a new dependent type theory
 that will greatly expand the expressive power of Granule's type
-system.
+system. This is currently implemented in another language called [Gerty](https://github.com/granule-project/gerty).
