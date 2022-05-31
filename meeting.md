@@ -93,43 +93,8 @@ system correctly ensure noninterference.</div>
 
       [Andrew Hirsch](https://akhirsch.science/) (Max Planck Institute)
 
-    - **From Ungraded to Graded: A Historical Perspective on Linear Type Systems**
-      <div class="abstract"><p>In this talk, I shall trace the evolution of linear type systems. The early linear type 
-systems that followed the introduction of linear logic by Girard faced several syntactic 
-problems, particularly with regard to substitution. The main reason behind these problems 
-was their ungraded nature. Such systems implicitly assumed that every contextual assumption 
-is linear in nature, thereby modelling non-linear assumptions as linear !-assumptions. This  
-modelling came with a price --- in these systems, the promotion rule does not commute with 
-substitution. To address this problem, later systems baked substitution directly into the 
-promotion rule. But that made their promotion rule quite complicated. Soon it was realized 
-that a graded presentation of a linear type system can be simpler and more elegant. Two such 
-graded linear type systems were introduced in quick succession --- Linear/Nonlinear Lambda-calculus 
-by Benton and Dual Intuitionistic Linear Logic by Barber. These systems split contexts into 
-two zones, one containing linear assumptions and the other containing nonlinear ones. With this 
-grading of contexts, these systems did away with the syntactic problems their earlier counterparts faced. </p><p>Benton's and Barber's systems are graded; however, the grades are tightly coupled with the 
-contextual zones in these systems. While this coupling does not present any problem in simple 
-linear type systems, it becomes a limiting factor in the design of dependent linear type systems.
-So for a long time linear types and dependent types didn't see eye to eye. </p>
-<p>Meanwhile, progress was being made in the design of general graded type systems for tracking coeffects.
-Coeffects, of which linearity is but an example, model how computations depend upon their contexts. 
-A distinguishing feature of these coeffect-tracking systems is that they represent coeffects using 
-elements of an abstract semiring and use those elements to grade the contextual assumptions. Instead 
-of dividing the context into graded zones, these systems grade individual assumptions and manipulate 
-those grades via the semiring operations. Such a grading mechanism allows an assumption to appear at 
-different grades in typing rules with two or more premise judgments; something that would be quite 
-difficult to allow with zoned contexts. This flexibility provided by general graded type systems 
-set the stage required for the design of a dependent linear type system. </p>
-<p>However, a final breakthrough was necessary: the realization that 0 can be used as a placeholder to 
-mark assumptions that cannot be `consumed'. McBride provided this final breakthrough and integrated 
-linear types and dependent types in an elegant manner. In fact, he went further by treating 0 as a 
-number in its own right, thereby enabling a simultaneous analysis of irrelevance in his linear dependent
-type system. McBride's system inspired the design of several linear dependent systems, notably QTT, 
-GraD, Grtty, etc. and is a topic of ongoing research. His system also forms the basis of run-time 
-irrelevance analysis in Agda and linearity analysis in Idris 2.</p><p>This evolution of linear type systems parallels the evolution of numbers in human history. First, 
-there was just a number-sense. Then came the numbers, but they were tightly connected to physical 
-objects like notches on bones, knots on strings, beads on abacus, etc. Finally, people learned to 
-see numbers abstractly. This final breakthrough was made possible, in part, by the positional numeral 
-system and the discovery of 0, first as a placeholder and then as a number in its own right.</p></div>
+    - **From Ungraded to Graded: A Historical Perspective on Linear Type Systems** 
+      <div class="abstract"><p>In this talk, I shall trace the evolution of linear type systems. The early linear type systems that followed the introduction of linear logic by Girard faced several syntactic problems, particularly with regard to substitution. The main reason behind these problems was their ungraded nature. Such systems implicitly assumed that every contextual assumption is linear in nature, thereby modelling non-linear assumptions as linear !-assumptions. This modelling came with a price --- in these systems, the promotion rule does not commute with substitution. To address this problem, later systems baked substitution directly into the promotion rule. But that made their promotion rule quite complicated. Soon it was realized that a graded presentation of a linear type system can be simpler and more elegant. Two such graded linear type systems were introduced in quick succession --- Linear/Nonlinear Lambda-calculus by Benton and Dual Intuitionistic Linear Logic by Barber. These systems split contexts into two zones, one containing linear assumptions and the other containing nonlinear ones. With this grading of contexts, these systems did away with the syntactic problems their earlier counterparts faced. </p><p>Benton's and Barber's systems are graded; however, the grades are tightly coupled with the contextual zones in these systems. While this coupling does not present any problem in simple linear type systems, it becomes a limiting factor in the design of dependent linear type systems. So for a long time linear types and dependent types didn't see eye to eye. </p><p>Meanwhile, progress was being made in the design of general graded type systems for tracking coeffects. Coeffects, of which linearity is but an example, model how computations depend upon their contexts. A distinguishing feature of these coeffect-tracking systems is that they represent coeffects using elements of an abstract semiring and use those elements to grade the contextual assumptions. Instead of dividing the context into graded zones, these systems grade individual assumptions and manipulate those grades via the semiring operations. Such a grading mechanism allows an assumption to appear at different grades in typing rules with two or more premise judgments; something that would be quite difficult to allow with zoned contexts. This flexibility provided by general graded type systems set the stage required for the design of a dependent linear type system. </p> <p>However, a final breakthrough was necessary: the realization that 0 can be used as a placeholder to mark assumptions that cannot be `consumed'. McBride provided this final breakthrough and integrated  linear types and dependent types in an elegant manner. In fact, he went further by treating 0 as a number in its own right, thereby enabling a simultaneous analysis of irrelevance in his linear dependent type system. McBride's system inspired the design of several linear dependent systems, notably QTT, GraD, Grtty, etc. and is a topic of ongoing research. His system also forms the basis of run-time irrelevance analysis in Agda and linearity analysis in Idris 2.</p><p>This evolution of linear type systems parallels the evolution of numbers in human history. First, there was just a number-sense. Then came the numbers, but they were tightly connected to physical objects like notches on bones, knots on strings, beads on abacus, etc. Finally, people learned to see numbers abstractly. This final breakthrough was made possible, in part, by the positional numeral system and the discovery of 0, first as a placeholder and then as a number in its own right.</p></div>
 
       Pritam Choudhury (University of Pennsylvania)
 
