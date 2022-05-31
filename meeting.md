@@ -110,7 +110,7 @@ grading of contexts, these systems did away with the syntactic problems their ea
 <p>Benton's and Barber's systems are graded; however, the grades are tightly coupled with the 
 contextual zones in these systems. While this coupling does not present any problem in simple 
 linear type systems, it becomes a limiting factor in the design of dependent linear type systems.
-	So for a long time linear types and dependent types didn't see eye to eye. </p>
+So for a long time linear types and dependent types didn't see eye to eye. </p>
 <p>Meanwhile, progress was being made in the design of general graded type systems for tracking coeffects.
 Coeffects, of which linearity is but an example, model how computations depend upon their contexts. 
 A distinguishing feature of these coeffect-tracking systems is that they represent coeffects using 
@@ -119,20 +119,20 @@ of dividing the context into graded zones, these systems grade individual assump
 those grades via the semiring operations. Such a grading mechanism allows an assumption to appear at 
 different grades in typing rules with two or more premise judgments; something that would be quite 
 difficult to allow with zoned contexts. This flexibility provided by general graded type systems 
-	set the stage required for the design of a dependent linear type system. </p>
+set the stage required for the design of a dependent linear type system. </p>
 <p>However, a final breakthrough was necessary: the realization that 0 can be used as a placeholder to 
 mark assumptions that cannot be `consumed'. McBride provided this final breakthrough and integrated 
 linear types and dependent types in an elegant manner. In fact, he went further by treating 0 as a 
 number in its own right, thereby enabling a simultaneous analysis of irrelevance in his linear dependent
 type system. McBride's system inspired the design of several linear dependent systems, notably QTT, 
 GraD, Grtty, etc. and is a topic of ongoing research. His system also forms the basis of run-time 
-	irrelevance analysis in Agda and linearity analysis in Idris 2.</p>
+irrelevance analysis in Agda and linearity analysis in Idris 2.</p>
 <p>This evolution of linear type systems parallels the evolution of numbers in human history. First, 
 there was just a number-sense. Then came the numbers, but they were tightly connected to physical 
 objects like notches on bones, knots on strings, beads on abacus, etc. Finally, people learned to 
 see numbers abstractly. This final breakthrough was made possible, in part, by the positional numeral 
-	system and the discovery of 0, first as a placeholder and then as a number in its own right.</p></div>
-      
+system and the discovery of 0, first as a placeholder and then as a number in its own right.</p></div>
+
       Pritam Choudhury (University of Pennsylvania)
 
     - **Title TBD** [Dylan McDermott](https://dylanm.org/) (University of Reykjavik)
