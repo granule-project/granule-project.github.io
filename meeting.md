@@ -106,8 +106,7 @@ that a graded presentation of a linear type system can be simpler and more elega
 graded linear type systems were introduced in quick succession --- Linear/Nonlinear Lambda-calculus 
 by Benton and Dual Intuitionistic Linear Logic by Barber. These systems split contexts into 
 two zones, one containing linear assumptions and the other containing nonlinear ones. With this 
-grading of contexts, these systems did away with the syntactic problems their earlier counterparts faced. </p>
-<p>Benton's and Barber's systems are graded; however, the grades are tightly coupled with the 
+grading of contexts, these systems did away with the syntactic problems their earlier counterparts faced. </p><p>Benton's and Barber's systems are graded; however, the grades are tightly coupled with the 
 contextual zones in these systems. While this coupling does not present any problem in simple 
 linear type systems, it becomes a limiting factor in the design of dependent linear type systems.
 So for a long time linear types and dependent types didn't see eye to eye. </p>
@@ -126,8 +125,7 @@ linear types and dependent types in an elegant manner. In fact, he went further 
 number in its own right, thereby enabling a simultaneous analysis of irrelevance in his linear dependent
 type system. McBride's system inspired the design of several linear dependent systems, notably QTT, 
 GraD, Grtty, etc. and is a topic of ongoing research. His system also forms the basis of run-time 
-irrelevance analysis in Agda and linearity analysis in Idris 2.</p>
-<p>This evolution of linear type systems parallels the evolution of numbers in human history. First, 
+irrelevance analysis in Agda and linearity analysis in Idris 2.</p><p>This evolution of linear type systems parallels the evolution of numbers in human history. First, 
 there was just a number-sense. Then came the numbers, but they were tightly connected to physical 
 objects like notches on bones, knots on strings, beads on abacus, etc. Finally, people learned to 
 see numbers abstractly. This final breakthrough was made possible, in part, by the positional numeral 
