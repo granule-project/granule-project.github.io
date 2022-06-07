@@ -98,7 +98,10 @@ system correctly ensure noninterference.</div>
 
       Pritam Choudhury (University of Pennsylvania)
 
-    - **Title TBD** [Dylan McDermott](https://dylanm.org/) (University of Reykjavik)
+    - **Canonical gradings of monads**
+      <div class="abstract"><p>Many of the graded monads that have been used as models of effect systems "look like" graded versions of existing ordinary monads, in that, on each grade, they are given by restricting the monad. This raises the question of whether we can somehow canonically grade a given monad. It turns out that we can. Given a notion of subfunctor, we obtain a notion of grading of a monad, consisting of a collection of grades, and a subfunctor for each grade, forming a graded monad. Under reasonable conditions, every monad has a grading that is canonical (satisfies a particular universal property). I will talk about how this construction works, and demonstrate it with some examples. This is based on joint work with Flavien Breuvart and Tarmo Uustalu.</p></div>
+      
+      [Dylan McDermott](https://dylanm.org/) (University of Reykjavik)
       
     - **Title TBD** [Edwin Brady](https://www.type-driven.org.uk/edwinb/) (University of St. Andrews)
 
