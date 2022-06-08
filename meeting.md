@@ -48,7 +48,7 @@ but related event running, hosted by David Corfield, that all are welcome to att
     
 - **Friday 17th - Meeting on Graded Types**
 
-     - 09:30 - **Opening remarks**, Dominic Orchard
+     - 09:30 - *Opening remarks*, Dominic Orchard
 
      - 09:40 - **Giving Semantics to Program-Counter Labels via Secure Effects** 
        <div class="abstract">Graded monads have been particularly successful in enforcing information-flow security and giving semantics to type-and-effect systems. However, works on information-flow security reason about effects no using a graded monad, but using special labels known as "program-counter labels." This work explores how program-counter labels interact with graded monads for effects, by showing that program-counter labels indeed have semantics as effects. Thus, we see that the ad-hoc reasoning about effects in information-flow circles is not so ad-hoc after all. Moreover, by using this semantics we are able to develop a proof technique we call "noninterference half-off." This technique uses the monadic semantics of effects to ensure that program-counter--label manipulations in an information-flow type system correctly ensure noninterference.</div>
@@ -60,7 +60,7 @@ but related event running, hosted by David Corfield, that all are welcome to att
       
       [Dylan McDermott](https://dylanm.org/) (University of Reykjavik)
       
-    - 10:40 - __Coffee break__ 
+    - 10:40 - *Coffee break*
 
     - 11:10 - **Beyond semirings**
 
@@ -70,7 +70,7 @@ but related event running, hosted by David Corfield, that all are welcome to att
 
       [Jean-Philippe Bernardy](https://jyp.github.io/) (University of Gothenburg)
 
-    - 12:10 - __Lunch__
+    - 12:10 - *Lunch*
 
     - 13:30 - **Effects, capabilities, and boxes: from scope-based reasoning to type-based reasoning and back**
       <div class="abstract">Reasoning about the use of external resources is an important aspect of many
@@ -95,7 +95,7 @@ practically evaluate SystemC in an implementation and prove its soundness.</div>
 
       Pritam Choudhury (University of Pennsylvania)
       
-  - 15:00 - __Coffee break__
+  - 15:00 - *Coffee break*
      
   - 15:30 - **A Mixed Linear and Graded Logic**
 
