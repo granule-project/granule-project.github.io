@@ -48,35 +48,9 @@ but related event running, hosted by David Corfield, that all are welcome to att
     
 - **Friday 17th - Meeting on Graded Types**
 
-    - **A Mixed Linear and Graded Logic**
+     - 09:30 - **Opening remarks**, Dominic Orchard
 
-      [Harley Eades](https://metatheorem.org/), (Augusta University)
-      
-    - **Beyond semirings**
-
-      [James Wood](https://personal.cis.strath.ac.uk/james.wood.100/), (University of Strathclyde)
- 
-    - **Graded Types For Extensible Dynamic Natural Language Semantics**
-
-      [Jean-Philippe Bernardy](https://jyp.github.io/) (University of Gothenburg)
-
-    - **Effects, capabilities, and boxes: from scope-based reasoning to type-based reasoning and back**
-      <div class="abstract">Reasoning about the use of external resources is an important aspect of many
-practical applications. Effect systems enable tracking
-such information in types, but at the cost of complicating signatures of
-common functions. Capabilities coupled with escape analysis offer
-safety and natural signatures, but are often overly coarse grained and restrictive. We present SystemC,
-which builds on and generalizes ideas from type-based escape analysis and demonstrates that capabilities and effects can be
-reconciled harmoniously. By assuming that all functions are _second class_, we can
-admit natural signatures for many common programs. By introducing a notion of
-_boxed values_, we can lift the restrictions of second-class values at the cost of
-needing to track degree-of-impurity information in types. The system we
-present is expressive enough to support effect handlers in full capacity. We
-practically evaluate SystemC in an implementation and prove its soundness.</div>
-
-      [Jonathan Brachthäuser](http://ps.informatik.uni-tuebingen.de/team/brachthaeuser/) (University of Tübingen)
-
-    - **Giving Semantics to Program-Counter Labels via Secure Effects** 
+     - 09:40 - **Giving Semantics to Program-Counter Labels via Secure Effects** 
       <div class="abstract">Graded monads have been particularly successful in enforcing
 information-flow security and giving semantics to type-and-effect
 systems. However, works on information-flow security reason about
@@ -93,22 +67,61 @@ system correctly ensure noninterference.</div>
 
       [Andrew Hirsch](https://akhirsch.science/) (Max Planck Institute)
 
-    - **From Ungraded to Graded: A Historical Perspective on Linear Type Systems** 
-      <div class="abstract"><p>In this talk, I shall trace the evolution of linear type systems. The early linear type systems that followed the introduction of linear logic by Girard faced several syntactic problems, particularly with regard to substitution. The main reason behind these problems was their ungraded nature. Such systems implicitly assumed that every contextual assumption is linear in nature, thereby modelling non-linear assumptions as linear !-assumptions. This modelling came with a price --- in these systems, the promotion rule does not commute with substitution. To address this problem, later systems baked substitution directly into the promotion rule. But that made their promotion rule quite complicated. Soon it was realized that a graded presentation of a linear type system can be simpler and more elegant. Two such graded linear type systems were introduced in quick succession --- Linear/Nonlinear Lambda-calculus by Benton and Dual Intuitionistic Linear Logic by Barber. These systems split contexts into two zones, one containing linear assumptions and the other containing nonlinear ones. With this grading of contexts, these systems did away with the syntactic problems their earlier counterparts faced. </p><p>Benton's and Barber's systems are graded; however, the grades are tightly coupled with the contextual zones in these systems. While this coupling does not present any problem in simple linear type systems, it becomes a limiting factor in the design of dependent linear type systems. So for a long time linear types and dependent types didn't see eye to eye. </p><p>Meanwhile, progress was being made in the design of general graded type systems for tracking coeffects. Coeffects, of which linearity is but an example, model how computations depend upon their contexts. A distinguishing feature of these coeffect-tracking systems is that they represent coeffects using elements of an abstract semiring and use those elements to grade the contextual assumptions. Instead of dividing the context into graded zones, these systems grade individual assumptions and manipulate those grades via the semiring operations. Such a grading mechanism allows an assumption to appear at different grades in typing rules with two or more premise judgments; something that would be quite difficult to allow with zoned contexts. This flexibility provided by general graded type systems set the stage required for the design of a dependent linear type system. </p> <p>However, a final breakthrough was necessary: the realization that 0 can be used as a placeholder to mark assumptions that cannot be `consumed'. McBride provided this final breakthrough and integrated  linear types and dependent types in an elegant manner. In fact, he went further by treating 0 as a number in its own right, thereby enabling a simultaneous analysis of irrelevance in his linear dependent type system. McBride's system inspired the design of several linear dependent systems, notably QTT, GraD, Grtty, etc. and is a topic of ongoing research. His system also forms the basis of run-time irrelevance analysis in Agda and linearity analysis in Idris 2.</p><p>This evolution of linear type systems parallels the evolution of numbers in human history. First, there was just a number-sense. Then came the numbers, but they were tightly connected to physical objects like notches on bones, knots on strings, beads on abacus, etc. Finally, people learned to see numbers abstractly. This final breakthrough was made possible, in part, by the positional numeral system and the discovery of 0, first as a placeholder and then as a number in its own right.</p></div>
-
-      Pritam Choudhury (University of Pennsylvania)
-
-    - **Canonical gradings of monads**
+    - 10:10 - **Canonical gradings of monads**
       <div class="abstract"><p>Many of the graded monads that have been used as models of effect systems "look like" graded versions of existing ordinary monads, in that, on each grade, they are given by restricting the monad. This raises the question of whether we can somehow canonically grade a given monad. It turns out that we can. Given a notion of subfunctor, we obtain a notion of grading of a monad, consisting of a collection of grades, and a subfunctor for each grade, forming a graded monad. Under reasonable conditions, every monad has a grading that is canonical (satisfies a particular universal property). I will talk about how this construction works, and demonstrate it with some examples. This is based on joint work with Flavien Breuvart and Tarmo Uustalu.</p></div>
       
       [Dylan McDermott](https://dylanm.org/) (University of Reykjavik)
       
-    - **Title TBD** [Edwin Brady](https://www.type-driven.org.uk/edwinb/) (University of St. Andrews)
+    - 10:40 - __Coffee break__ 
 
-    - Short talk session
-       - **Unifying models of linear/graded dependent types** [Bob Atkey](https://bentnib.org/)
+    - 11:10 - **Beyond semirings**
 
-Schedule TBD, but likely to last most of the day. 
+      [James Wood](https://personal.cis.strath.ac.uk/james.wood.100/), (University of Strathclyde)
+ 
+    - 11:40 - **Graded Types For Extensible Dynamic Natural Language Semantics**
+
+      [Jean-Philippe Bernardy](https://jyp.github.io/) (University of Gothenburg)
+
+    - 12:10 - __Lunch__
+
+    - 13:30 - **Effects, capabilities, and boxes: from scope-based reasoning to type-based reasoning and back**
+      <div class="abstract">Reasoning about the use of external resources is an important aspect of many
+practical applications. Effect systems enable tracking
+such information in types, but at the cost of complicating signatures of
+common functions. Capabilities coupled with escape analysis offer
+safety and natural signatures, but are often overly coarse grained and restrictive. We present SystemC,
+which builds on and generalizes ideas from type-based escape analysis and demonstrates that capabilities and effects can be
+reconciled harmoniously. By assuming that all functions are _second class_, we can
+admit natural signatures for many common programs. By introducing a notion of
+_boxed values_, we can lift the restrictions of second-class values at the cost of
+needing to track degree-of-impurity information in types. The system we
+present is expressive enough to support effect handlers in full capacity. We
+practically evaluate SystemC in an implementation and prove its soundness.</div>
+
+      [Jonathan Brachthäuser](http://ps.informatik.uni-tuebingen.de/team/brachthaeuser/) (University of Tübingen)
+
+  - 14:00 - **Title TBD** [Edwin Brady](https://www.type-driven.org.uk/edwinb/) (University of St. Andrews)
+
+  - 14:30 - **From Ungraded to Graded: A Historical Perspective on Linear Type Systems** 
+      <div class="abstract"><p>In this talk, I shall trace the evolution of linear type systems. The early linear type systems that followed the introduction of linear logic by Girard faced several syntactic problems, particularly with regard to substitution. The main reason behind these problems was their ungraded nature. Such systems implicitly assumed that every contextual assumption is linear in nature, thereby modelling non-linear assumptions as linear !-assumptions. This modelling came with a price --- in these systems, the promotion rule does not commute with substitution. To address this problem, later systems baked substitution directly into the promotion rule. But that made their promotion rule quite complicated. Soon it was realized that a graded presentation of a linear type system can be simpler and more elegant. Two such graded linear type systems were introduced in quick succession --- Linear/Nonlinear Lambda-calculus by Benton and Dual Intuitionistic Linear Logic by Barber. These systems split contexts into two zones, one containing linear assumptions and the other containing nonlinear ones. With this grading of contexts, these systems did away with the syntactic problems their earlier counterparts faced. </p><p>Benton's and Barber's systems are graded; however, the grades are tightly coupled with the contextual zones in these systems. While this coupling does not present any problem in simple linear type systems, it becomes a limiting factor in the design of dependent linear type systems. So for a long time linear types and dependent types didn't see eye to eye. </p><p>Meanwhile, progress was being made in the design of general graded type systems for tracking coeffects. Coeffects, of which linearity is but an example, model how computations depend upon their contexts. A distinguishing feature of these coeffect-tracking systems is that they represent coeffects using elements of an abstract semiring and use those elements to grade the contextual assumptions. Instead of dividing the context into graded zones, these systems grade individual assumptions and manipulate those grades via the semiring operations. Such a grading mechanism allows an assumption to appear at different grades in typing rules with two or more premise judgments; something that would be quite difficult to allow with zoned contexts. This flexibility provided by general graded type systems set the stage required for the design of a dependent linear type system. </p> <p>However, a final breakthrough was necessary: the realization that 0 can be used as a placeholder to mark assumptions that cannot be `consumed'. McBride provided this final breakthrough and integrated  linear types and dependent types in an elegant manner. In fact, he went further by treating 0 as a number in its own right, thereby enabling a simultaneous analysis of irrelevance in his linear dependent type system. McBride's system inspired the design of several linear dependent systems, notably QTT, GraD, Grtty, etc. and is a topic of ongoing research. His system also forms the basis of run-time irrelevance analysis in Agda and linearity analysis in Idris 2.</p><p>This evolution of linear type systems parallels the evolution of numbers in human history. First, there was just a number-sense. Then came the numbers, but they were tightly connected to physical objects like notches on bones, knots on strings, beads on abacus, etc. Finally, people learned to see numbers abstractly. This final breakthrough was made possible, in part, by the positional numeral system and the discovery of 0, first as a placeholder and then as a number in its own right.</p></div>
+
+      Pritam Choudhury (University of Pennsylvania)
+      
+  - 15:00 - __Coffee break__
+     
+  - 15:30 - **A Mixed Linear and Graded Logic**
+
+      [Harley Eades](https://metatheorem.org/), (Augusta University)
+     
+  - 16:00 - __Short talk session__
+  
+      - 16:00-16:15 - **Unifying models of linear/graded dependent types** [Bob Atkey](https://bentnib.org/)
+      - 16:15-16:30 - **Gradual Typing for Effects & Handlers** [Max New](https://maxsnew.com/)
+      - 16:30-16:45 - **Grading Digital Circuits** [Jan de Muijnck-Hughes](https://jfdm.github.io/)
+      - 16:45-17:00 - **Graded session types** [Daniel Marshall](https://starsandspira.ls/)
+      - 17:00-17:15 - **TBD** [Jack Hughes](https://www.jackohughes.com/)
+
+  - 17:15 - Close
 
 ### Signing up and attending in person
 
