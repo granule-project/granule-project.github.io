@@ -51,21 +51,9 @@ but related event running, hosted by David Corfield, that all are welcome to att
      - 09:30 - **Opening remarks**, Dominic Orchard
 
      - 09:40 - **Giving Semantics to Program-Counter Labels via Secure Effects** 
-      <div class="abstract">Graded monads have been particularly successful in enforcing
-information-flow security and giving semantics to type-and-effect
-systems. However, works on information-flow security reason about
-effects no using a graded monad, but using special labels known as
-"program-counter labels." This work explores how program-counter
-labels interact with graded monads for effects, by showing that
-program-counter labels indeed have semantics as effects. Thus, we see
-that the ad-hoc reasoning about effects in information-flow circles is
-not so ad-hoc after all. Moreover, by using this semantics we are able
-to develop a proof technique we call "noninterference half-off." This
-technique uses the monadic semantics of effects to ensure that
-program-counter--label manipulations in an information-flow type
-system correctly ensure noninterference.</div>
+       <div class="abstract">Graded monads have been particularly successful in enforcing information-flow security and giving semantics to type-and-effect systems. However, works on information-flow security reason about effects no using a graded monad, but using special labels known as "program-counter labels." This work explores how program-counter labels interact with graded monads for effects, by showing that program-counter labels indeed have semantics as effects. Thus, we see that the ad-hoc reasoning about effects in information-flow circles is not so ad-hoc after all. Moreover, by using this semantics we are able to develop a proof technique we call "noninterference half-off." This technique uses the monadic semantics of effects to ensure that program-counter--label manipulations in an information-flow type system correctly ensure noninterference.</div>
 
-      [Andrew Hirsch](https://akhirsch.science/) (Max Planck Institute)
+       [Andrew Hirsch](https://akhirsch.science/) (Max Planck Institute)
 
     - 10:10 - **Canonical gradings of monads**
       <div class="abstract"><p>Many of the graded monads that have been used as models of effect systems "look like" graded versions of existing ordinary monads, in that, on each grade, they are given by restricting the monad. This raises the question of whether we can somehow canonically grade a given monad. It turns out that we can. Given a notion of subfunctor, we obtain a notion of grading of a monad, consisting of a collection of grades, and a subfunctor for each grade, forming a graded monad. Under reasonable conditions, every monad has a grading that is canonical (satisfies a particular universal property). I will talk about how this construction works, and demonstrate it with some examples. This is based on joint work with Flavien Breuvart and Tarmo Uustalu.</p></div>
