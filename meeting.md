@@ -32,7 +32,7 @@ but related event running, hosted by David Corfield, that all are welcome to att
 
 - **Thursday 16th afternoon - 1-5pm - Grading in Philosophy, Linguistics and Computer Science**
 
-   [Further details of this workshop](http://128.2.67.219/davidcorfield/show/Graded+Modalities)
+   [Further details of this workshop](https://ncatlab.org/davidcorfield/show/Graded+Modalities)
 
     - **Linguistic targets for graded modalities**
     
