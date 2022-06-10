@@ -115,7 +115,7 @@ practically evaluate SystemC in an implementation and prove its soundness.</div>
 
 - [Sign up here](https://forms.gle/yYPp7kodQ8478nSZA)
 - Please tick 'In person' if you would like to attend in person on the form.
-- The School of Computing at the University of Kent is [about 30 minute walk from Canterbury West station](https://www.google.com/maps/dir/canterbury+west/Cornwallis+South+East+(Octagon),+University+Of+Kent,+St+Stephen's+Hill,+Canterbury+CT2+7NL/@51.2914835,1.0652968,15z/data=!3m1!4b1!4m14!4m13!1m5!1m1!1s0x47decbb6b38183cb:0x578821196fcdcd35!2m2!1d1.07533!2d51.28427!1m5!1m1!1s0x47decba874d2f7c7:0x6d4d3c9d25aaf5da!2m2!1d1.07126!2d51.2988783!3e2?hl=en), which is a bit less than an hour on the train from St. Pancras
+- The School of Computing at the University of Kent is [about 30 minute walk from Canterbury West station]([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](https://www.google.com/maps/dir/canterbury+west/Cornwallis+South+%26+South+West,+Canterbury+CT2+7NF,+UK/@51.2930298,1.0662997,15z/data=!4m14!4m13!1m5!1m1!1s0x47decbb6b38183cb:0x578821196fcdcd35!2m2!1d1.07533!2d51.28427!1m5!1m1!1s0x47decba7c6b71b0b:0xe2453d348bfa18a1!2m2!1d1.0701505!2d51.2985459!3e2?hl=en)) in the Cornwallis South building. Canterbury West is a bit less than an hour on the train from St. Pancras
 - There is a lot of accommodation nearby if you want to stay overnight. One recommendation is [Acacia Lodge](https://www.acacialodge.co.uk/) (which is near to the train station and again about 30 minutes walk from campus) or the [Beverly Farmhouse](https://www.kent.ac.uk/conferences-and-events/holidays/beverley-farmhouse) (which is on campus).
 
 - Any questions please contact [Dominic Orchard](mailto:d.a.orchard@kent.ac.uk).
