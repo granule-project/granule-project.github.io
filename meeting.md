@@ -27,7 +27,7 @@ The aim of this meeting is to bring together a wide variety of researchers worki
 
 ### Schedule
 
-This is a hybrid event. You can attend in person or online. On Thursday afternoon, there is a separate
+This is a hybrid event. You can attend in person or online. All times listed refer to the local time in Canterbury, or in other words the [UTC+1](https://time.is/UTC+1) timezone. On Thursday afternoon, there is a separate
 but related event running, hosted by David Corfield, that all are welcome to attend as part of this:
 
 - **Thursday 16th afternoon - 1-5pm - Grading in Philosophy, Linguistics and Computer Science**
