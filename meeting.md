@@ -103,7 +103,7 @@ practically evaluate SystemC in an implementation and prove its soundness.</div>
   - 15:30 - **A Mixed Linear and Graded Logic**
       <div class="abstract">Benton showed in his seminal paper on Linear/Non-Linear logic and models that the of-course modality of linear logic can be split into two modalities connecting intuitionistic logic with linear logic forming a symmetric monoidal adjunction. In this paper, we give a similar result showing that graded modalities can be split into two modalities connecting graded logic with linear logic.  We propose a sequent calculus, its proof theory and categorical model, and a natural deduction system in the form of a term assignment system which is shown to be isomorphic to the sequent calculus.  One interesting aspect of our system is it can be seen as Linear/Non-Linear logic composed with an action that adds the grading.</div>
 
-      [Harley Eades](https://metatheorem.org/), (Augusta University)
+      [Harley Eades III](https://metatheorem.org/), (Augusta University)
      
   - 16:00 - __Short talk session__
   
