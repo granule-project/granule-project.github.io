@@ -63,6 +63,7 @@ but related event running, hosted by David Corfield, that all are welcome to att
     - 10:40 - *Coffee break*
 
     - 11:10 - **Beyond semirings**
+      <div class="abstract">Semirings have served as the basic algebraic structure for abstracting over usage restriction schemes in most of our work. Addition captures accumulation, while muliplication captures modality. However, in certain settings we feel either that we can't find the right semiring (for example, to yield multiplicative-additive linear logic) or that the semiring operations are not quite the ones we want (for example, when doing type-checking in the presence of additive units). In this talk, I will present both positive and negative results about semiring-like structures we may want to explore. </div>
 
       [James Wood](https://personal.cis.strath.ac.uk/james.wood.100/), (University of Strathclyde)
  
