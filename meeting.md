@@ -2,7 +2,6 @@
 layout: page
 mathjax: true
 title: Meeting
----
 
 Meeting on Graded Types
 ------------------------
@@ -111,13 +110,12 @@ practically evaluate SystemC in an implementation and prove its soundness.</div>
   
       - 16:00-16:15 - **Unifying models of linear/graded dependent types** [Bob Atkey](https://bentnib.org/)
       - 16:15-16:30 - **Gradual Typing for Effects & Handlers** [Max New](https://maxsnew.com/)
-      - 16:30-16:45 - **Grading Digital Circuits** [Jan de Muijnck-Hughes](https://jfdm.github.io/)
-      - 16:45-17:00 - **Graded session types** [Daniel Marshall](https://starsandspira.ls/)
-      - 17:00-17:15 - **Program synthesis with linear and graded types** [Jack Hughes](https://www.jackohughes.com/)
-      - 17:15-17:30 - **Modal Subtyping for Grade Inference** [Michael Arntzenius](http://www.rntz.net/)
-      - 17:30-17:45 - **Weighted Sets and Modalities** [Vikraman Choudhury](https://vikraman.org/)
+      - 16:30-16:45 - **Graded session types** [Daniel Marshall](https://starsandspira.ls/)
+      - 16:45-17:00 - **Program synthesis with linear and graded types** [Jack Hughes](https://www.jackohughes.com/)
+      - 17:00-17:15 - **Modal Subtyping for Grade Inference** [Michael Arntzenius](http://www.rntz.net/)
+      - 17:15-17:30 - **Weighted Sets and Modalities** [Vikraman Choudhury](https://vikraman.org/)
 
-  - 17:45 - Close
+  - 17:30 - Close
 
 ### Signing up and attending in person
 
