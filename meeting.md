@@ -2,6 +2,7 @@
 layout: page
 mathjax: true
 title: Meeting
+---
 
 Meeting on Graded Types
 ------------------------
