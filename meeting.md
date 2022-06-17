@@ -67,14 +67,7 @@ but related event running, hosted by David Corfield, that all are welcome to att
 
       [James Wood](https://personal.cis.strath.ac.uk/james.wood.100/), (University of Strathclyde)
  
-    - 11:40 - **Graded Types For Extensible Dynamic Natural Language Semantics**
-      <div class="abstract"> Research in dynamic semantics has made strides by studying various aspects of discourse in terms of computational effect systems, for example, monads (Shan, 2002; Unger, 2011; Charlow, 2014), continuations (de Groote, 2001; Barker and Shan, 2014), and general effect handlers (Maršik, 2016). We provide a system, based on graded monads, that synthesizes insights from these programs by formalizing individual discourse phenomena in terms of separate effects, or grades. Included are effects for introducing and retrieving discourse referents, non-determinism for indefiniteness, and generalized quantifier meanings. We formalize the behavior of individual effects, as well as the interactions between effects, in terms of algebraic laws tailored to the relevant discourse phenomena. The system we propose is thus modular and suggests a novel approach to integrating formal accounts of distinct semantic phenomena. Finally, we give an interpretation of the system into pure λ-calculus that respects the laws. Future work will aim to integrate more discourse phenomena using the same methodology, for example, presupposition and conventional implicature.</div>
-
-      [Jean-Philippe Bernardy](https://jyp.github.io/) (University of Gothenburg)
-
-    - 12:10 - *Lunch*
-
-    - 13:30 - **Effects, capabilities, and boxes: from scope-based reasoning to type-based reasoning and back**
+    - 11:40 - **Effects, capabilities, and boxes: from scope-based reasoning to type-based reasoning and back**
       <div class="abstract">Reasoning about the use of external resources is an important aspect of many
 practical applications. Effect systems enable tracking
 such information in types, but at the cost of complicating signatures of
@@ -89,6 +82,13 @@ present is expressive enough to support effect handlers in full capacity. We
 practically evaluate SystemC in an implementation and prove its soundness.</div>
 
       [Jonathan Brachthäuser](http://ps.informatik.uni-tuebingen.de/team/brachthaeuser/) (University of Tübingen)
+
+    - 12:10 - *Lunch*
+
+    - 13:30 - **Graded Types For Extensible Dynamic Natural Language Semantics**
+      <div class="abstract"> Research in dynamic semantics has made strides by studying various aspects of discourse in terms of computational effect systems, for example, monads (Shan, 2002; Unger, 2011; Charlow, 2014), continuations (de Groote, 2001; Barker and Shan, 2014), and general effect handlers (Maršik, 2016). We provide a system, based on graded monads, that synthesizes insights from these programs by formalizing individual discourse phenomena in terms of separate effects, or grades. Included are effects for introducing and retrieving discourse referents, non-determinism for indefiniteness, and generalized quantifier meanings. We formalize the behavior of individual effects, as well as the interactions between effects, in terms of algebraic laws tailored to the relevant discourse phenomena. The system we propose is thus modular and suggests a novel approach to integrating formal accounts of distinct semantic phenomena. Finally, we give an interpretation of the system into pure λ-calculus that respects the laws. Future work will aim to integrate more discourse phenomena using the same methodology, for example, presupposition and conventional implicature.</div>
+
+      [Jean-Philippe Bernardy](https://jyp.github.io/) (University of Gothenburg)
 
   - 14:00 - **Idris 2: Quantitative Type Theory in Practice**
     <div class="abstract">Dependent types allow us to express precisely what a function is intended to do. Recent work on Quantitative Type Theory (QTT) extends dependent type systems with linearity, also allowing precision in expressing when a function can run. This is promising, because it suggests the ability to design and reason about resource usage protocols, such as we might find in distributed and concurrent programming, where the state of a communication channel changes throughout program execution.  Idris 2 is a new version of the dependently typed language Idris, with a new core language based on QTT, supporting linear and dependent types, which allows us to experiment with these ideas. I will describe Idris 2, and how QTT has influenced its design, giving examples of QTT in practice. Further, I will describe some limitations of QTT as implemented in Idris 2, which we would like to address in future work.</div>
