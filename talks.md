@@ -8,6 +8,10 @@ Talks (videos)
 
 Some videos of talks we have given about our work in various different venues.
 
+#### Huawei Programming Language Technology Salon | Issue 14: Graded (Modal) Types for Fine-grained Program Reasoning (Dominic Orchard, May 2022)
+
+<iframe src="//player.bilibili.com/player.html?aid=897017111&bvid=BV1DA4y1Z734&cid=735237482&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
+
 #### Interview for the 47 Degrees "Immutable Conversations" podcast (Dominic Orchard, June 2021)
 
 <iframe width="640" height="360" src="https://www.youtube.com/embed/6yswyRQGsRQ" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
