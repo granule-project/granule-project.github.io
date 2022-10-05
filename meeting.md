@@ -16,6 +16,8 @@ Meeting on Graded Types
 
 <span style='font-size:larger'>17th June 2022 - School of Computing, University of Kent (+ online)</span>
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/UauRsFiX8k8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe><br />
+
 Graded type systems can be understood broadly as
  imbuing type systems with additional information that follows the underlying structure of a program or proof.
 This idea has grown considerably in recent years with various forms of graded type system being developed, for example, from generalisations of effect
