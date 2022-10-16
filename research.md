@@ -5,7 +5,7 @@ title: Publications
 
 #### Publications
 
-* [__How to Take the Inverse of a Type__](http://granule-project.github.io/papers/ecoop22-paper.pdf) <span class="theory">theory</span>
+* [__How to Take the Inverse of a Type__](https://drops.dagstuhl.de/opus/frontdoor.php?source_opus=16233) <span class="theory">theory</span>
   - __Daniel Marshall, Dominic Orchard__
   - [ECOOP 2022](https://2022.ecoop.org) (functional pearl)
 
