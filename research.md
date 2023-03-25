@@ -11,7 +11,8 @@ title: Publications
 
 * [__Linearity and Uniqueness: An Entente Cordiale__](https://link.springer.com/chapter/10.1007/978-3-030-99336-8_13) <span class="theory">theory</span><span class="practice">practice</span>
   - __Daniel Marshall, Michael Vollmer, Dominic Orchard__
-  - [ESOP 2022](https://etaps.org/2022/esop), ([appendices](https://zenodo.org/record/5919194#.ZB3ZlOzP1jw))
+  - [ESOP 2022](https://etaps.org/2022/esop)
+  - [Supplementary material: appendices](https://zenodo.org/record/5919194#.ZB3ZlOzP1jw)
 
 * [__Replicate, Reuse, Repeat: Capturing Non-Linear Communication via Session Types and Graded Modal Types__](https://arxiv.org/abs/2203.12875) <span class="practice">practice</span>
   - __Daniel Marshall, Dominic Orchard__
