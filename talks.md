@@ -18,10 +18,19 @@ Some videos of talks we have given about our work in various different venues.
 <iframe width="640" height="360" src="https://www.youtube.com/embed/6yswyRQGsRQ" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 <br />
 
+### ESOP 2021 - Graded Modal Dependent Type Theory
+
+<iframe width="640" height="360" src="https://www.youtube.com/embed/mJLNjd4hIqw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+
 #### End of the 2020 review (Dominic Orchard)
 
 <iframe width="640" height="360" src="https://www.youtube.com/embed/7r4H1vWIOVk" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 <br />
+
+#### MSFP 2020 - Unifying graded and parameterised monads
+
+<iframe width="640" height="360" src="https://www.youtube.com/embed/nWArZM6jrmc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 
 ##### TyDe 2020 workshop (online) "Towards Graded Modal Type Theory" (Benjamin Moon)
