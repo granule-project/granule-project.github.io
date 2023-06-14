@@ -11,22 +11,18 @@ Members of the Project
 - Dominic Orchard, University of Kent, [website](https://www.cs.kent.ac.uk/people/staff/dao7/)
 - Harley Eades III, Augusta University, [website](http://metatheorem.org/)
 
-#### Co-Investigators
+#### Collaborators
+- Marco Paviotti, University of Kent, [website](https://mpaviotti.github.io/)
 - Vineet Rajani, University of Kent, [website](https://vineetrajani.github.io/)
 - Michael Vollmer, University of Kent, [website](http://recurial.com/) 
-
-#### Post docs
-
-- Marco Paviotti, University of Kent, [website](https://mpaviotti.github.io/)
-
-#### Research assistants
-- Tori Vollmer, University of Kent
 
 #### PhD Students
 - Vilem-Benjamin Liepelt, University of Kent, [website](https://github.com/buggymcbugfix)
 - Peter Hanukaev, Augusta University
 - Jack Hughes, University of Kent
 - Daniel Marshall, University of Kent, [website](https://starsandspira.ls/)
+- Paulo Torrens, University of Kent
+- Tori Vollmer, University of Kent
 
 #### Project alumni
 - Ben Moon, University of Kent, [website](https://github.com/GuiltyDolphin)
