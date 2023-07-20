@@ -15,9 +15,9 @@
     <img src="../images/gr-blue.png" />
   </div>
   <b>Built-in primitives</b><br /><br />
-<section><h2>Meta-data</h2><ul></ul></section><section><h2>Data types</h2><div class='code'><pre>data () where
-  ()</pre></div><div class='desc'></div><div class='code'><pre>data IOElem where
-  Stdout;
+<section><ul></ul></section><section><h2>Data types</h2><div class='code'><pre>data () where
+()</pre></div><div class='desc'></div><div class='code'><pre>data IOElem where
+Stdout;
     Stdin;
     Stderr;
     Open;
@@ -25,20 +25,20 @@
     Write;
     IOExcept;
     Close</pre></div><div class='desc'>-----------------------------------------------------------------------------</div><div class='code'><pre>data Handle HandleType -> Type where
-  </pre></div><div class='desc'>-----------------------------------------------------------------------------</div><div class='code'><pre>data HandleType where
-  R;
+</pre></div><div class='desc'>-----------------------------------------------------------------------------</div><div class='code'><pre>data HandleType where
+R;
     W;
     A;
     RW</pre></div><div class='desc'></div><div class='code'><pre>data IOMode HandleType -> Type where
-  ReadMode : IOMode R;
+ReadMode : IOMode R;
     WriteMode : IOMode W;
     AppendMode : IOMode A;
-    ReadWriteMode : IOMode RW</pre></div><div class='desc'></div><div class='code'><pre>data ArrayStack (capacity, Nat) (maxIndex, Nat) (a, Type) where
-  </pre></div><div class='desc'>-----------------------------------------------------------------------------</div><div class='code'><pre>data BenchList where
-  BenchGroupString BenchList BenchList;
+    ReadWriteMode : IOMode RW</pre></div><div class='desc'></div><div class='code'><pre>data ArrayStack (capacity : Nat) (maxIndex : Nat) (a : Type) where
+</pre></div><div class='desc'>-----------------------------------------------------------------------------</div><div class='code'><pre>data BenchList where
+BenchGroupString BenchList BenchList;
     BenchInt String Int [(0 : Ext Nat)..∞] -> () <{Stdout}> BenchList;
     Done</pre></div><div class='desc'>-----------------------------------------------------------------------------</div><div class='code'><pre>data Capability where
-  Console;
+Console;
     TimeDate</pre></div><div class='desc'>-----------------------------------------------------------------------------</div></section><section><h2>Definitions</h2><div class='code'><pre>use : forall {a : Type} . a -> a [1]</pre></div><div class='desc'></div><div class='code'><pre>compose : forall {a : Type, b : Type, c : Type} . (b -> c) -> (a -> b) -> a -> c</pre></div><div class='desc'></div><div class='code'><pre>div : Int -> Int -> Int</pre></div><div class='desc'>-----------------------------------------------------------------------------</div><div class='code'><pre>pure : forall {a : Type} . a -> a <Pure></pre></div><div class='desc'>-----------------------------------------------------------------------------</div><div class='code'><pre>fromPure : forall {a : Type} . a <Pure> -> a</pre></div><div class='desc'></div><div class='code'><pre>fromStdin : String <{Stdin}></pre></div><div class='desc'></div><div class='code'><pre>toStdout : String -> () <{Stdout}></pre></div><div class='desc'></div><div class='code'><pre>toStderr : String -> () <{Stderr}></pre></div><div class='desc'></div><div class='code'><pre>throw : forall {a : Type, k : Coeffect} . (a [(0 : k)]) <MayFail></pre></div><div class='desc'>-----------------------------------------------------------------------------</div><div class='code'><pre>showChar : Char -> String</pre></div><div class='desc'>-----------------------------------------------------------------------------</div><div class='code'><pre>intToFloat : Int -> Float</pre></div><div class='desc'></div><div class='code'><pre>showInt : Int -> String</pre></div><div class='desc'></div><div class='code'><pre>showFloat : Float -> String</pre></div><div class='desc'></div><div class='code'><pre>readInt : String -> Int</pre></div><div class='desc'></div><div class='code'><pre>fork : forall {s : Protocol, k : Coeffect, c : k} . {SingleAction s, ExactSemiring k} =>
     ((Chan s) [c] -> () <Session>) -> ((Chan (Dual s)) [c]) <Session></pre></div><div class='desc'>-----------------------------------------------------------------------------</div><div class='code'><pre>forkLinear : forall {s : Protocol} . (LChan s -> ()) -> LChan (Dual s)</pre></div><div class='desc'></div><div class='code'><pre>forkLinear' : forall {p : Protocol, s : Coeffect} . ((LChan p) [(1 : s)] -> ()) -> LChan (Dual p)</pre></div><div class='desc'></div><div class='code'><pre>send : forall {a : Type, s : Protocol} . LChan (Send a s) -> a -> LChan s</pre></div><div class='desc'></div><div class='code'><pre>recv : forall {a : Type, s : Protocol} . LChan (Recv a s) -> (a, LChan s)</pre></div><div class='desc'></div><div class='code'><pre>close : LChan End -> ()</pre></div><div class='desc'></div><div class='code'><pre>selectLeft : forall {p1 : Protocol, p2 : Protocol} . LChan (Select p1 p2) -> LChan p1</pre></div><div class='desc'></div><div class='code'><pre>selectRight : forall {p1 : Protocol, p2 : Protocol} . LChan (Select p1 p2) -> LChan p2</pre></div><div class='desc'></div><div class='code'><pre>offer : forall {p1 : Protocol, p2 : Protocol, a : Type} . (LChan p1 -> a) -> (LChan p2 -> a) -> LChan (Offer p1 p2) -> a</pre></div><div class='desc'></div><div class='code'><pre>gsend : forall {a : Type, s : Protocol} . Chan (Send a s) -> a -> (Chan s) <Session></pre></div><div class='desc'></div><div class='code'><pre>grecv : forall {a : Type, s : Protocol} . Chan (Recv a s) -> (a, Chan s) <Session></pre></div><div class='desc'></div><div class='code'><pre>gclose : Chan End -> () <Session></pre></div><div class='desc'></div><div class='code'><pre>forkNonLinear : forall {p : Protocol, s : Coeffect, r : s} . {SingleAction p, ExactSemiring s} =>
     ((LChan p) [r] -> ()) -> (LChan (Dual p)) [r]</pre></div><div class='desc'></div><div class='code'><pre>forkMulticast : forall {p : Protocol, n : Nat} . {Sends p} =>

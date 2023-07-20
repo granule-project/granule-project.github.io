@@ -15,8 +15,8 @@
     <img src="../images/gr-blue.png" />
   </div>
   <b>Module Fix</b><br /><br />
-<section><h2>Meta-data</h2><ul><li><b>Module</b>: Fix</li><li><b>Description</b>: Type level fixpoint</li><li><b>Authors</b>: Vilem-Benjamin Liepelt</li><li><b>License</b>: BSD3</li><li><b>Copyright</b>: (c) Authors 2018</li><li><b>Issue-tracking</b>: https://github.com/granule-project/granule/issues</li><li><b>Repository</b>: https://github.com/granule-project/granule</li></ul></section><section><h2>Data types</h2><div class='code'><pre>data Fix (f, Type -> Type) where
-  Fixf (Fix f)</pre></div><div class='desc'></div></section><section><h2>Definitions</h2><div class='code'><pre>unfix : forall {a : Type, f : Type -> Type} . Fix f -> f (Fix f)</pre></div><div class='desc'></div></section>
+<section><ul><li><b>Module</b>: Fix</li><li><b>Description</b>: Type level fixpoint</li><li><b>Authors</b>: Vilem-Benjamin Liepelt</li><li><b>License</b>: BSD3</li><li><b>Copyright</b>: (c) Authors 2018</li><li><b>Issue-tracking</b>: https://github.com/granule-project/granule/issues</li><li><b>Repository</b>: https://github.com/granule-project/granule</li></ul></section><section><h2>Data types</h2><div class='code'><pre>data Fix (f : Type -> Type) where
+Fixf (Fix f)</pre></div><div class='desc'></div></section><section><h2>Definitions</h2><div class='code'><pre>unfix : forall {a : Type, f : Type -> Type} . Fix f -> f (Fix f)</pre></div><div class='desc'></div></section>
 </div>
 </body>
 </html>

@@ -15,8 +15,8 @@
     <img src="../images/gr-blue.png" />
   </div>
   <b>Module Result</b><br /><br />
-<section><h2>Meta-data</h2><ul><li><b>Module</b>: Result</li><li><b>Description</b>: A result data type for computations that can fail (Result + documentation)</li><li><b>Authors</b>: Vilem-Benjamin Liepelt, Dominic Orchard</li><li><b>License</b>: BSD3</li><li><b>Copyright</b>: (c) Authors 2018</li><li><b>Issue-tracking</b>: https://github.com/dorchard/granule/issues</li><li><b>Repository</b>: https://github.com/dorchard/granule</li></ul></section><section><h2>Data types</h2><div class='code'><pre>data Result (a, Type) where
-  Oka;
+<section><ul><li><b>Module</b>: Result</li><li><b>Description</b>: A result data type for computations that can fail (Result + documentation)</li><li><b>Authors</b>: Vilem-Benjamin Liepelt, Dominic Orchard</li><li><b>License</b>: BSD3</li><li><b>Copyright</b>: (c) Authors 2018</li><li><b>Issue-tracking</b>: https://github.com/dorchard/granule/issues</li><li><b>Repository</b>: https://github.com/dorchard/granule</li></ul></section><section><h2>Data types</h2><div class='code'><pre>data Result (a : Type) where
+Oka;
     FailedString [0..1]</pre></div><div class='desc'> # Result type</div></section><section><h2>Definitions</h2><div class='code'><pre>fromResult : forall {a : Type} . a [0..1] -> Result a -> a</pre></div><div class='desc'></div><div class='code'><pre>return_res : forall {a : Type} . a -> Result a</pre></div><div class='desc'></div><div class='code'><pre>bind_res : forall {a : Type, b : Type} . Result a -> (a -> Result b) [0..1] -> Result b</pre></div><div class='desc'></div></section>
 </div>
 </body>

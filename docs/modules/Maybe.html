@@ -15,8 +15,8 @@
     <img src="../images/gr-blue.png" />
   </div>
   <b>Module Maybe</b><br /><br />
-<section><h2>Meta-data</h2><ul><li><b>Module</b>: Maybe</li><li><b>Description</b>: Library for working with values that may be absent</li><li><b>Authors</b>: Vilem-Benjamin Liepelt, Dominic Orchard</li><li><b>License</b>: BSD3</li><li><b>Copyright</b>: (c) Authors 2018</li><li><b>Issue-tracking</b>: https://github.com/dorchard/granule/issues</li><li><b>Repository</b>: https://github.com/dorchard/granule</li></ul></section><section><h2>Data types</h2><div class='code'><pre>data Maybe (a, Type) where
-  None;
+<section><ul><li><b>Module</b>: Maybe</li><li><b>Description</b>: Library for working with values that may be absent</li><li><b>Authors</b>: Vilem-Benjamin Liepelt, Dominic Orchard</li><li><b>License</b>: BSD3</li><li><b>Copyright</b>: (c) Authors 2018</li><li><b>Issue-tracking</b>: https://github.com/dorchard/granule/issues</li><li><b>Repository</b>: https://github.com/dorchard/granule</li></ul></section><section><h2>Data types</h2><div class='code'><pre>data Maybe (a : Type) where
+None;
     Somea</pre></div><div class='desc'> Type-safe null; wrap a computation that could fail</div></section><section><h2>Definitions</h2><div class='code'><pre>maybe : forall {a : Type, b : Type} . b [0..1] -> (a -> b) [0..1] -> Maybe a -> b</pre></div><div class='desc'></div><div class='code'><pre>returnMb : forall {a : Type} . a -> Maybe a</pre></div><div class='desc'></div><div class='code'><pre>bindMb : forall {a : Type, b : Type} . Maybe a -> (a -> Maybe b) [0..1] -> Maybe b</pre></div><div class='desc'></div><div class='code'><pre>fromMaybe : forall {a : Type} . a [0..1] -> Maybe a -> a</pre></div><div class='desc'></div><div class='code'><pre>isSome : forall {a : Type} . Maybe (a [0]) -> Bool</pre></div><div class='desc'> Whether a `Maybe a` value is `Some a`</div><div class='code'><pre>isNone : forall {a : Type} . Maybe (a [0]) -> Bool</pre></div><div class='desc'> Whether a `Maybe a` value is `None`</div></section>
 </div>
 </body>
