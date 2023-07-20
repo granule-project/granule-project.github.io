@@ -22,6 +22,13 @@ This uses the [Granule Language Server (grls)](https://github.com/granule-projec
 
 <img src="https://github.com/granule-project/granule/raw/dev-minor/server/vscode-diagnostics.gif" />
 
+Additional key bindings in vscode:
+
+* `Ctrl-e Ctrl-e`: attempts to synthesis a goal in a hole (written either `?` or `{! !}`.
+* `Ctrl-e Ctrl-h`: attempts to rewrite the non-empty hole under the cursor (if there is one)
+* `Ctrl-e Ctrl-u`: converts ASCII characters to their Unicode equivalents in the whole file.
+* `Ctrl-e Ctrl-a`: converts Unicode characters to their ASCII equivalents in the whole file.
+
 ## [Documentation](https://granule-project.github.io/docs)
 
 ## [Exercises](https://granule-project.github.io/splv23-exercises.pdf)
