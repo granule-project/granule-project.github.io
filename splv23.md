@@ -1,6 +1,7 @@
 ---
-layout: start
-title: The Granule Project
+layout: page
+mathjax: true
+title: The Granule Project - SPLV23 material
 ---
 
 <style>
@@ -9,7 +10,20 @@ title: The Granule Project
   }
 </style>
 
-## Downloading / installing Granule
+SPLV'23 Material
+------------------------------
+
+## Getting Granule
+
+The latest release is [v0.9.3.0](https://github.com/granule-project/granule/releases).
+There are binaries for Mac OSX (amd) and Linux. [However, you may need to build yourself
+if your platform isn't provide](https://github.com/granule-project/granule/blob/main/README.md#installation).
+
+If all else fails:
+
+* There is an [online version](https://tio.run/#granule) although it is running an older version of Granule and won't work for all examples.
+
+* There is a Docker image from.
 
 ## Granule Language Server and VSCode Extension
 
