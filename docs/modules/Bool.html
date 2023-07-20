@@ -16,7 +16,7 @@
   </div>
   <b>Module Bool</b><br /><br />
 <section><ul><li><b>Module</b>: Bool</li><li><b>Description</b>: Booleans and associated functions for Granule</li><li><b>Authors</b>: Dominic Orchard, Vilem-Benjamin Liepelt</li><li><b>License</b>: BSD3</li><li><b>Copyright</b>: (c) Authors 2018</li><li><b>Issue-tracking</b>: https://github.com/dorchard/granule/issues</li><li><b>Repository</b>: https://github.com/dorchard/granule</li></ul></section><section><h2>Data types</h2><div class='code'><pre>data Bool where
-False;
+    False;
     True</pre></div><div class='desc'> Boolean</div></section><section><h2>Definitions</h2><div class='code'><pre>dropB : Bool -> ()</pre></div><div class='desc'></div><div class='code'><pre>not : Bool -> Bool</pre></div><div class='desc'> Logical negation</div><div class='code'><pre>and : Bool -> Bool [0..1] -> Bool</pre></div><div class='desc'> Logical and NB: non-strict in second argument</div><div class='code'><pre>and' : Bool -> Bool -> Bool</pre></div><div class='desc'> Logical and (linear) NB: consumes both arguments</div><div class='code'><pre>or : Bool -> Bool [0..1] -> Bool</pre></div><div class='desc'> Inclusive or NB: non-strict in second argument</div><div class='code'><pre>or' : Bool -> Bool -> Bool</pre></div><div class='desc'> Inclusive or (linear)</div><div class='code'><pre>xor : Bool -> Bool -> Bool</pre></div><div class='desc'> Exclusive or</div><div class='code'><pre>impl : Bool -> Bool [0..1] -> Bool</pre></div><div class='desc'> Logical implication NB: non-strict in second argument</div><div class='code'><pre>impl' : Bool -> Bool -> Bool</pre></div><div class='desc'> Logical implication (linear) NB: strict in both arguments</div></section>
 </div>
 </body>
