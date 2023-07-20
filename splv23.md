@@ -40,7 +40,7 @@ If all else fails:
 There is an extension for VSCode that you can get in the usual way from
 inside VSCode:
 
-<img src="images/vscode-extension.png" style='width:200px' />
+<img src="images/vscode-extension.png" style='width:350px' />
 
 This uses the [Granule Language Server (grls)](https://github.com/granule-project/granule/tree/main/server) if you want to get support in any other editor that support the LSP.
 
