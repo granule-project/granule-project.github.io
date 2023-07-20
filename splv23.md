@@ -16,7 +16,7 @@ SPLV'23 Material
 ### Getting Granule
 
 The latest release is [v0.9.3.0](https://github.com/granule-project/granule/releases).
-There are binaries for Mac OSX (amd) and Linux. [However, you may need to build yourself
+There are binaries for Mac OSX (ARM) and Linux. [However, you may need to build yourself
 if your platform isn't provide](https://github.com/granule-project/granule/blob/main/README.md#installation).
 
 If all else fails:
