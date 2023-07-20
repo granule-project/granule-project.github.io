@@ -11,6 +11,9 @@
 <a href='../index.html'><i>Top-level</i><br /></a><ul><li><a href='Primitives.html'>Primitives</a></li><br /><li><a href='Bool.html'>Bool</a></li><li><a href='Choice.html'>Choice</a></li><li><a href='Either.html'>Either</a></li><li><a href='Existential.html'>Existential</a></li><li><a href='File.html'>File</a></li><li><a href='Fin.html'>Fin</a></li><li><a href='Fix.html'>Fix</a></li><li><a href='Graph.html'>Graph</a></li><li><a href='List.html'>List</a></li><li><a href='Maybe.html'>Maybe</a></li><li><a href='Nat.html'>Nat</a></li><li><a href='Parallel.html'>Parallel</a></li><li><a href='Prelude.html'>Prelude</a></li><li><a href='Result.html'>Result</a></li><li><a href='Stack.html'>Stack</a></li><li><a href='Vec.html'>Vec</a></li></ul>
 </div>
 <div id="content">
+  <div id="logo">
+    <img src="../images/gr-blue.png" />
+  </div>
   <b>Module Stack</b><br /><br />
 <section><h2>Meta-data</h2><ul></ul></section><section><h2>Data types</h2></section><section><h2>Definitions</h2><div class='code'>pop : forall {n : Nat, a : Type} . Vec (n + 1) a -> (a, Vec n a)</div><div class='desc'></div><div class='code'>push : forall {n : Nat, a : Type} . a -> Vec n a -> Vec (n + 1) a</div><div class='desc'></div><div class='code'>peek : forall {n : Nat, a : Type} . (Vec (n + 1) a) [1..2] -> (a, Vec (n + 1) a)</div><div class='desc'></div><div class='code'>peek' : forall {m : Ext Nat, a : _ka, n : Nat} . Vec (n + 1) (a [m..(m + 1)]) -> (a, Vec (n + 1) (a [m..m]))</div><div class='desc'></div><div class='code'>peek'' : forall {n : Nat, a : Type} . Vec (n + 1) (a [1..2]) -> (a, Vec (n + 1) a)</div><div class='desc'></div></section>
 </div>
