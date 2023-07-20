@@ -13,7 +13,7 @@ title: The Granule Project - SPLV23 material
 SPLV'23 Material
 ------------------------------
 
-## Getting Granule
+### Getting Granule
 
 The latest release is [v0.9.3.0](https://github.com/granule-project/granule/releases).
 There are binaries for Mac OSX (amd) and Linux. [However, you may need to build yourself
@@ -25,12 +25,12 @@ If all else fails:
 
 * There is a Docker image from.
 
-## Granule Language Server and VSCode Extension
+### Granule Language Server and VSCode Extension
 
 There is an extension for VSCode that you can get in the usual way from
 inside VSCode:
 
-<img src="images/vscode-extension.pdf" />
+<img src="images/vscode-extension.png" />
 
 This uses the [Granule Language Server (grls)](https://github.com/granule-project/granule/tree/main/server) if you want to get support in any other editor that support the LSP.
 
@@ -43,12 +43,11 @@ Additional key bindings in vscode:
 * `Ctrl-e Ctrl-u`: converts ASCII characters to their Unicode equivalents in the whole file.
 * `Ctrl-e Ctrl-a`: converts Unicode characters to their ASCII equivalents in the whole file.
 
-## [Documentation](https://granule-project.github.io/docs)
+### Materials
 
-## [Exercises](https://granule-project.github.io/splv23-exercises.pdf)
-
-## Slides
-
-* [Part 1 (Sessions 1 and 2)](https://granule-project.github.io/splv23-slides-part1.pdf)
-* [Part 2]
-* [Part 3]
+* [Library documentation](https://granule-project.github.io/docs)
+* [Exercises](https://granule-project.github.io/splv23-exercises.pdf)
+* Slides
+  * [Part 1 (Sessions 1 and 2)](https://granule-project.github.io/splv23-slides-part1.pdf)
+  * [Part 2]
+  * [Part 3]
