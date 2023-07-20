@@ -1,0 +1,19 @@
+<!doctype html>
+<html>
+<head>
+  <link rel="stylesheet" type="text/css" href="style.css" />
+  <link rel="stylesheet" type="text/css" href="../style.css" />
+  <title>Granule documentation - Choice</title>
+</head>
+<body>
+<div id="navigator">
+  <b>Modules</b><br /><br />
+<a href='../index.html'><i>Top-level</i><br /></a><ul><li><a href='Primitives.html'>Primitives</a></li><br /><li><a href='Bool.html'>Bool</a></li><li><a href='Choice.html'>Choice</a></li><li><a href='Either.html'>Either</a></li><li><a href='Existential.html'>Existential</a></li><li><a href='File.html'>File</a></li><li><a href='Fin.html'>Fin</a></li><li><a href='Fix.html'>Fix</a></li><li><a href='Graph.html'>Graph</a></li><li><a href='List.html'>List</a></li><li><a href='Maybe.html'>Maybe</a></li><li><a href='Nat.html'>Nat</a></li><li><a href='Parallel.html'>Parallel</a></li><li><a href='Prelude.html'>Prelude</a></li><li><a href='Result.html'>Result</a></li><li><a href='Stack.html'>Stack</a></li><li><a href='Vec.html'>Vec</a></li></ul>
+</div>
+<div id="content">
+  <b>Module Choice</b><br /><br />
+<section><h2>Meta-data</h2><ul><li><b>Module</b>: Choice</li><li><b>Description</b>: A datatype with two elements. The only way to consume it is by either</li><li><b>  choosing the first or the second element. You must choose exactly one.</b></li><li><b>Authors</b>: Vilem-Benjamin Liepelt</li><li><b>License</b>: BSD3</li><li><b>Copyright</b>: (c) Authors 2018</li><li><b>Issue-tracking</b>: https://github.com/dorchard/granule/issues</li><li><b>Repository</b>: https://github.com/dorchard/granule</li></ul></section><section><h2>Data types</h2><div class='code'>data Choice (a, Type) (b, Type) where
+  OneOfa [0..1] b [0..1]</div></section><section><h2>Definitions</h2><div class='code'>choice : forall {a : Type, b : Type} . a [0..1] -> b [0..1] -> Choice a b</div><div class='desc'></div><div class='code'>choose1 : forall {a : Type, b : Type} . Choice a b -> a</div><div class='desc'></div><div class='code'>choose2 : forall {a : Type, b : Type} . Choice a b -> b</div><div class='desc'></div></section>
+</div>
+</body>
+</html>
