@@ -24,6 +24,12 @@
   width: 80%;
 }
 
+.toplink {
+  margin-left: 5em;
+  font-size: 10pt;
+  color: #ccc;
+}
+
 .constName {
   color: rgb(16, 145, 59);
 }
