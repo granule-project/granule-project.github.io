@@ -26,11 +26,11 @@
 
 .toplink {
   margin: 0px;
-  float: left;
   position: relative;
-  left: -5em;
+  left: 5em;
   font-weight: 400;
   font-size: 10pt;
+  margin-right: 5em;
   color: #ccc;
 }
 
