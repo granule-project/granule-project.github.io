@@ -27,7 +27,9 @@
 .toplink {
   margin: 0px;
   float: left;
-  margin-left: 5em;
+  position: relative;
+  left: -5em;
+  font-weight: 400;
   font-size: 10pt;
   color: #ccc;
 }
