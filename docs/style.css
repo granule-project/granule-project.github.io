@@ -25,6 +25,8 @@
 }
 
 .toplink {
+  margin: 0px;
+  float: left;
   margin-left: 5em;
   font-size: 10pt;
   color: #ccc;
