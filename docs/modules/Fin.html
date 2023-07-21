@@ -15,11 +15,11 @@
     <img src="../images/gr-blue.png" />
   </div>
   <b>Module Fin</b><br /><br />
-<section><ul></ul></section><section><h2>Data types</h2><div class='code'><pre>data Fin Nat -> Type where
-    FZ : forall {k : Nat} . Fin (k + 1);
-    FS : forall {k : Nat} . Fin k -> Fin (k + 1)</pre></div><div class='desc'></div></section><section><h2>Definitions</h2><div class='code'><pre>upcast : forall {n : Nat, m : Nat} . {m .≤ n} =>
-    Fin m -> Fin n</pre></div><div class='desc'></div><div class='code'><pre>fromN : forall {n : Nat, m : Nat} . N n -> Fin (n + 1)</pre></div><div class='desc'></div><div class='code'><pre>fromNInto : forall {n : Nat, m : Nat} . {m ≥ 1} =>
-    N n -> Fin (n + m)</pre></div><div class='desc'></div></section>
+<section><h2>Meta-data</h2><ul><li><b>Module</b>: Fin</li><li><b>Description</b>: Finitely bounded sets</li><li><b>Authors</b>: Vilem-Benjamin Liepelt, Dominic Orchard</li><li><b>License</b>: BSD3</li><li><b>Copyright</b>: (c) Authors 2018-19</li><li><b>Issue-tracking</b>: https://github.com/dorchard/granule/issues</li><li><b>Repository</b>: https://github.com/dorchard/granule</li></ul></section><section><h2>Data types</h2><div class='code'>data Fin Nat -> Type where
+  FZ : forall {k : Nat} . Fin (k + 1);
+  FS : forall {k : Nat} . Fin k -> Fin (k + 1)</div></section><section><h2>Definitions</h2><div class='code'>upcast : forall {n : Nat, m : Nat} . {m .≤ n} =>
+    Fin m -> Fin n</div><div class='desc'></div><div class='code'>fromN : forall {n : Nat, m : Nat} . N n -> Fin (n + 1)</div><div class='desc'></div><div class='code'>fromNInto : forall {n : Nat, m : Nat} . {m ≥ 1} =>
+    N n -> Fin (n + m)</div><div class='desc'></div></section>
 </div>
 </body>
 </html>
