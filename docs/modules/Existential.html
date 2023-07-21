@@ -15,8 +15,8 @@
     <img src="../images/gr-blue.png" />
   </div>
   <b>Module Existential</b><br /><br />
-<section><h2>Meta-data</h2><ul></ul></section><section><h2>Data types</h2><div class='code'>data Exists (f, Type -> Type) where
-  MkExists : exists {a:Type} . f a -> Exists f</div></section><section><h2>Definitions</h2></section>
+<section><h2>Meta-data</h2><ul></ul></section><section><h2>Data types</h2><div class='code'><pre>data Exists (f : Type -> Type) where
+    MkExists : exists {a:Type} . f a -> Exists f</pre></div></section><section><h2>Definitions</h2></section>
 </div>
 </body>
 </html>
