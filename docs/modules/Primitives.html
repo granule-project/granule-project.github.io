@@ -15,7 +15,58 @@
     <img src="../images/gr-blue.png" />
   </div>
   <b>Built-in primitives</b><br /><br />
-<section><h2>Meta-data</h2><ul><li><b>Description</b>: Built-in primitive definitions</li></ul></section><section><h2>Contents</h2><section><div class='mininav'><ul><li><a href='#corelinearfunctionalcombinators'> Core linear functional combinators</a></li><li><a href='#arithmetic'> Arithmetic</a></li><li><a href='#gradedpossiblity'> Graded Possiblity</a></li><li><a href='#io'> I/O</a></li><li><a href='#exceptions'> Exceptions</a></li><li><a href='#conversions'> Conversions</a></li><li><a href='#concurrencyandsessiontypes'> Concurrency and Session Types</a></li><li><a href='#concurrencyprimitivesusingsideeffects'> Concurrency primitives using side effects</a></li><li><a href='#filehandles'> File Handles</a></li><li><a href='#char'> Char</a></li><li><a href='#stringmanipulation'> String manipulation</a></li><li><a href='#cost'> Cost</a></li><li><a href='#uniquenessmodality'> Uniqueness modality</a></li><li><a href='#mutableandimmutablearrayoperations'> Mutable and immutable array operations</a></li><li><a href='#benchmarking'> Benchmarking</a></li><li><a href='#sensitivity'> Sensitivity</a></li></ul></div></section><a name = corelinearfunctionalcombinators><h3><a href='#' class='toplink'>[top]</a> Core linear functional combinators</h3></a><div class='code'><pre>data () where
+<section><h2>Meta-data</h2><ul><li><b>Description</b>: Built-in primitive definitions</li></ul></section><section><h2>Contents</h2><section><div class='mininav'><ul><li><a href='#builtintypes'>Built-in Types</a></li><li><a href='#corelinearfunctionalcombinators'> Core linear functional combinators</a></li><li><a href='#arithmetic'> Arithmetic</a></li><li><a href='#gradedpossiblity'> Graded Possiblity</a></li><li><a href='#io'> I/O</a></li><li><a href='#exceptions'> Exceptions</a></li><li><a href='#conversions'> Conversions</a></li><li><a href='#concurrencyandsessiontypes'> Concurrency and Session Types</a></li><li><a href='#concurrencyprimitivesusingsideeffects'> Concurrency primitives using side effects</a></li><li><a href='#filehandles'> File Handles</a></li><li><a href='#char'> Char</a></li><li><a href='#stringmanipulation'> String manipulation</a></li><li><a href='#cost'> Cost</a></li><li><a href='#uniquenessmodality'> Uniqueness modality</a></li><li><a href='#mutableandimmutablearrayoperations'> Mutable and immutable array operations</a></li><li><a href='#benchmarking'> Benchmarking</a></li><li><a href='#sensitivity'> Sensitivity</a></li></ul></div></section><a name = builtintypes><h3><a href='#' class='toplink'>[top]</a>Built-in Types</h3></a><div class='code'><pre>data Type : <span class='constName'>Type 1</span> where
+    -> : <span class='constName'>Type</span> -> <span class='constName'>Type</span> -> <span class='constName'>Type</span>;
+    Int : <span class='constName'>Type</span>;
+    Float : <span class='constName'>Type</span>;
+    DFloat : <span class='constName'>Type</span>;
+    Char : <span class='constName'>Type</span>;
+    String : <span class='constName'>Type</span>;
+    Inverse : <span class='constName'>Type</span> -> <span class='constName'>Type</span>;
+    Protocol : <span class='constName'>Type</span>;
+    Chan : <span class='constName'>Protocol</span> -> <span class='constName'>Type</span>;
+    LChan : <span class='constName'>Protocol</span> -> <span class='constName'>Type</span>;
+    FloatArray : <span class='constName'>Type</span>;
+    CapabilityType : <span class='constName'>Capability</span> -> <span class='constName'>Type</span></pre></div><br /><div class='code'><pre>data Coeffect : <span class='constName'>Type 2</span> where
+    ,, : <span class='constName'>Coeffect</span> -> <span class='constName'>Coeffect</span> -> <span class='constName'>Coeffect</span>;
+    Nat : <span class='constName'>Coeffect</span>;
+    Q : <span class='constName'>Coeffect</span>;
+    OOZ : <span class='constName'>Coeffect</span>;
+    LNL : <span class='constName'>Coeffect</span>;
+    Cartesian : <span class='constName'>Coeffect</span>;
+    Borrowing : <span class='constName'>Coeffect</span>;
+    Sec : <span class='constName'>Coeffect</span>;
+    Interval : <span class='constName'>Coeffect</span> -> <span class='constName'>Coeffect</span>;
+    Ext : <span class='constName'>Coeffect</span> -> <span class='constName'>Coeffect</span></pre></div><br /><div class='code'><pre>data Effect : <span class='constName'>Type 2</span> where
+    Com : <span class='constName'>Effect</span>;
+    IO : <span class='constName'>Effect</span>;
+    Exception : <span class='constName'>Effect</span></pre></div><br /><div class='code'><pre>data Guarantee : <span class='constName'>Type 2</span> where
+    Uniqueness : <span class='constName'>Guarantee</span>;
+    Integrity : <span class='constName'>Guarantee</span></pre></div><br /><div class='code'><pre>data Predicate : <span class='constName'>Type 2</span> where
+    SingleAction : <span class='constName'>Protocol</span> -> <span class='constName'>Predicate</span>;
+    ReceivePrefix : <span class='constName'>Protocol</span> -> <span class='constName'>Predicate</span>;
+    Sends : <span class='constName'>Nat</span> -> <span class='constName'>Protocol</span> -> <span class='constName'>Predicate</span>;
+    ExactSemiring : <span class='constName'>Semiring</span> -> <span class='constName'>Predicate</span></pre></div><br /><div class='code'><pre>data Protocol : <span class='constName'>Type</span> where
+    Graded : <span class='constName'>Nat</span> -> <span class='constName'>Protocol</span> -> <span class='constName'>Protocol</span>;
+    Send : <span class='constName'>Type</span> -> <span class='constName'>Protocol</span> -> <span class='constName'>Protocol</span>;
+    Recv : <span class='constName'>Type</span> -> <span class='constName'>Protocol</span> -> <span class='constName'>Protocol</span>;
+    End : <span class='constName'>Protocol</span>;
+    Select : <span class='constName'>Protocol</span> -> <span class='constName'>Protocol</span> -> <span class='constName'>Protocol</span>;
+    Offer : <span class='constName'>Protocol</span> -> <span class='constName'>Protocol</span> -> <span class='constName'>Protocol</span>;
+    Dual : <span class='constName'>Protocol</span> -> <span class='constName'>Protocol</span></pre></div><br /><div class='code'><pre>data LNL : <span class='constName'>Coeffect</span> where
+    Zero : <span class='constName'>LNL</span>;
+    One : <span class='constName'>LNL</span>;
+    Many : <span class='constName'>LNL</span></pre></div><br /><div class='code'><pre>data Cartesian : <span class='constName'>Coeffect</span> where
+    Any : <span class='constName'>Cartesian</span></pre></div><br /><div class='code'><pre>data Borrowing : <span class='constName'>Coeffect</span> where
+    One : <span class='constName'>Borrowing</span>;
+    Beta : <span class='constName'>Borrowing</span>;
+    Omega : <span class='constName'>Borrowing</span></pre></div><br /><div class='code'><pre>data Sec : <span class='constName'>Coeffect</span> where
+    Hi : <span class='constName'>Sec</span>;
+    Lo : <span class='constName'>Sec</span></pre></div><br /><div class='code'><pre>data Uniqueness : <span class='constName'>Guarantee</span> where
+    Unique : <span class='constName'>Uniqueness</span></pre></div><br /><div class='code'><pre>data Integrity : <span class='constName'>Guarantee</span> where
+    Trusted : <span class='constName'>Integrity</span></pre></div><br /><div class='code'><pre>data Exception : <span class='constName'>Effect</span> where
+    Success : <span class='constName'>Exception</span>;
+    MayFail : <span class='constName'>Exception</span></pre></div><br /><a name = corelinearfunctionalcombinators><h3><a href='#' class='toplink'>[top]</a> Core linear functional combinators</h3></a><div class='code'><pre>data () where
     () </pre></div><div class='desc'> Unit type</div><div class='code'><pre>use : <span class='keyword'>forall</span> {a : <span class='constName'>Type</span>} . a -> a [<span class='coeff'>1</span>]</pre></div><div class='desc'> Allows a linear variable to be promoted to a graded modality specifying an exact usage of 1</div><div class='code'><pre>compose : <span class='keyword'>forall</span> {a : <span class='constName'>Type</span>, b : <span class='constName'>Type</span>, c : <span class='constName'>Type</span>} . (b -> c) -> (a -> b) -> a -> c</pre></div><div class='desc'> Linear function composition</div><a name = arithmetic><h3><a href='#' class='toplink'>[top]</a> Arithmetic</h3></a><div class='code'><pre>div : <span class='constName'>Int</span> -> <span class='constName'>Int</span> -> <span class='constName'>Int</span></pre></div><div class='desc'> Integer division</div><a name = gradedpossiblity><h3><a href='#' class='toplink'>[top]</a> Graded Possiblity</h3></a><div class='code'><pre>pure : <span class='keyword'>forall</span> {a : <span class='constName'>Type</span>} . a -> a <<span class='eff'><span class='constName'>Pure</span></span>></pre></div><div class='desc'> Inject into a computation for any graded monad</div><div class='code'><pre>fromPure : <span class='keyword'>forall</span> {a : <span class='constName'>Type</span>} . a <<span class='eff'><span class='constName'>Pure</span></span>> -> a</pre></div><div class='desc'> Extract form a pure computation</div><a name = io><h3><a href='#' class='toplink'>[top]</a> I/O</h3></a><div class='code'><pre>data IOElem where
     Stdout ;
     Stdin ;
@@ -29,12 +80,12 @@
     ((<span class='constName'>LChan</span> p) [<span class='coeff'>r</span>] -> <span class='constName'>()</span>) -> (<span class='constName'>LChan</span> (<span class='constName'>Dual</span> p)) [<span class='coeff'>r</span>]</pre></div><br /><div class='code'><pre>forkMulticast : <span class='keyword'>forall</span> {p : <span class='constName'>Protocol</span>, n : <span class='constName'>Nat</span>} . {<span class='constName'>Sends</span> p} =>
     (<span class='constName'>LChan</span> (<span class='constName'>Graded</span> n p) -> <span class='constName'>()</span>) -> <span class='constName'>N</span> n -> <span class='constName'>Vec</span> n (<span class='constName'>LChan</span> (<span class='constName'>Dual</span> p))</pre></div><br /><div class='code'><pre>forkReplicate : <span class='keyword'>forall</span> {p : <span class='constName'>Protocol</span>, n : <span class='constName'>Nat</span>} . {<span class='constName'>ReceivePrefix</span> p} =>
     (<span class='constName'>LChan</span> p -> <span class='constName'>()</span>) [<span class='coeff'>0..n</span>] -> <span class='constName'>N</span> n -> <span class='constName'>Vec</span> n ((<span class='constName'>LChan</span> (<span class='constName'>Dual</span> p)) [<span class='coeff'>0..1</span>])</pre></div><br /><div class='code'><pre>forkReplicateExactly : <span class='keyword'>forall</span> {p : <span class='constName'>Protocol</span>, n : <span class='constName'>Nat</span>} . {<span class='constName'>ReceivePrefix</span> p} =>
-    (<span class='constName'>LChan</span> p -> <span class='constName'>()</span>) [<span class='coeff'>n</span>] -> <span class='constName'>N</span> n -> <span class='constName'>Vec</span> n (<span class='constName'>LChan</span> (<span class='constName'>Dual</span> p))</pre></div><br /><a name = concurrencyprimitivesusingsideeffects><h3><a href='#' class='toplink'>[top]</a> Concurrency primitives using side effects</h3></a><div class='code'><pre>gsend : <span class='keyword'>forall</span> {a : <span class='constName'>Type</span>, s : <span class='constName'>Protocol</span>} . <span class='constName'>Chan</span> (<span class='constName'>Send</span> a s) -> a -> (<span class='constName'>Chan</span> s) <<span class='eff'><span class='constName'>Session</span></span>></pre></div><br /><div class='code'><pre>grecv : <span class='keyword'>forall</span> {a : <span class='constName'>Type</span>, s : <span class='constName'>Protocol</span>} . <span class='constName'>Chan</span> (<span class='constName'>Recv</span> a s) -> (a, <span class='constName'>Chan</span> s) <<span class='eff'><span class='constName'>Session</span></span>></pre></div><br /><div class='code'><pre>gclose : <span class='constName'>Chan</span> <span class='constName'>End</span> -> <span class='constName'>()</span> <<span class='eff'><span class='constName'>Session</span></span>></pre></div><br /><a name = filehandles><h3><a href='#' class='toplink'>[top]</a> File Handles</h3></a><div class='code'><pre>data Handle <span class='constName'>HandleType</span> -> <span class='constName'>Type</span> where
+    (<span class='constName'>LChan</span> p -> <span class='constName'>()</span>) [<span class='coeff'>n</span>] -> <span class='constName'>N</span> n -> <span class='constName'>Vec</span> n (<span class='constName'>LChan</span> (<span class='constName'>Dual</span> p))</pre></div><br /><a name = concurrencyprimitivesusingsideeffects><h3><a href='#' class='toplink'>[top]</a> Concurrency primitives using side effects</h3></a><div class='code'><pre>gsend : <span class='keyword'>forall</span> {a : <span class='constName'>Type</span>, s : <span class='constName'>Protocol</span>} . <span class='constName'>Chan</span> (<span class='constName'>Send</span> a s) -> a -> (<span class='constName'>Chan</span> s) <<span class='eff'><span class='constName'>Session</span></span>></pre></div><br /><div class='code'><pre>grecv : <span class='keyword'>forall</span> {a : <span class='constName'>Type</span>, s : <span class='constName'>Protocol</span>} . <span class='constName'>Chan</span> (<span class='constName'>Recv</span> a s) -> (a, <span class='constName'>Chan</span> s) <<span class='eff'><span class='constName'>Session</span></span>></pre></div><br /><div class='code'><pre>gclose : <span class='constName'>Chan</span> <span class='constName'>End</span> -> <span class='constName'>()</span> <<span class='eff'><span class='constName'>Session</span></span>></pre></div><br /><a name = filehandles><h3><a href='#' class='toplink'>[top]</a> File Handles</h3></a><div class='code'><pre>data Handle : <span class='constName'>HandleType</span> -> <span class='constName'>Type</span> where
     </pre></div><br /><div class='code'><pre>data HandleType where
     R ;
     W ;
     A ;
-    RW </pre></div><br /><div class='code'><pre>data IOMode <span class='constName'>HandleType</span> -> <span class='constName'>Type</span> where
+    RW </pre></div><br /><div class='code'><pre>data IOMode : <span class='constName'>HandleType</span> -> <span class='constName'>Type</span> where
     ReadMode : <span class='constName'>IOMode</span> <span class='constName'>R</span>;
     WriteMode : <span class='constName'>IOMode</span> <span class='constName'>W</span>;
     AppendMode : <span class='constName'>IOMode</span> <span class='constName'>A</span>;
