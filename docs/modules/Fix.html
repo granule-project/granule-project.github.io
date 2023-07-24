@@ -15,8 +15,8 @@
     <img src="../images/gr-blue.png" />
   </div>
   <b>Module Fix</b><br /><br />
-<section><h2>Meta-data</h2><ul><li><b>Description</b>: Type level fixpoint</li><li><b>Authors</b>: Vilem-Benjamin Liepelt</li><li><b>License</b>: BSD3</li><li><b>Copyright</b>: (c) Authors 2018</li><li><b>Issue-tracking</b>: https://github.com/granule-project/granule/issues</li><li><b>Repository</b>: https://github.com/granule-project/granule</li></ul></section><section><h2>Contents</h2><div class='code'><pre>data Fix (f : Type -> Type) where
-    Fix f (Fix f)</pre></div><br /><div class='code'><pre>unfix : forall {a : Type, f : Type -> Type} . Fix f -> f (Fix f)</pre></div><br /></section>
+<section><h2>Meta-data</h2><ul><li><b>Description</b>: Type level fixpoint</li><li><b>Authors</b>: Vilem-Benjamin Liepelt</li><li><b>License</b>: BSD3</li><li><b>Copyright</b>: (c) Authors 2018</li><li><b>Issue-tracking</b>: https://github.com/granule-project/granule/issues</li><li><b>Repository</b>: https://github.com/granule-project/granule</li></ul></section><section><h2>Contents</h2><div class='code'><pre>data Fix (f : <span class='constName'>Type</span> -> <span class='constName'>Type</span>) where
+    Fix f (<span class='constName'>Fix</span> f)</pre></div><br /><div class='code'><pre>unfix : <span class='keyword'>forall</span> {a : <span class='constName'>Type</span>, f : <span class='constName'>Type</span> -> <span class='constName'>Type</span>} . <span class='constName'>Fix</span> f -> f (<span class='constName'>Fix</span> f)</pre></div><br /></section>
 </div>
 </body>
 </html>

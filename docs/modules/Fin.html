@@ -15,11 +15,11 @@
     <img src="../images/gr-blue.png" />
   </div>
   <b>Module Fin</b><br /><br />
-<section><h2>Meta-data</h2><ul><li><b>Description</b>: Finitely bounded sets</li><li><b>Authors</b>: Vilem-Benjamin Liepelt, Dominic Orchard</li><li><b>License</b>: BSD3</li><li><b>Copyright</b>: (c) Authors 2018-19</li><li><b>Issue-tracking</b>: https://github.com/dorchard/granule/issues</li><li><b>Repository</b>: https://github.com/dorchard/granule</li></ul></section><section><h2>Contents</h2><div class='code'><pre>data Fin Nat -> Type where
-    FZ : forall {k : Nat} . Fin (k + 1);
-    FS : forall {k : Nat} . Fin k -> Fin (k + 1)</pre></div><br /><div class='code'><pre>upcast : forall {n : Nat, m : Nat} . {m .≤ n} =>
-    Fin m -> Fin n</pre></div><br /><div class='code'><pre>fromN : forall {n : Nat, m : Nat} . N n -> Fin (n + 1)</pre></div><br /><div class='code'><pre>fromNInto : forall {n : Nat, m : Nat} . {m ≥ 1} =>
-    N n -> Fin (n + m)</pre></div><br /></section>
+<section><h2>Meta-data</h2><ul><li><b>Description</b>: Finitely bounded sets</li><li><b>Authors</b>: Vilem-Benjamin Liepelt, Dominic Orchard</li><li><b>License</b>: BSD3</li><li><b>Copyright</b>: (c) Authors 2018-19</li><li><b>Issue-tracking</b>: https://github.com/dorchard/granule/issues</li><li><b>Repository</b>: https://github.com/dorchard/granule</li></ul></section><section><h2>Contents</h2><div class='code'><pre>data Fin <span class='constName'>Nat</span> -> <span class='constName'>Type</span> where
+    FZ : <span class='keyword'>forall</span> {k : <span class='constName'>Nat</span>} . <span class='constName'>Fin</span> (k + 1);
+    FS : <span class='keyword'>forall</span> {k : <span class='constName'>Nat</span>} . <span class='constName'>Fin</span> k -> <span class='constName'>Fin</span> (k + 1)</pre></div><br /><div class='code'><pre>upcast : <span class='keyword'>forall</span> {n : <span class='constName'>Nat</span>, m : <span class='constName'>Nat</span>} . {m .≤ n} =>
+    <span class='constName'>Fin</span> m -> <span class='constName'>Fin</span> n</pre></div><br /><div class='code'><pre>fromN : <span class='keyword'>forall</span> {n : <span class='constName'>Nat</span>, m : <span class='constName'>Nat</span>} . <span class='constName'>N</span> n -> <span class='constName'>Fin</span> (n + 1)</pre></div><br /><div class='code'><pre>fromNInto : <span class='keyword'>forall</span> {n : <span class='constName'>Nat</span>, m : <span class='constName'>Nat</span>} . {m ≥ 1} =>
+    <span class='constName'>N</span> n -> <span class='constName'>Fin</span> (n + m)</pre></div><br /></section>
 </div>
 </body>
 </html>
