@@ -19,9 +19,9 @@ You have a few options:
 
 * __Local install__:  The latest release is [v0.9.4.0](https://github.com/granule-project/granule/releases). There are binaries for Mac OSX (ARM) and Linux. [However, you may need to build yourself if your platform isn't provide](https://github.com/granule-project/granule/blob/main/README.md#installation).
 
-* __Docker__: Official Docker image of v0.9.4.0
+* __Docker__: Official Docker image of v0.9.4.0. The following command puts you into `grepl` with the local directory mounted as `/host`
 
-   docker run -v $(pwd):/host --interactive docker.io/raehik/granule-repl:dev-minor
+       docker run -v $(pwd):/host --interactive docker.io/raehik/granule-repl:dev-minor
 
 * There is an [online version](https://tio.run/#granule) although it is running an older version of Granule and won't work for all examples.
 
