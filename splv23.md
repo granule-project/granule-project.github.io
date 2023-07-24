@@ -23,7 +23,7 @@ You have a few options:
 
        docker run -v $(pwd):/host --interactive docker.io/raehik/granule-repl:dev-minor
 
-* There is an [online version](https://tio.run/#granule) although it is running an older version of Granule and won't work for all examples.
+* __Online (old version)__: There is an [online version](https://tio.run/#granule) although it is running an older version of Granule and won't work for all examples.
 
 ### Materials
 
