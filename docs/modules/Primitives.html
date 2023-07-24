@@ -34,7 +34,6 @@
   ; OOZ       : <span class='constName'>Coeffect</span>
   ; LNL       : <span class='constName'>Coeffect</span>
   ; Cartesian : <span class='constName'>Coeffect</span>
-  ; Borrowing : <span class='constName'>Coeffect</span>
   ; Sec       : <span class='constName'>Coeffect</span>
   ; Interval  : <span class='constName'>Coeffect</span> -> <span class='constName'>Coeffect</span>
   ; Ext       : <span class='constName'>Coeffect</span> -> <span class='constName'>Coeffect</span></pre></div><br /><div class='code'><pre>data Effect : <span class='constName'>Type 2</span> where
@@ -57,10 +56,7 @@
     Zero : <span class='constName'>LNL</span>
   ; One  : <span class='constName'>LNL</span>
   ; Many : <span class='constName'>LNL</span></pre></div><br /><div class='code'><pre>data Cartesian : <span class='constName'>Coeffect</span> where
-    Any : <span class='constName'>Cartesian</span></pre></div><br /><div class='code'><pre>data Borrowing : <span class='constName'>Coeffect</span> where
-    One   : <span class='constName'>Borrowing</span>
-  ; Beta  : <span class='constName'>Borrowing</span>
-  ; Omega : <span class='constName'>Borrowing</span></pre></div><br /><div class='code'><pre>data Sec : <span class='constName'>Coeffect</span> where
+    Any : <span class='constName'>Cartesian</span></pre></div><br /><div class='code'><pre>data Sec : <span class='constName'>Coeffect</span> where
     Hi : <span class='constName'>Sec</span>
   ; Lo : <span class='constName'>Sec</span></pre></div><br /><div class='code'><pre>data Uniqueness : <span class='constName'>Guarantee</span> where
     Unique : <span class='constName'>Uniqueness</span></pre></div><br /><div class='code'><pre>data Integrity : <span class='constName'>Guarantee</span> where
