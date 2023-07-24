@@ -15,16 +15,15 @@ SPLV'23 Material
 
 ### Getting Granule
 
-The latest release is [v0.9.3.0](https://github.com/granule-project/granule/releases).
-There are binaries for Mac OSX (ARM) and Linux. [However, you may need to build yourself
-if your platform isn't provide](https://github.com/granule-project/granule/blob/main/README.md#installation).
+You have a few options:
 
-If all else fails:
+* __Local install__:  The latest release is [v0.9.4.0](https://github.com/granule-project/granule/releases). There are binaries for Mac OSX (ARM) and Linux. [However, you may need to build yourself if your platform isn't provide](https://github.com/granule-project/granule/blob/main/README.md#installation).
+
+* __Docker__: Official Docker image of v0.9.4.0
+
+   docker run -v $(pwd):/host --interactive docker.io/raehik/granule-repl:dev-minor
 
 * There is an [online version](https://tio.run/#granule) although it is running an older version of Granule and won't work for all examples.
-
-* There is a Docker image from.
-
 
 ### Materials
 
@@ -32,8 +31,8 @@ If all else fails:
 * [Exercises](https://granule-project.github.io/splv23-exercises.pdf)
 * Slides
   * [Part 1 (Sessions 1 and 2)](https://granule-project.github.io/splv23-slides-part1.pdf)
-  * [Part 2]
-  * [Part 3]
+  * [Part 2] - To come
+  * [Part 3] - To come
 
 ### Granule Language Server and VSCode Extension
 

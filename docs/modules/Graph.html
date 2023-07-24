@@ -15,7 +15,7 @@
     <img src="../images/gr-blue.png" />
   </div>
   <b>Module Graph</b><br /><br />
-<section><h2>Meta-data</h2><ul><li><b>Description</b>: Algebraic Graphs based on work by Andrey Mokhov</li><li><b>Authors</b>: Vilem-Benjamin Liepelt</li><li><b>License</b>: BSD3</li><li><b>Copyright</b>: (c) Authors 2018</li><li><b>Issue-tracking</b>: https://github.com/granule-project/granule/issues</li><li><b>Repository</b>: https://github.com/granule-project/granule</li></ul></section><section><h2>Contents</h2><div class='code'><pre>data Graph (a : <span class='constName'>Type</span>) where
+<section><h2>Meta-data</h2><ul><li><b>Description</b>: Algebraic Graphs based on work by Andrey Mokhov</li><li><b>Authors</b>: Vilem-Benjamin Liepelt</li><li><b>License</b>: BSD3</li><li><b>Copyright</b>: (c) Authors 2018</li><li><b>Issue-tracking</b>: https://github.com/granule-project/granule/issues</li><li><b>Repository</b>: https://github.com/granule-project/granule</li></ul></section><section><h2>Contents</h2><div class='code'><pre><span class='keyword'>data</span> <span class='constName'>Graph</span> (a : <span class='constName'>Type</span>) <span class='keyword'>where</span>
     EmptyG  : <span class='constName'>Graph</span> a
   ; Vertex  : a -> <span class='constName'>Graph</span> a
   ; Overlay : <span class='constName'>Graph</span> a -> <span class='constName'>Graph</span> a -> <span class='constName'>Graph</span> a
