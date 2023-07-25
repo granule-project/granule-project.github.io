@@ -17,8 +17,10 @@
   <b>Module Either</b><br /><br />
 <section><h2>Meta-data</h2><ul><li><b>Description</b>: Coproducts</li><li><b>Authors</b>: Dominic Orchard, Vilem-Benjamin Liepelt</li><li><b>License</b>: BSD3</li><li><b>Copyright</b>: (c) Authors 2019</li><li><b>Issue-tracking</b>: https://github.com/dorchard/granule/issues</li><li><b>Repository</b>: https://github.com/dorchard/granule</li></ul></section><section><h2>Contents</h2><div class='code'><pre><span class='keyword'>data</span> <span class='constName'>Either</span> (a : <span class='constName'>Type</span>) (b : <span class='constName'>Type</span>) <span class='keyword'>where</span>
     Left a
-  ; Right b</pre></div><br /><div class='code'><pre>pushEither : <span class='keyword'>forall</span> {a : <span class='constName'>Type</span>, b : <span class='constName'>Type</span>, c : <span class='constName'>Nat</span>} . {c ≤ 1} =>
-    (<span class='constName'>Either</span> a b) [<span class='coeff'>c</span>] -> <span class='constName'>Either</span> (a [<span class='coeff'>c</span>]) (b [<span class='coeff'>c</span>])</pre></div><br /><div class='code'><pre>pullEither : <span class='keyword'>forall</span> {a : <span class='constName'>Type</span>, b : <span class='constName'>Type</span>, c : <span class='constName'>Nat</span>} . <span class='constName'>Either</span> (a [<span class='coeff'>c</span>]) (b [<span class='coeff'>c</span>]) -> (<span class='constName'>Either</span> a b) [<span class='coeff'>c</span>]</pre></div><div class='desc'> Distrbute a graded modality outside Either</div></section>
+  ; Right b</pre></div><br /><div class='code'><pre>pushEither : <span class='keyword'>forall</span> {a : <span class='constName'>Type</span>, b : <span class='constName'>Type</span>, c : <span class='constName'>Nat</span>} 
+           . {c ≤ 1} =>
+    (<span class='constName'>Either</span> a b) [<span class='coeff'>c</span>] -> <span class='constName'>Either</span> (a [<span class='coeff'>c</span>]) (b [<span class='coeff'>c</span>])</pre></div><br /><div class='code'><pre>pullEither : <span class='keyword'>forall</span> {a : <span class='constName'>Type</span>, b : <span class='constName'>Type</span>, c : <span class='constName'>Nat</span>} 
+           . <span class='constName'>Either</span> (a [<span class='coeff'>c</span>]) (b [<span class='coeff'>c</span>]) -> (<span class='constName'>Either</span> a b) [<span class='coeff'>c</span>]</pre></div><div class='desc'> Distrbute a graded modality outside Either</div></section>
 </div>
 </body>
 </html>
