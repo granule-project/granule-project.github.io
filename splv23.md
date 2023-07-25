@@ -30,9 +30,10 @@ You have a few options:
 * [Library documentation](https://granule-project.github.io/docs)
 * [Exercises](https://granule-project.github.io/splv23-exercises.pdf)
 * Slides
-  * [Part 1 (Sessions 1 and 2)](https://granule-project.github.io/splv23-slides-part1.pdf)
-  * [Part 2] - To come
-  * [Part 3] - To come
+  * [Part 1 - Theory and practice of linear types](https://granule-project.github.io/splv23-slides-part1.pdf)
+  * [Part 2 - Extending from linear types to graded types](https://granule-project.github.io/splv23-slides-part2.pdf)
+  * Part 3 - Communication, uniqueness, and mutation - Slides to come
+  * Part 4 - Grades in the wild via "graded base" and graded monads - Slide to come
 
 ### Granule Language Server and VSCode Extension
 
