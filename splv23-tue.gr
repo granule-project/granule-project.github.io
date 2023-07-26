@@ -1,0 +1,78 @@
+-- Hello SPLV'23
+
+import Cake
+
+desire : Cake [] -> (Cake, Happy)
+desire [c] = (have c, eat c)
+
+-- curry : forall {a : Type, c: Type} . a [Private] -> Int [] -> a [Private]
+-- curry [x] [y] = [x]
+
+-- chan : forall {a : Type} . (Int [] -> a [Private]) [Public] -> a [Public]
+-- chan [f] = let [x] = f [0] in [x]
+
+-- leak : forall {a : Type} . a [Private] -> a [Public]
+-- leak [x] = chan [curry [x]]
+
+main : String <IO>
+main = let
+  h       <- openHandle ReadMode "README.md";
+  (h1, c)  <- readChar h;
+  (h', c') <- readChar h1;
+  ()      <- closeHandle h'
+  in pure (stringCons c (stringCons c' ""))
+
+copy : forall {a : Type, s : Semiring} . a [(1 + 1):s] -> (a, a)
+copy boxy = let [y] = boxy in (y, y)
+-- copy [y] = (y, y)
+
+--strengthen : forall {b : Type} . (forall {a : Type} . (a [0 : Nat] -> b)) -> b
+
+
+
+data Cats = B | C
+
+{- HELLO
+    GOODBYE -}
+-- pair : Int [{B}.] -> Int [{C}.] -> (Int [{B}.], Int [{C}.])
+-- pair [x] [y] = ([x + y], [y])
+
+
+-- copy2 : forall {a : Type} . a [4] -> ((a, a), (a, a))
+-- copy2 [x] = copy [copy [x]]
+
+const : forall {a : Type, b : Type} . a -> b [0..Inf] -> a
+const x [_] = x
+
+data Maybe a = Just a | Nothing
+
+fromMaybe : forall {a : Type} . a [0..1] -> Maybe a -> a
+fromMaybe [v] (Just u) = u;
+fromMaybe [z] Nothing = z
+
+data N (n : Nat) where
+    Z : N 0;
+    S : forall {n : Nat} . N n -> N (n+1)
+
+rep : forall {a : Type, n : Nat} . (a -> a) [n] -> N n -> (a -> a)
+rep [f] Z     = \x -> x;
+rep [f] (S n) = \x -> f (rep [f] n x) --
+
+two : N 2
+two = S (S Z)
+
+data Patient where
+  MkPatient : String [Public] -> String [Private] -> Patient
+
+noleak : forall {a : Type} . a [Public] -> a [Private]
+noleak [x] = [x]
+
+data Vec (n : Nat) (a : Type) where
+    Nil : Vec 0 a;
+    Cons : forall {n : Nat} . a -> Vec n a -> Vec (n+1) a
+
+sampleCities : forall {a : Type, n : Nat, m : Nat} . (Vec (n + m) Patient) [0..1] -> N m -> Vec m String
+sampleCities [_] Z = Nil;
+sampleCities [Cons (MkPatient [city] [name]) xs] (S n) =
+  let vs = sampleCities [xs] n in Cons city vs
+
