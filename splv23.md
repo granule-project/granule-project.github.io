@@ -33,7 +33,7 @@ You have a few options:
   * [Part 1 - Theory and practice of linear types](https://granule-project.github.io/splv23-slides-part1.pdf)
   * [Part 2 - Extending from linear types to graded types](https://granule-project.github.io/splv23-slides-part2.pdf)
   * [Code demos from Parts 1 & 2](splv23-tue.gr)
-  * Part 3 - Communication, uniqueness, and mutation - Slides to come
+  * [Part 3 - Communication, uniqueness, and mutation](https://granule-project.github.io/splv23-slides-part2.pdf)
   * Part 4 - Grades in the wild via "graded base" and graded monads - Slide to come
 
 ### Granule Language Server and VSCode Extension
