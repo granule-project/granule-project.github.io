@@ -17,7 +17,7 @@ SPLV'23 Material
 
 You have a few options:
 
-* __Local install__:  The latest release is [v0.9.4.0](https://github.com/granule-project/granule/releases). There are binaries for Mac OSX (arm64) and Linux, and you will also need to [install Z3](https://github.com/Z3Prover/z3). [However, you may need to build yourself if your platform isn't provide](https://github.com/granule-project/granule/blob/main/README.md#installation).
+* __Local install__:  The latest release is [v0.9.4.0](https://github.com/granule-project/granule/releases). There are binaries for Mac OSX (arm64) and Linux, and you will also need to [install Z3](https://github.com/Z3Prover/z3). [However, you may need to build yourself if your platform isn't provided for](https://github.com/granule-project/granule/blob/main/README.md#installation).
 
 * __Docker__: Official Docker image of v0.9.4.0. The following command puts you into `grepl` with the local directory mounted as `/host`
 
