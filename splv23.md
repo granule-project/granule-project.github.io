@@ -36,6 +36,10 @@ You have a few options:
   * [Part 3 - Communication, uniqueness, and mutation](https://granule-project.github.io/splv23/splv23-slides-part3.pdf)
       * [Code from part 3](splv23/splv-wed.gr)
   * [Part 4 - Grades in the wild via "graded base" and graded monads](https://granule-project.github.io/splv23/splv23-slides-part4.pdf)
+      * [Code from part 4](splv23/splv-thur.gr)
+      * [Effect code from part 4](splv23/splv-effects.gr)
+      * [Linear Haskell code from part 4](splv23/linearhask.hs)
+      
 
 ### Granule Language Server and VSCode Extension
 
