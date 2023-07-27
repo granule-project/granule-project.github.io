@@ -1,0 +1,22 @@
+-- From Tuesday
+
+main : () <{Open, Read, Close, IOExcept, Stdout}>
+main = let
+  h        <- openHandle ReadMode "README.md";
+  (h1, c)  <- readChar h;
+  (h', c') <- readChar h1;
+  ()       <- closeHandle h'
+  in toStdout (stringCons c (stringCons c' ""))
+
+data Vec (n : Nat) (a : Type) where
+    Nil : Vec 0 a;
+    Cons : forall {n : Nat} . a -> Vec n a -> Vec (n+1) a
+
+vmap
+  : forall {a b : Type, n : Nat, c : Nat}
+  . (a -> b <c>) [n] -> Vec n a -> (Vec n b) <(n * c)>
+vmap [_] Nil = pure Nil;
+vmap [f] (Cons x xs) =
+  let y <- f x;
+      ys <- vmap [f] xs
+  in pure (Cons y ys)

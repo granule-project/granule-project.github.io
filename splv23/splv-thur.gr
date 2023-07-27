@@ -1,0 +1,24 @@
+language GradedBase
+
+-- Box_2 A
+copy : forall {a : Type} . a % 2 -> (a, a)
+copy x = (x, x)
+
+drop : forall {a : Type} . a % 0 -> ()
+drop x = ()
+
+fst : forall {a : Type, b : Type} . (a, b [0]) % 1 -> a
+fst (x, [_]) = x
+
+-- For later...
+
+data List a = Empty | Next a (List a)
+
+map : forall {a : Type, b : Type} . (a -> b) %(0..Inf) -> (List a)%(1 : Interval (Ext Nat)) -> List b
+spec
+  map % (0..Inf)
+map x Empty = Empty;
+map x (Next z u) = (Next (x z)) ((map x) u)
+
+id : forall {a : Type} . a -> a
+id x = x
