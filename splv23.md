@@ -28,13 +28,14 @@ You have a few options:
 ### Materials
 
 * [Library documentation](https://granule-project.github.io/docs)
-* [Exercises](https://granule-project.github.io/splv23-exercises.pdf)
+* [Exercises](https://granule-project.github.io/splv23/splv23-exercises.pdf)
 * Slides
-  * [Part 1 - Theory and practice of linear types](https://granule-project.github.io/splv23-slides-part1.pdf)
-  * [Part 2 - Extending from linear types to graded types](https://granule-project.github.io/splv23-slides-part2.pdf)
-  * [Code demos from Parts 1 & 2](splv23-tue.gr)
-  * [Part 3 - Communication, uniqueness, and mutation](https://granule-project.github.io/splv23-slides-part3.pdf)
-  * [Part 4 - Grades in the wild via "graded base" and graded monads](https://granule-project.github.io/splv23-slides-part4.pdf)
+  * [Part 1 - Theory and practice of linear types](https://granule-project.github.io/splv23/splv23-slides-part1.pdf)
+  * [Part 2 - Extending from linear types to graded types](https://granule-project.github.io/splv23/splv23-slides-part2.pdf)
+      * [Code demos from Parts 1 & 2](splv23/splv23-tue.gr)
+  * [Part 3 - Communication, uniqueness, and mutation](https://granule-project.github.io/splv23/splv23-slides-part3.pdf)
+      * [Code from part 3](splv23/splv-wed.gr)
+  * [Part 4 - Grades in the wild via "graded base" and graded monads](https://granule-project.github.io/splv23/splv23-slides-part4.pdf)
 
 ### Granule Language Server and VSCode Extension
 
