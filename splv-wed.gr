@@ -1,0 +1,104 @@
+import Bool
+
+-- Matching on polyshaped types forces use - accounted for by 1
+gnot : forall {r : Semiring, s : r} . {(1 : r) <= s} => Bool [s] -> Bool
+gnot [True] = False;
+gnot [False] = True
+
+-- Matching on monoshaped types does not force usage
+gunit : forall {r : Semiring, s : r} . () [s] -> ()
+gunit [()] = ()
+
+-- Wildcard requires 0
+dropBool : forall {r : Semiring, s : r, a : Type} . {(0 : r) <= s} => a [s] -> ()
+dropBool [_] = ()
+
+-- Dropping primitives can be derived...
+dropAny : forall {a : Type} . {Dropable a} => a -> ()
+dropAny = drop @a
+
+------------------------------
+
+applyZero : forall {a : Type}
+          . LChan (Recv (Int -> a) (Send a End)) -> ()
+applyZero c = let
+  (f, c) = recv c;
+  c      = send c (f 0)
+  in close c
+
+useThisThing : Int
+useThisThing =
+  let c      = forkLinear applyZero;
+      c      = send c (\x -> x + 1);
+      (x, c) = recv c;
+      ()     = close c
+  in x
+
+import Cake
+
+desire : Cake [] -> (Cake, Happy)
+desire [c] = (have c, eat c)
+
+mange : forall {n : Nat, m : Nat} . Cake [n + m] -> (Cake [m], Happy [n])
+mange [c] = ([have c], [eat c])
+
+import Coffee
+
+-- mySip : *Coffee -> (Awake, *Coffee)
+-- mySip freshCoffee = (drink freshCoffee, keep freshCoffee)
+
+import Parallel
+
+example : (Float, Float)
+example =
+  let a = newFloatArray 2;
+      a = writeFloatArray a 0 10.0;
+      a = writeFloatArray a 1 20.0;
+      [a'] = share a
+  in par (\() -> readDrop a' 0) (\() -> readDrop a' 1)
+
+readDrop : FloatArray -> Int -> Float
+readDrop a i =
+  let (f, a) = readFloatArrayI a i;
+      ()      = drop @FloatArray a
+  in f
+
+-- Exercises 5 - Q1
+
+-- Things that we need
+------------------------------
+--- Sized vectors
+data Vec (n : Nat) t where
+  Nil  : Vec 0 t;
+  Cons : t -> Vec n t -> Vec (n+1) t
+
+data N (n : Nat) where
+  Z : N 0;
+  S : N n -> N (n+1)
+
+-- -Length of a `Vec` into an indexed `N`, preserving the elements
+length'
+  : forall {a : Type, n : Nat}
+  . Vec n a -> (N n, Vec n a)
+length' Nil = (Z, Nil);
+length' (Cons x xs) = let (n, xs) = length' xs in (S n, Cons x xs)
+
+--- Convert an indexed natural number to an untyped int
+natToInt
+  : forall {n : Nat}
+  . N n -> Int
+natToInt Z = 0;
+natToInt (S m) = 1 + natToInt m
+--
+------------------------------
+
+toFloatArray : forall {n : Nat} . Vec n Float -> *FloatArray
+toFloatArray vs =
+   let (n, vs ) = length' vs;
+       a        = newFloatArray (natToInt n)
+   in toFloatArrayAux a [0] vs
+
+toFloatArrayAux : forall {a : Type, n : Nat} . *FloatArray -> Int [n] -> Vec n Float -> *FloatArray
+toFloatArrayAux a [_] Nil = a;
+toFloatArrayAux a [n] (Cons x xs) =
+  toFloatArrayAux (writeFloatArray a n x) [n + 1] xs
