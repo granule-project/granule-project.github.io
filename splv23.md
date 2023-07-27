@@ -39,7 +39,8 @@ You have a few options:
       * [Code from part 4](splv23/splv-thur.gr)
       * [Effect code from part 4](splv23/splv-effects.gr)
       * [Linear Haskell code from part 4](splv23/linearhask.hs)
-      
+
+* Bonus session: [Programming for the Future](splv23/iccs-programming-for-the-future.pdf)
 
 ### Granule Language Server and VSCode Extension
 
