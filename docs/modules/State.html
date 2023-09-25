@@ -1,0 +1,27 @@
+<!doctype html>
+<html>
+<head>
+  <link rel="stylesheet" type="text/css" href="style.css" />
+  <link rel="stylesheet" type="text/css" href="../style.css" />
+  <title>Granule documentation - State</title>
+</head>
+<body>
+<div id="navigator">
+  <b>Modules</b><br /><br />
+<a href='../index.html'><i>Top-level</i><br /></a><ul><li><a href='Primitives.html'>Primitives</a></li><br /><li><a href='Bool.html'>Bool</a></li><li><a href='Cake.html'>Cake</a></li><li><a href='Choice.html'>Choice</a></li><li><a href='Coffee.html'>Coffee</a></li><li><a href='Either.html'>Either</a></li><li><a href='Existential.html'>Existential</a></li><li><a href='File.html'>File</a></li><li><a href='Fin.html'>Fin</a></li><li><a href='Fix.html'>Fix</a></li><li><a href='Graph.html'>Graph</a></li><li><a href='List.html'>List</a></li><li><a href='Maybe.html'>Maybe</a></li><li><a href='Nat.html'>Nat</a></li><li><a href='Parallel.html'>Parallel</a></li><li><a href='Prelude.html'>Prelude</a></li><li><a href='Result.html'>Result</a></li><li><a href='Stack.html'>Stack</a></li><li><a href='State.html'>State</a></li><li><a href='Vec.html'>Vec</a></li></ul>
+</div>
+<div id="content">
+  <div id="logo">
+    <img src="../images/gr-blue.png" />
+  </div>
+  <b>Module State</b><br /><br />
+<section><h2>Meta-data</h2><ul><li><b>Description</b>: State monad implementation</li><li><b>Authors</b>: Dominic Orchard</li><li><b>License</b>: BSD3</li><li><b>Copyright</b>: (c) Authors 2023</li><li><b>Issue-tracking</b>: https://github.com/dorchard/granule/issues</li><li><b>Repository</b>: https://github.com/dorchard/granule</li></ul></section><section><h2>Contents</h2><section><div class='mininav'><ul><li><a href='#statedatatypeconstructoranddeconstructors'> State data type, constructor and deconstructors</a></li><li><a href='#functor'> Functor</a></li><li><a href='#monad'> Monad</a></li></ul></div></section><a name = statedatatypeconstructoranddeconstructors><h3><a href='#' class='toplink'>[top]</a> State data type, constructor and deconstructors</h3></a><div class='code'><pre><span class='keyword'>data</span> <span class='constName'>State</span> (s : <span class='constName'>Type</span>) (a : <span class='constName'>Type</span>) <span class='keyword'>where</span>
+    State (s [<span class='coeff'>0..<span class='constName'>∞</span></span>] -> (a, s [<span class='coeff'>0..<span class='constName'>∞</span></span>]))</pre></div><br /><div class='code'><pre>runState : <span class='keyword'>forall</span> {a : <span class='constName'>Type</span>, s : <span class='constName'>Type</span>} 
+         . <span class='constName'>State</span> s a -> s [<span class='coeff'>0..<span class='constName'>∞</span></span>] -> (a, s [<span class='coeff'>0..<span class='constName'>∞</span></span>])</pre></div><br /><a name = functor><h3><a href='#' class='toplink'>[top]</a> Functor</h3></a><div class='code'><pre>fmap_state : <span class='keyword'>forall</span> {a : <span class='constName'>Type</span>, b : <span class='constName'>Type</span>, s : <span class='constName'>Type</span>} 
+           . (a -> b) -> <span class='constName'>State</span> s a -> <span class='constName'>State</span> s b</pre></div><br /><a name = monad><h3><a href='#' class='toplink'>[top]</a> Monad</h3></a><div class='code'><pre>return_state : <span class='keyword'>forall</span> {a : <span class='constName'>Type</span>, s : <span class='constName'>Type</span>} 
+             . a -> <span class='constName'>State</span> s a</pre></div><br /><div class='code'><pre>bind_state : <span class='keyword'>forall</span> {a : <span class='constName'>Type</span>, b : <span class='constName'>Type</span>, s : <span class='constName'>Type</span>} 
+           . (a -> <span class='constName'>State</span> s b) -> <span class='constName'>State</span> s a -> <span class='constName'>State</span> s b</pre></div><br /><div class='code'><pre>join_state : <span class='keyword'>forall</span> {a : <span class='constName'>Type</span>, b : <span class='constName'>Type</span>, s : <span class='constName'>Type</span>} 
+           . <span class='constName'>State</span> s (<span class='constName'>State</span> s a) -> <span class='constName'>State</span> s a</pre></div><br /></section>
+</div>
+</body>
+</html>
