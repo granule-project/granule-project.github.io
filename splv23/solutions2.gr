@@ -1,0 +1,53 @@
+-- Preamble from discussion
+
+data Coffee = Coffee
+data Awake  = Awake
+
+drink : Coffee -> Awake
+drink Coffee = Awake
+
+keep : Coffee -> Coffee
+keep x = x
+
+sip : *Coffee → (Coffee, Awake)
+sip fresh = let !coffee = share fresh in (keep coffee, drink coffee)
+
+-- # Section 5
+
+import Parallel
+import Vec
+
+-- ## Q1
+
+toFloatArray : forall {n : Nat} . Vec n Float -> *FloatArray
+toFloatArray v =
+  let (n', v) = length' v
+  in toFloatArrayAux (newFloatArray (natToInt n')) [0] v
+
+toFloatArrayAux : forall {n : Nat} . *FloatArray -> Int [n] -> Vec n Float -> *FloatArray
+toFloatArrayAux a [n] Nil = a;
+toFloatArrayAux a [n] (Cons x xs) =
+  toFloatArrayAux (writeFloatArray a n x) [n + 1] xs
+
+-- ##
+
+parSum : *FloatArray -> Float
+parSum array =
+ let (n, array) = lengthFloatArray array;
+     [a]         = share array;
+    [n]         = moveInt n;
+     (x, y) = par (\() -> sumFromTo a [0] [div n 2])
+                  (\() -> sumFromTo a [div n 2] [n])
+ in x + y
+
+sumFromTo : FloatArray ->  Int [] -> Int [] -> Float
+sumFromTo array [i] [n] =
+  if i == n
+    then let () = drop @FloatArray array in 0.0
+    else
+      let (x, a) = readFloatArrayI array i
+      in  x + (sumFromTo a [i+1] [n])
+
+main : Float
+main =
+  parSum (toFloatArray (Cons 10.0 (Cons 20.0 (Cons 30.0 (Cons 40.0 Nil)))))
