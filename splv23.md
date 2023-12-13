@@ -28,7 +28,7 @@ You have a few options:
 ### Materials
 
 * [Library documentation](https://granule-project.github.io/docs)
-* [Exercises](https://granule-project.github.io/splv23/splv23-exercises.pdf)
+* [Exercises](https://granule-project.github.io/splv23/splv23-exercises.pdf) ([solutions for Sections 1-4](splv23/solutions.gr), [solutions for Section 5](splv23/solutions2.gr))
 * Slides
   * [Part 1 - Theory and practice of linear types](https://granule-project.github.io/splv23/splv23-slides-part1.pdf)
   * [Part 2 - Extending from linear types to graded types](https://granule-project.github.io/splv23/splv23-slides-part2.pdf)
