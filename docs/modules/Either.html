@@ -19,8 +19,8 @@
     Left a
   ; Right b</pre></div><br /><div class='code'><pre>pushEither : <span class='keyword'>forall</span> {a : <span class='constName'>Type</span>, b : <span class='constName'>Type</span>, c : <span class='constName'>Nat</span>} 
            . {c ≤ 1} =>
-    (<span class='constName'>Either</span> a b) [<span class='coeff'>c</span>] -> <span class='constName'>Either</span> (a [<span class='coeff'>c</span>]) (b [<span class='coeff'>c</span>])</pre></div><br /><div class='code'><pre>pullEither : <span class='keyword'>forall</span> {a : <span class='constName'>Type</span>, b : <span class='constName'>Type</span>, c : <span class='constName'>Nat</span>} 
-           . <span class='constName'>Either</span> (a [<span class='coeff'>c</span>]) (b [<span class='coeff'>c</span>]) -> (<span class='constName'>Either</span> a b) [<span class='coeff'>c</span>]</pre></div><div class='desc'> Distrbute a graded modality outside Either</div></section>
+    ((<span class='constName'>Either</span> a b) [<span class='coeff'>c</span>]) -> <span class='constName'>Either</span> (a [<span class='coeff'>c</span>]) (b [<span class='coeff'>c</span>])</pre></div><br /><div class='code'><pre>pullEither : <span class='keyword'>forall</span> {a : <span class='constName'>Type</span>, b : <span class='constName'>Type</span>, c : <span class='constName'>Nat</span>} 
+           . (<span class='constName'>Either</span> (a [<span class='coeff'>c</span>]) (b [<span class='coeff'>c</span>])) -> (<span class='constName'>Either</span> a b) [<span class='coeff'>c</span>]</pre></div><div class='desc'> Distrbute a graded modality outside Either</div></section>
 </div>
 </body>
 </html>

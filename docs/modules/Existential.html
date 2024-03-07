@@ -16,7 +16,7 @@
   </div>
   <b>Module Existential</b><br /><br />
 <section><h2>Meta-data</h2><ul></ul></section><section><h2>Contents</h2><div class='code'><pre><span class='keyword'>data</span> <span class='constName'>Exists</span> (f : <span class='constName'>Type</span> -> <span class='constName'>Type</span>) <span class='keyword'>where</span>
-    MkExists : <span class='keyword'>exists</span> {a : <span class='constName'>Type</span>} . f a -> <span class='constName'>Exists</span> f</pre></div><br /></section>
+    MkExists : (<span class='keyword'>exists</span> {a : <span class='constName'>Type</span>} . f a) -> <span class='constName'>Exists</span> f</pre></div><br /></section>
 </div>
 </body>
 </html>
