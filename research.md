@@ -6,7 +6,7 @@ title: Publications
 #### Publications
 
 * [__Program Synthesis from Graded Types__](https://link.springer.com/chapter/10.1007/978-3-031-57262-3_4) <span class="practice">practice/synthesis</span>
-  _ __Jack Hughes, Dominic Orchard__
+  - __Jack Hughes, Dominic Orchard__
   - [Additional appendix](https://doi.org/10.5281/zenodo.10594378)
   - [ESOP 2024](https://etaps.org/2024/conferences/esop/)
 
