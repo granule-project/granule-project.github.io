@@ -5,16 +5,16 @@ title: Publications
 
 #### Publications
 
-* [__Program Synthesis from Graded Types__](https://link.springer.com/chapter/10.1007/978-3-031-57262-3_4)
+* [__Program Synthesis from Graded Types__](https://link.springer.com/chapter/10.1007/978-3-031-57262-3_4) <span class="practice">practice/synthesis</span>
   _ __Jack Hughes, Dominic Orchard__
   - [Additional appendix](https://doi.org/10.5281/zenodo.10594378)
-  - ESOP 2024
+  - [ESOP 2024](https://etaps.org/2024/conferences/esop/)
 
-* [__Functional Ownership through Fractional Uniqueness__](https://arxiv.org/abs/2310.18166)
+* [__Functional Ownership through Fractional Uniqueness__](https://arxiv.org/abs/2310.18166) <span class="theory">theory</span><span class="practice">practice</span>
   - __Daniel Marshall, Dominic Orchard__
   - [Additional appendices](https://zenodo.org/records/10799026)
   - [Artefact deposit](https://zenodo.org/records/10797791)
-  - OOPSLA 2024
+  - [OOPSLA 2024](https://2024.splashcon.org/track/splash-2024-oopsla)
 
 * [__How to Take the Inverse of a Type__](https://drops.dagstuhl.de/opus/frontdoor.php?source_opus=16233) <span class="theory">theory</span>
   - __Daniel Marshall, Dominic Orchard__
