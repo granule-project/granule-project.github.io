@@ -16,7 +16,7 @@ title: Publications
   - [Artefact deposit](https://zenodo.org/records/10797791)
   - [OOPSLA 2024](https://2024.splashcon.org/track/splash-2024-oopsla)
 
-* [Combining Dependency, Grades, and Adjoint Logic](https://dl.acm.org/doi/10.1145/3609027.3609408_ <span class="theory">theory</span>
+* [__Combining Dependency, Grades, and Adjoint Logic__](https://dl.acm.org/doi/10.1145/3609027.3609408) <span class="theory">theory</span>
   - __Peter Hanukaev, Harley Eades__
   - [TyDe 2023](https://icfp23.sigplan.org/home/tyde-2023)
     
