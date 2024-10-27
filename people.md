@@ -20,7 +20,7 @@ Members of the Project
 - Vilem-Benjamin Liepelt, University of Kent, [website](https://github.com/buggymcbugfix)
 - Peter Hanukaev, Augusta University
 - Jack Hughes, University of Kent
-- Daniel Marshall, University of Kent, [website](https://starsandspira.ls/)
+- Danielle Marshall, University of Kent, [website](https://starsandspira.ls/)
 - Paulo Torrens, University of Kent
 - Tori Vollmer, University of Kent
 

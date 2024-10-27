@@ -114,7 +114,7 @@ practically evaluate SystemC in an implementation and prove its soundness.</div>
       - 16:00-16:15 - **Unifying models of linear/graded dependent types** [Bob Atkey](https://bentnib.org/)
       - 16:15-16:30 - **Gradual Typing for Effects & Handlers** [Max New](https://maxsnew.com/)
       - 16:30-16:45 - **Program synthesis with linear and graded types** [Jack Hughes](https://www.jackohughes.com/)
-      - 16:45-17:00 - **Graded session types** [Daniel Marshall](https://starsandspira.ls/)
+      - 16:45-17:00 - **Graded session types** [Danielle Marshall](https://starsandspira.ls/)
       - 17:00-17:15 - **Modal Subtyping for Grade Inference** [Michael Arntzenius](http://www.rntz.net/)
       - 17:15-17:30 - **Weighted Sets and Modalities** [Vikraman Choudhury](https://vikraman.org/)
 

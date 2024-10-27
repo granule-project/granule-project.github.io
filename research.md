@@ -11,7 +11,7 @@ title: Publications
   - [ESOP 2024](https://etaps.org/2024/conferences/esop/)
 
 * [__Functional Ownership through Fractional Uniqueness__](https://arxiv.org/abs/2310.18166) <span class="theory">theory</span><span class="practice">practice</span>
-  - __Daniel Marshall, Dominic Orchard__
+  - __Danielle Marshall, Dominic Orchard__
   - [Additional appendices](https://zenodo.org/records/10799026)
   - [Artefact deposit](https://zenodo.org/records/10797791)
   - [OOPSLA 2024](https://2024.splashcon.org/track/splash-2024-oopsla)
@@ -21,20 +21,20 @@ title: Publications
   - [TyDe 2023](https://icfp23.sigplan.org/home/tyde-2023)
     
 * [__How to Take the Inverse of a Type__](https://drops.dagstuhl.de/opus/frontdoor.php?source_opus=16233) <span class="theory">theory</span>
-  - __Daniel Marshall, Dominic Orchard__
+  - __Danielle Marshall, Dominic Orchard__
   - [ECOOP 2022](https://2022.ecoop.org) (functional pearl)
 
 * [__Linearity and Uniqueness: An Entente Cordiale__](https://link.springer.com/chapter/10.1007/978-3-030-99336-8_13) <span class="theory">theory</span><span class="practice">practice</span>
-  - __Daniel Marshall, Michael Vollmer, Dominic Orchard__
+  - __Danielle Marshall, Michael Vollmer, Dominic Orchard__
   - [ESOP 2022](https://etaps.org/2022/esop)
   - [Supplementary material: appendices](https://zenodo.org/record/5919194#.ZB3ZlOzP1jw)
 
 * [__Replicate, Reuse, Repeat: Capturing Non-Linear Communication via Session Types and Graded Modal Types__](https://arxiv.org/abs/2203.12875) <span class="practice">practice</span>
-  - __Daniel Marshall, Dominic Orchard__
+  - __Danielle Marshall, Dominic Orchard__
   - [PLACES 2022](https://places-workshop.github.io/)
 
 * [__Linear Exponentials as Graded Modal Types__](https://hal-lirmm.ccsd.cnrs.fr/TLLA2021/lirmm-03271465) <span class="theory">theory</span>
-  - __Jack Hughes, Daniel Marshall, James Wood, Dominic Orchard__
+  - __Jack Hughes, Danielle Marshall, James Wood, Dominic Orchard__
   - 8-page extended abstract at [TLLA 2021](https://lipn.univ-paris13.fr/TLLA/2021/).
 
 * [__Graded Modal Dependent Type Theory__](https://link.springer.com/chapter/10.1007/978-3-030-72019-3_17) <span class="theory">theory</span><span class="practice">practice</span>
