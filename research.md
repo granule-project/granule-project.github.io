@@ -5,6 +5,10 @@ title: Publications
 
 #### Publications
 
+* [Non-linear communication via graded modal session types](https://www.sciencedirect.com/science/article/pii/S0890540124000993?via%3Dihub) <span class="theory">theory</span><span class="practice">practice</span>
+ - __Danielle Marshall, Dominic Orchard__
+ - Information & Computation
+
 * [__Program Synthesis from Graded Types__](https://link.springer.com/chapter/10.1007/978-3-031-57262-3_4) <span class="practice">practice/synthesis</span>
   - __Jack Hughes, Dominic Orchard__
   - [Additional appendix](https://doi.org/10.5281/zenodo.10594378)
