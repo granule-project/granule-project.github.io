@@ -5,6 +5,10 @@ title: Publications
 
 #### Publications
 
+* [A Mixed Linear and Graded Logic: Proofs, Terms, and Models](https://drops.dagstuhl.de/entities/document/10.4230/LIPIcs.CSL.2025.32)<span class="theory">theory</span>
+ - __Victoria Vollmer, Danielle Marshall, Harley Eades III, Dominic Orchard__
+ - CSL 2025
+
 * [Non-linear communication via graded modal session types](https://www.sciencedirect.com/science/article/pii/S0890540124000993?via%3Dihub) <span class="theory">theory</span><span class="practice">practice</span>
  - __Danielle Marshall, Dominic Orchard__
  - Information & Computation
