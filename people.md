@@ -22,11 +22,11 @@ Members of the Project
 #### PhD Students
 - Vilem-Benjamin Liepelt, University of Kent, [website](https://github.com/buggymcbugfix)
 - Peter Hanukaev, Augusta University
-- Danielle Marshall, University of Kent, [website](https://starsandspira.ls/)
 - Paulo Torrens, University of Kent
 - Tori Vollmer, University of Kent
 
 #### Project alumni
+- Danielle Marshall, University of Kent, [website](https://starsandspira.ls/) (Now a postdoct at the University of Glasgow)
 - Jack Hughes, University of Kent (Now a postdoc at Kent)
 - Ben Moon, University of Kent, [website](https://github.com/GuiltyDolphin)
 
