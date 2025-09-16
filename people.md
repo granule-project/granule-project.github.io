@@ -26,7 +26,7 @@ Members of the Project
 - Tori Vollmer, University of Kent
 
 #### Project alumni
-- Danielle Marshall, University of Kent, [website](https://starsandspira.ls/) (Now a postdoct at the University of Glasgow)
+- Danielle Marshall, University of Kent, [website](https://starsandspira.ls/) (Now a postdoc at the University of Glasgow)
 - Jack Hughes, University of Kent (Now a postdoc at Kent)
 - Ben Moon, University of Kent, [website](https://github.com/GuiltyDolphin)
 
