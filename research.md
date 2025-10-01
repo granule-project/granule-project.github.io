@@ -5,13 +5,19 @@ title: Publications
 
 #### Publications
 
-* [A Mixed Linear and Graded Logic: Proofs, Terms, and Models](https://drops.dagstuhl.de/entities/document/10.4230/LIPIcs.CSL.2025.32)<span class="theory">theory</span>
+* [__On Graded Coeffect Types for Information-Flow Control__](https://granule-project.github.io/papers/security-coeffects-mycroftfest.pdf)<span class="theory">theory</span><span class="practice">practice</span>
+ - __Vilem Liepelt, Danielle Marshall, Dominic Orchard, Vineet Rajani, Michael Vollmer__
+ - To appear in “Languages, Compilers, Analysis - From Beautiful Theory to Useful Practice Essays Dedicated to Alan Mycroft on the Occasion of His Retirement”, LNCS Volume number 15500, 2025
+
+* [__A Mixed Linear and Graded Logic: Proofs, Terms, and Models__](https://drops.dagstuhl.de/entities/document/10.4230/LIPIcs.CSL.2025.32)<span class="theory">theory</span>
   - __Victoria Vollmer, Danielle Marshall, Harley Eades III, Dominic Orchard__
   - CSL 2025
 
-* [Non-linear communication via graded modal session types](https://www.sciencedirect.com/science/article/pii/S0890540124000993?via%3Dihub) <span class="theory">theory</span><span class="practice">practice</span>
-  - __Danielle Marshall, Dominic Orchard__
-  - Information & Computation
+* [__Non-linear communication via graded modal session types__](https://www.sciencedirect.com/science/article/pii/S0890540124000993?via%3Dihub) <span class="theory">theory</span><span class="practice">practice</span>
+ - __Danielle Marshall, Dominic Orchard__
+ - Information & Computation
+
+
 
 * [__Program Synthesis from Graded Types__](https://link.springer.com/chapter/10.1007/978-3-031-57262-3_4) <span class="practice">practice/synthesis</span>
   - __Jack Hughes, Dominic Orchard__
