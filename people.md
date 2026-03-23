@@ -12,18 +12,16 @@ Members of the Project
 - Harley Eades III, Augusta University, [website](http://metatheorem.org/)
 - Vineet Rajani, University of Kent, [website](https://vineetrajani.github.io/)
 
-#### Post docs
-- David Binder, University of Kent, [website](https://binderdavid.github.io/)
-
 #### Collaborators
 - Marco Paviotti, University of Kent, [website](https://mpaviotti.github.io/)
 - Michael Vollmer, University of Kent, [website](http://recurial.com/) 
+- David Binder, University of Kent, [website](https://binderdavid.github.io/)
 
 #### PhD Students
 - Vilem-Benjamin Liepelt, University of Kent, [website](https://github.com/buggymcbugfix)
 - Peter Hanukaev, Augusta University
 - Paulo Torrens, University of Kent
-- Tori Vollmer, University of Kent
+- Tori Vollmer, University of Kent, [website](https://victoriavollmer.github.io/)
 
 #### Project alumni
 - Danielle Marshall, University of Kent, [website](https://starsandspira.ls/) (Now a postdoc at the University of Glasgow)
