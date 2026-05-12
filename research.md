@@ -34,6 +34,10 @@ title: Publications
   - __Peter Hanukaev, Harley Eades__
   - [TyDe 2023](https://icfp23.sigplan.org/home/tyde-2023)
     
+* [__Graded Modal Types for Integrity and Confidentiality__](https://arxiv.org/abs/2309.04324) <span class="theory">theory</span>
+  - __Danielle Marshall, Dominic Orchard__
+  - Originally presented as a short paper at [PLAS 2022](https://plas2022.github.io/)
+
 * [__How to Take the Inverse of a Type__](https://drops.dagstuhl.de/opus/frontdoor.php?source_opus=16233) <span class="theory">theory</span>
   - __Danielle Marshall, Dominic Orchard__
   - [ECOOP 2022](https://2022.ecoop.org) (functional pearl)
